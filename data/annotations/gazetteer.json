@@ -1,0 +1,16 @@
+{
+  "facilities": {
+    "Library": ["library", "lib"],
+    "TLC": ["tlc", "teaching and learning center", "teaching and learning centre"],
+    "GBS Learning Place": ["gbs", "gbs learning place"],
+    "Business Center": ["business center", "business centre"],
+    "Dining Hall": ["dining hall", "dining", "dh"],
+    "Performing Arts Hall": ["performing arts hall", "performing arts", "pah"],
+    "Chemberi Multipurpose Hall": ["chemberi", "chemberi hall", "chemberi multipurpose hall", "mph", "multipurpose hall"],
+    "Wi-Fi Hotspot": ["wifi hotspot", "wi-fi hotspot", "hotspot"],
+    "University Stadium": ["stadium", "university stadium", "ground stadium"],
+    "Boom Gate": ["boom gate", "main gate"],
+    "Computer Lab": ["lab", "computer lab"]
+  },
+  "complex_letters": ["A","B","C","D","E","F","G","H","I","J","K","M","N","O","P","Q","R","S","PQ","RS"]
+}

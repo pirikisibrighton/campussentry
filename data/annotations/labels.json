@@ -1,0 +1,48 @@
+{
+  "categories": {
+    "Fire": "Active fire, smoke, burning, or electrical sparks that could start a fire.",
+    "Medical Emergency": "Injury, fainting, seizure, severe illness, or anyone needing urgent care.",
+    "Theft/Break-in": "Stolen items, forced entry, or suspicious people trying to enter.",
+    "Harassment/Assault": "Physical fights, threats, sexual harassment, or bullying.",
+    "Infrastructure Fault": "Something visibly broken: burst pipes, broken doors, cracked walls, faulty wiring, blocked toilets, damaged equipment.",
+    "Road Accident": "Vehicle crashes or people hit by vehicles on or near campus.",
+    "Service Outage": "Power, water, or Wi-Fi/internet not working or badly degraded in an area, with nothing visibly broken.",
+    "Other/Non-urgent": "Noise complaints, lost items, general queries, or anything that fits no other category."
+  },
+  "severity": {
+    "High": "Danger to life or safety right now, or something actively getting worse. Respond immediately.",
+    "Medium": "Real damage, loss, or disruption, but nobody is in immediate danger. Respond the same day.",
+    "Low": "Minor, routine, or can wait. Includes incidents already resolved with no injuries."
+  },
+  "severity_rules": [
+    "Label the worst credible reading of the report.",
+    "Category does not decide severity; read the details in the text.",
+    "Whole-complex or exam-time outages are Medium.",
+    "Theft in progress is High; theft already discovered is Medium.",
+    "Already resolved incidents with no injuries are Low."
+  ],
+  "entities": {
+    "LOCATION": "Any place from the gazetteer: facilities, complexes, and rooms. Example: library, P complex, A1.2, boom gate.",
+    "DATE_TIME": "When it happened or is happening. Example: last night, at 3pm, since morning, now.",
+    "ASSET": "A physical object or equipment involved. Example: laptop, router, pipe, generator, transformer.",
+    "PERSON_ROLE": "Who is involved, by role only, never by name. Example: student, lecturer, security guard, cleaner."
+  },
+  "entity_rules": [
+    "Tag the smallest span that identifies the thing (P complex, not the whole of P complex).",
+    "Rooms and complexes are separate LOCATION spans.",
+    "Never tag personal names.",
+    "Tag only what is stated; do not guess missing times or places.",
+    "Vague words like everywhere or outside are not LOCATION unless they name a gazetteer place."
+  ],
+  "language": {
+    "English": "Written entirely in English. Local slang or abbreviations still count as English.",
+    "Mixed": "Contains both English and Shona words or phrases, in the same sentence or the same report.",
+    "Shona": "Written entirely in Shona. Common loanwords and place names do not count against it."
+  },
+  "language_rules": [
+    "Judge the whole report, not a single word.",
+    "Facility and complex names (library, boom gate, P complex) never decide the language.",
+    "A Shona sentence with one common English loanword is still Shona.",
+    "A real switch of phrases or clauses between the two languages is Mixed."
+  ]
+}
