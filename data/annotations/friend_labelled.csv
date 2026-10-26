@@ -1,0 +1,32 @@
+id,text,category,severity,language,entities,source
+f1,"socket yemagetsi muR18.1 harisi kushanda",Infrastructure Fault,Low,Mixed,"socket yemagetsi|ASSET; R18.1|LOCATION",friend
+f2,"hembe dzedu dziri kubiwa pawaya",Theft/Break-in,Medium,Shona,"hembe dzedu|ASSET",friend
+f3,"ndashaya jean rangu pawaya reblack kana pane arionawo help",Other/Non-urgent,Low,Mixed,"jean rangu|ASSET",friend
+f4,"wifi kuE complex haisi kuita iri slow",Service Outage,Low,Mixed,"wifi|ASSET; E complex|LOCATION",friend
+f5,"vanhu varikupisa marara chiutsi chirikuenda pahembe dzedu pawaya",Fire,Medium,Shona,"hembe dzedu|ASSET",friend
+f6,"tank rekumaRS harisi kubuda mvura",Service Outage,Medium,Shona,"tank|ASSET; RS|LOCATION; mvura|ASSET",friend
+f7,"tap Yafa ikurasa mvura paDH",Infrastructure Fault,Medium,Shona,"tap|ASSET; mvura|ASSET; DH|LOCATION",friend
+f8,"l cant find my Laptop ndaisiya muHotsopt",Other/Non-urgent,Medium,Mixed,"Laptop|ASSET; Hotsopt|LOCATION",friend
+f9,"chikafu chekuDH chirikutirwarisa too much spices especially in the soup",Other/Non-urgent,Low,Mixed,"chikafu|ASSET; DH|LOCATION",friend
+f10,"mushonga wemutoilet hakusisina",Other/Non-urgent,Low,Shona,"mushonga wemutoilet|ASSET",friend
+f11,"toilet kuh5 haisi kuflasher",Infrastructure Fault,Medium,Mixed,"toilet|ASSET; h5|LOCATION",friend
+f12,"kuE7 kune musikana arikurwara",Medical Emergency,High,Shona,"E7|LOCATION",friend
+f13,"kuLibrary wifi haisi kuita",Service Outage,Medium,Shona,"Library|LOCATION; wifi|ASSET",friend
+f14,"kuf12 hakuna malights akatsva",Infrastructure Fault,Low,Mixed,"f12|LOCATION; malights|ASSET",friend
+f15,"kumaP kwaonekwa nyoka hombe",Other/Non-urgent,High,Shona,"P|LOCATION",friend
+f16,"window rangu kuN12 is broken",Infrastructure Fault,Low,Mixed,"window|ASSET; N12|LOCATION",friend
+f17,"muR18 malock haashande akafa",Infrastructure Fault,Medium,Shona,"R18|LOCATION; malock|ASSET",friend
+f18,"matress yangu haiite kuA2",Infrastructure Fault,Low,Shona,"matress|ASSET; A2|LOCATION",friend
+f19,"kuB22 bed is broken",Infrastructure Fault,Low,Mixed,"B22|LOCATION; bed|ASSET",friend
+f20,"socket yekuh12 ikubuda chihutsi",Fire,High,Shona,"socket|ASSET; h12|LOCATION",friend
+f21,"magetsi adzima kuR complex",Service Outage,Medium,Shona,"magetsi|ASSET; R complex|LOCATION",friend
+f22,"dinning hall s on fire",Fire,High,English,"dinning hall|LOCATION",friend
+f23,"there is a huge fight at the business center",Harassment/Assault,High,English,"business center|LOCATION",friend
+f24,"fight kuP complex",Harassment/Assault,High,Mixed,"P complex|LOCATION",friend
+f25,"there is fire in hotspot",Fire,High,English,"hotspot|LOCATION",friend
+f26,"the is a thief at the p complex camera",Theft/Break-in,High,English,"p complex|LOCATION; camera|ASSET",friend
+f27,"A car hits a tree near the boom gate",Road Accident,Medium,English,"car|ASSET; boom gate|LOCATION",friend
+f28,"water is leaking in the library",Infrastructure Fault,Medium,English,"water|ASSET; library|LOCATION",friend
+f29,"there is a sewer pipe leaking on the way to R complex",Infrastructure Fault,Medium,English,"sewer pipe|ASSET; R complex|LOCATION",friend
+f30,"a boy is seriously sick in m23",Medical Emergency,High,English,"m23|LOCATION",friend
+f31,"there is a blind man outside the hotspot",Other/Non-urgent,Low,English,"hotspot|LOCATION",friend

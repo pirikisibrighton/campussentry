@@ -1,0 +1,29 @@
+id,text,category,severity,language,entities,source,template_id
+1,smoke is coming from A complex,Fire,High,English,A complex|LOCATION,template,Fire-English-0
+2,Smoke is coming from business center,Fire,High,English,business center|LOCATION,template,Fire-English-0
+3,Smoke is coming from S complex,Fire,High,English,S complex|LOCATION,template,Fire-English-0
+4,Smoke is coming from B1.1,Fire,High,English,B1.1|LOCATION,template,Fire-English-0
+5,There is a fire at S complex,Fire,High,English,S complex|LOCATION,template,Fire-English-1
+6,there is a fire at H15.2,Fire,High,English,H15.2|LOCATION,template,Fire-English-1
+7,there is a fire at F complex,Fire,High,English,F complex|LOCATION,template,Fire-English-1
+8,There is a fire at I5,Fire,High,English,I5|LOCATION,template,Fire-English-1
+9,"A small fire at D3 was put out, nobody hurt",Fire,Low,English,D3|LOCATION,template,Fire-English-2
+10,"A small fire at M20 was put out, nobody hurt",Fire,Low,English,M20|LOCATION,template,Fire-English-2
+11,"a small fire at P complex was put out, nobody hurt",Fire,Low,English,P complex|LOCATION,template,Fire-English-2
+12,"a small fire at C18.2 was put out, nobody hurt",Fire,Low,English,C18.2|LOCATION,template,Fire-English-2
+13,Kune moto kuG23,Fire,High,Shona,G23|LOCATION,template,Fire-Shona-0
+14,Kune moto pa university stadium,Fire,High,Shona,university stadium|LOCATION,template,Fire-Shona-0
+15,kune moto kuH complex,Fire,High,Shona,H complex|LOCATION,template,Fire-Shona-0
+16,Kune moto muI15.2,Fire,High,Shona,I15.2|LOCATION,template,Fire-Shona-0
+17,Kune utsi hunobuda kuG22,Fire,High,Shona,G22|LOCATION,template,Fire-Shona-1
+18,kune utsi hunobuda kuRS complex,Fire,High,Shona,RS complex|LOCATION,template,Fire-Shona-1
+19,Kune utsi hunobuda pa gbs,Fire,High,Shona,gbs|LOCATION,template,Fire-Shona-1
+20,kune utsi hunobuda kuS8,Fire,High,Shona,S8|LOCATION,template,Fire-Shona-1
+21,kuri kubvira kuH complex,Fire,High,Shona,H complex|LOCATION,template,Fire-Shona-2
+22,Kuri kubvira kuN9,Fire,High,Shona,N9|LOCATION,template,Fire-Shona-2
+23,Kuri kubvira kuG21,Fire,High,Shona,G21|LOCATION,template,Fire-Shona-2
+24,Kuri kubvira muE9.1,Fire,High,Shona,E9.1|LOCATION,template,Fire-Shona-2
+25,"Pane moto kuO19, please send security",Fire,High,Mixed,O19|LOCATION,template,Fire-Mixed-0
+26,"pane moto pa teaching and learning centre, please send security",Fire,High,Mixed,teaching and learning centre|LOCATION,template,Fire-Mixed-0
+27,"pane moto kuB complex, please send security",Fire,High,Mixed,B complex|LOCATION,template,Fire-Mixed-0
+28,"Pane moto pa wifi hotspot, please send security",Fire,High,Mixed,wifi hotspot|LOCATION,template,Fire-Mixed-0

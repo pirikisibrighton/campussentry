@@ -1,0 +1,849 @@
+id,text,category,severity,language,entities,source,template_id
+h2,My laptop was stolen from A1.2 last night while we were at class.,Theft/Break-in,Medium,English,laptop|ASSET; A1.2|LOCATION; last night|DATE_TIME,handwritten,hand-2
+h4,"Small fire in the bin outside the dining hall, a cleaner put it out, nobody hurt.",Fire,Low,English,dining hall|LOCATION; cleaner|PERSON_ROLE,handwritten,hand-4
+h5,"Kune moto kuC complex, please send security now.",Fire,High,Mixed,C complex|LOCATION; security|PERSON_ROLE; now|DATE_TIME,handwritten,hand-5
+h6,"Kune utsi hunobuda mukamuri C2.1, huyai nekukurumidza.",Fire,High,Shona,C2.1|LOCATION,handwritten,hand-6
+h7,Ndabirwa laptop yangu muA1.2 manheru adarika.,Theft/Break-in,Medium,Shona,laptop|ASSET; A1.2|LOCATION; manheru adarika|DATE_TIME,handwritten,hand-7
+h9,"Mumwe student akadonha pa dining hall, please send help.",Medical Emergency,High,Mixed,student|PERSON_ROLE; dining hall|LOCATION,handwritten,hand-9
+h10,"Vakomana vari kurwa pastadium, security please come.",Harassment/Assault,High,Mixed,stadium|LOCATION; security|PERSON_ROLE,handwritten,hand-10
+h12,The generator behind the business center is sparking and smells like burning.,Fire,High,English,generator|ASSET; business center|LOCATION,handwritten,hand-12
+h13,"A student has fainted at the library and is not responding, we need an ambulance.",Medical Emergency,High,English,student|PERSON_ROLE; library|LOCATION,handwritten,hand-13
+h14,"A student twisted her ankle at the stadium during training, she can still walk.",Medical Emergency,Low,English,student|PERSON_ROLE; stadium|LOCATION,handwritten,hand-14
+h16,"Pane murume ari kuedza kuvhura mahwindo eE2.1 right now, he is not a student here.",Theft/Break-in,High,Mixed,E2.1|LOCATION; right now|DATE_TIME; student|PERSON_ROLE,handwritten,hand-16
+h18,"A lecturer keeps sending inappropriate messages to a female student in my class, I want to report it.",Harassment/Assault,Medium,English,lecturer|PERSON_ROLE; student|PERSON_ROLE,handwritten,hand-18
+h19,Toilet in H complex is blocked and overflowing since Monday.,Infrastructure Fault,Medium,English,Toilet|ASSET; H complex|LOCATION; since Monday|DATE_TIME,handwritten,hand-19
+h20,"Waya yemagetsi yakawira panze peM complex, it is still live, please hurry.",Infrastructure Fault,High,Mixed,Waya yemagetsi|ASSET; M complex|LOCATION,handwritten,hand-20
+h21,"A car hit a student near the boom gate, he is lying on the ground and cannot move.",Road Accident,High,English,car|ASSET; student|PERSON_ROLE; boom gate|LOCATION,handwritten,hand-21
+h22,"Motokari yakarovera kombi pedyo neboom gate, nobody is hurt but the road is blocked.",Road Accident,Medium,Mixed,Motokari|ASSET; kombi|ASSET; boom gate|LOCATION,handwritten,hand-22
+h26,"Loud music in R complex since 10pm, please tell them to stop.",Other/Non-urgent,Low,English,R complex|LOCATION; since 10pm|DATE_TIME,handwritten,hand-26
+h27,Ndakarasa ID yangu pa library nezuro.,Other/Non-urgent,Low,Shona,ID|ASSET; library|LOCATION; nezuro|DATE_TIME,handwritten,hand-27
+g1,"hi, smoke is coming from A complex",Fire,High,English,A complex|LOCATION,template,Fire-English-0
+g2,"Hi, smoke is coming from PQ complex",Fire,High,English,PQ complex|LOCATION,template,Fire-English-0
+g3,"Smoke is coming from S complex, please send help",Fire,High,English,S complex|LOCATION,template,Fire-English-0
+g4,Smoke is coming from I1.1,Fire,High,English,I1.1|LOCATION,template,Fire-English-0
+g5,"smoke is coming from D3, thanks",Fire,High,English,D3|LOCATION,template,Fire-English-0
+g6,Smoke is coming from P complex,Fire,High,English,P complex|LOCATION,template,Fire-English-0
+g7,"hi, smoke is coming from M19, please check",Fire,High,English,M19|LOCATION,template,Fire-English-0
+g8,Smoke is coming from H complex,Fire,High,English,H complex|LOCATION,template,Fire-English-0
+g9,"smoke is coming from F12, please send help",Fire,High,English,F12|LOCATION,template,Fire-English-0
+g10,Smoke is coming from RS complex,Fire,High,English,RS complex|LOCATION,template,Fire-English-0
+g21,"a small fire at dining hall was put out, nobody hurt today",Fire,Low,English,dining hall|LOCATION; today|DATE_TIME,template,Fire-English-2
+g22,"a small fire at RS complex was put out, nobody hurt yesterday, thanks",Fire,Low,English,RS complex|LOCATION; yesterday|DATE_TIME,template,Fire-English-2
+g23,"hello guys, a small fire at H2 was put out, nobody hurt last night",Fire,Low,English,H2|LOCATION; last night|DATE_TIME,template,Fire-English-2
+g24,"pls help, a small fire at business centre was put out, nobody hurt",Fire,Low,English,business centre|LOCATION,template,Fire-English-2
+g25,"a small fire at G18.1 was put out, nobody hurt, thanks",Fire,Low,English,G18.1|LOCATION,template,Fire-English-2
+g26,"A small fire at H complex was put out, nobody hurt this morning, can someone look into it",Fire,Low,English,H complex|LOCATION; this morning|DATE_TIME,template,Fire-English-2
+g27,"Hi, a small fire at H complex was put out, nobody hurt yesterday",Fire,Low,English,H complex|LOCATION; yesterday|DATE_TIME,template,Fire-English-2
+g28,"A small fire at G18.1 was put out, nobody hurt",Fire,Low,English,G18.1|LOCATION,template,Fire-English-2
+g29,"a small fire at O7.1 was put out, nobody hurt an hour ago, please advise",Fire,Low,English,O7.1|LOCATION; an hour ago|DATE_TIME,template,Fire-English-2
+g30,"hi, a small fire at B complex was put out, nobody hurt, please check",Fire,Low,English,B complex|LOCATION,template,Fire-English-2
+g31,"Hey security, I want to report a fire at main gate, people are running out, please advise",Fire,High,English,main gate|LOCATION,template,Fire-English-3
+g32,"I want to report a fire at B complex, people are running out",Fire,High,English,B complex|LOCATION,template,Fire-English-3
+g33,"I want to report a fire at H complex, people are running out, please advise",Fire,High,English,H complex|LOCATION,template,Fire-English-3
+g34,"I want to report a fire at F complex, people are running out, please advise",Fire,High,English,F complex|LOCATION,template,Fire-English-3
+g35,"hey security, I want to report a fire at J14.2, people are running out, thanks",Fire,High,English,J14.2|LOCATION,template,Fire-English-3
+g36,"I want to report a fire at K complex, people are running out, please come quickly",Fire,High,English,K complex|LOCATION,template,Fire-English-3
+g37,"Hi, I want to report a fire at teaching and learning center, people are running out",Fire,High,English,teaching and learning center|LOCATION,template,Fire-English-3
+g38,"I want to report a fire at H complex, people are running out",Fire,High,English,H complex|LOCATION,template,Fire-English-3
+g39,"I want to report a fire at RS complex, people are running out, please send help",Fire,High,English,RS complex|LOCATION,template,Fire-English-3
+g40,"Hello guys, I want to report a fire at G22, people are running out",Fire,High,English,G22|LOCATION,template,Fire-English-3
+g41,Someone left a heater on and it caught fire at P11,Fire,High,English,P11|LOCATION; heater|ASSET,template,Fire-English-4
+g42,Someone left a heater on and it caught fire at C complex,Fire,High,English,C complex|LOCATION; heater|ASSET,template,Fire-English-4
+g43,"someone left a heater on and it caught fire at C8, can someone look into it",Fire,High,English,C8|LOCATION; heater|ASSET,template,Fire-English-4
+g44,someone left a heater on and it caught fire at R1,Fire,High,English,R1|LOCATION; heater|ASSET,template,Fire-English-4
+g45,"Someone left a heater on and it caught fire at E complex, please check",Fire,High,English,E complex|LOCATION; heater|ASSET,template,Fire-English-4
+g46,"Someone left a heater on and it caught fire at G23, please send help",Fire,High,English,G23|LOCATION; heater|ASSET,template,Fire-English-4
+g47,Someone left a heater on and it caught fire at I2.1,Fire,High,English,I2.1|LOCATION; heater|ASSET,template,Fire-English-4
+g48,"hello guys, someone left a heater on and it caught fire at E21",Fire,High,English,E21|LOCATION; heater|ASSET,template,Fire-English-4
+g49,"someone left a heater on and it caught fire at S1.1, please send help",Fire,High,English,S1.1|LOCATION; heater|ASSET,template,Fire-English-4
+g50,"good evening, someone left a heater on and it caught fire at S5",Fire,High,English,S5|LOCATION; heater|ASSET,template,Fire-English-4
+g51,"burning smell and light smoke around M complex, not sure where it is coming from today",Fire,Medium,English,M complex|LOCATION; today|DATE_TIME,template,Fire-English-5
+g52,"Burning smell and light smoke around E8.1, not sure where it is coming from",Fire,Medium,English,E8.1|LOCATION,template,Fire-English-5
+g53,"burning smell and light smoke around O22, not sure where it is coming from",Fire,Medium,English,O22|LOCATION,template,Fire-English-5
+g54,"Hello guys, burning smell and light smoke around N complex, not sure where it is coming from",Fire,Medium,English,N complex|LOCATION,template,Fire-English-5
+g55,"burning smell and light smoke around pah, not sure where it is coming from today, thanks",Fire,Medium,English,pah|LOCATION; today|DATE_TIME,template,Fire-English-5
+g56,"Burning smell and light smoke around M21, not sure where it is coming from",Fire,Medium,English,M21|LOCATION,template,Fire-English-5
+g57,"Burning smell and light smoke around D complex, not sure where it is coming from, please come quickly",Fire,Medium,English,D complex|LOCATION,template,Fire-English-5
+g58,"burning smell and light smoke around RS complex, not sure where it is coming from",Fire,Medium,English,RS complex|LOCATION,template,Fire-English-5
+g59,"Burning smell and light smoke around N complex, not sure where it is coming from, please check",Fire,Medium,English,N complex|LOCATION,template,Fire-English-5
+g60,"burning smell and light smoke around stadium, not sure where it is coming from",Fire,Medium,English,stadium|LOCATION,template,Fire-English-5
+g69,kune utsi hunobuda pa dh,Fire,High,Shona,dh|LOCATION,template,Fire-Shona-1
+g70,"kune utsi hunobuda kuP complex, please advise",Fire,High,Mixed,P complex|LOCATION,template,Fire-Shona-1
+g71,kune utsi hunobuda kuP20,Fire,High,Shona,P20|LOCATION,template,Fire-Shona-1
+g72,Kune utsi hunobuda muF24.2,Fire,High,Shona,F24.2|LOCATION,template,Fire-Shona-1
+g73,"Makadii, kune utsi hunobuda muH9.2, thanks",Fire,High,Mixed,H9.2|LOCATION,template,Fire-Shona-1
+g74,"kune utsi hunobuda kuE complex, please advise",Fire,High,Mixed,E complex|LOCATION,template,Fire-Shona-1
+g75,Kune utsi hunobuda kuO complex,Fire,High,Shona,O complex|LOCATION,template,Fire-Shona-1
+g76,Kune utsi hunobuda muN25.1,Fire,High,Shona,N25.1|LOCATION,template,Fire-Shona-1
+g77,kuri kubvira kuJ25,Fire,High,Shona,J25|LOCATION,template,Fire-Shona-2
+g78,"Kuri kubvira pa accommodation, please advise",Fire,High,Mixed,accommodation|LOCATION,template,Fire-Shona-2
+g79,kuri kubvira muF15.1,Fire,High,Shona,F15.1|LOCATION,template,Fire-Shona-2
+g80,"Makadii, kuri kubvira kuC complex, tibatsireiwo",Fire,High,Shona,C complex|LOCATION,template,Fire-Shona-2
+g81,kuri kubvira pa computer lab,Fire,High,Shona,computer lab|LOCATION,template,Fire-Shona-2
+g82,"Makadii, kuri kubvira muI3.2, please come quickly",Fire,High,Mixed,I3.2|LOCATION,template,Fire-Shona-2
+g83,"mhoroi, kuri kubvira kuB complex",Fire,High,Shona,B complex|LOCATION,template,Fire-Shona-2
+g84,"Kuri kubvira pa business centre, huyai nekukurumidza",Fire,High,Shona,business centre|LOCATION,template,Fire-Shona-2
+g85,"mhoroi, moto wakabatidza kuF20, vanhu vari kubuda",Fire,High,Shona,F20|LOCATION,template,Fire-Shona-3
+g86,"moto wakabatidza kuPQ complex, vanhu vari kubuda, thanks",Fire,High,Mixed,PQ complex|LOCATION,template,Fire-Shona-3
+g87,"Moto wakabatidza muN23.1, vanhu vari kubuda, please send help",Fire,High,Mixed,N23.1|LOCATION,template,Fire-Shona-3
+g88,"Moto wakabatidza kuD19, vanhu vari kubuda, tibatsireiwo",Fire,High,Shona,D19|LOCATION,template,Fire-Shona-3
+g89,"moto wakabatidza kuA14, vanhu vari kubuda, tibatsireiwo",Fire,High,Shona,A14|LOCATION,template,Fire-Shona-3
+g90,"Moto wakabatidza pa main gate, vanhu vari kubuda, please come quickly",Fire,High,Mixed,main gate|LOCATION,template,Fire-Shona-3
+g91,"Moto wakabatidza muP14.2, vanhu vari kubuda, huyai nekukurumidza",Fire,High,Shona,P14.2|LOCATION,template,Fire-Shona-3
+g92,"Makadii, moto wakabatidza muN11.1, vanhu vari kubuda, tibatsireiwo",Fire,High,Shona,N11.1|LOCATION,template,Fire-Shona-3
+g93,"Utsi huri kubuda kuS1, huyai nekukurumidza",Fire,High,Shona,S1|LOCATION,template,Fire-Shona-4
+g94,Utsi huri kubuda pa accommodation office,Fire,High,Shona,accommodation office|LOCATION,template,Fire-Shona-4
+g95,"utsi huri kubuda pa ground stadium, tibatsireiwo",Fire,High,Shona,ground stadium|LOCATION,template,Fire-Shona-4
+g96,"Ndapota, utsi huri kubuda muS11.2, tibatsireiwo",Fire,High,Shona,S11.2|LOCATION,template,Fire-Shona-4
+g97,"Ndapota, utsi huri kubuda kuS complex",Fire,High,Shona,S complex|LOCATION,template,Fire-Shona-4
+g98,"mhoroi, utsi huri kubuda kuD7, thanks",Fire,High,Mixed,D7|LOCATION,template,Fire-Shona-4
+g99,"utsi huri kubuda pa chemberi multipurpose hall, please check",Fire,High,Mixed,chemberi multipurpose hall|LOCATION,template,Fire-Shona-4
+g100,"Utsi huri kubuda pa accommodation, please check",Fire,High,Mixed,accommodation|LOCATION,template,Fire-Shona-4
+g101,"moto uri kupisa muK6.1, tibatsireiwo, asap",Fire,High,Mixed,K6.1|LOCATION,template,Fire-Shona-5
+g102,"Moto uri kupisa muQ3.1, tibatsireiwo, asap",Fire,High,Mixed,Q3.1|LOCATION,template,Fire-Shona-5
+g103,"moto uri kupisa pa business center, tibatsireiwo",Fire,High,Shona,business center|LOCATION,template,Fire-Shona-5
+g104,"moto uri kupisa muP15.2, tibatsireiwo",Fire,High,Shona,P15.2|LOCATION,template,Fire-Shona-5
+g105,"mhoroi, moto uri kupisa kuG complex, tibatsireiwo, huyai nekukurumidza",Fire,High,Shona,G complex|LOCATION,template,Fire-Shona-5
+g106,"Moto uri kupisa pa library, tibatsireiwo",Fire,High,Shona,library|LOCATION,template,Fire-Shona-5
+g107,"moto uri kupisa kuJ23, tibatsireiwo, huyai nekukurumidza",Fire,High,Shona,J23|LOCATION,template,Fire-Shona-5
+g108,"moto uri kupisa pa main gate, tibatsireiwo, can someone look into it",Fire,High,Mixed,main gate|LOCATION,template,Fire-Shona-5
+g109,"Moto mudiki wadzimwa pa teaching and learning centre, hapana akakuvara husiku hwapfuura",Fire,Low,Shona,teaching and learning centre|LOCATION; husiku hwapfuura|DATE_TIME,template,Fire-Shona-6
+g110,"mhoroi, moto mudiki wadzimwa muJ23.2, hapana akakuvara",Fire,Low,Shona,J23.2|LOCATION,template,Fire-Shona-6
+g111,"Moto mudiki wadzimwa kuI1, hapana akakuvara nezuro",Fire,Low,Shona,I1|LOCATION; nezuro|DATE_TIME,template,Fire-Shona-6
+g112,"Moto mudiki wadzimwa pa accommodation office, hapana akakuvara",Fire,Low,Shona,accommodation office|LOCATION,template,Fire-Shona-6
+g113,"makadii, moto mudiki wadzimwa muC16.2, hapana akakuvara",Fire,Low,Shona,C16.2|LOCATION,template,Fire-Shona-6
+g114,"moto mudiki wadzimwa kuN25, hapana akakuvara",Fire,Low,Shona,N25|LOCATION,template,Fire-Shona-6
+g115,"Moto mudiki wadzimwa muR1.2, hapana akakuvara, thanks",Fire,Low,Mixed,R1.2|LOCATION,template,Fire-Shona-6
+g116,"Moto mudiki wadzimwa muB7.2, hapana akakuvara",Fire,Low,Shona,B7.2|LOCATION,template,Fire-Shona-6
+g117,"Pane moto pa dining, please send security, please check",Fire,High,Mixed,dining|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g118,"Pane moto kuP complex, please send security",Fire,High,Mixed,P complex|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g119,"Pane moto kuR23, please send security, asap",Fire,High,Mixed,R23|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g120,"pane moto muS5.2, please send security, please come quickly",Fire,High,Mixed,S5.2|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g121,"Pane moto kuI complex, please send security",Fire,High,Mixed,I complex|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g122,"pane moto kuA10, please send security",Fire,High,Mixed,A10|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g123,"Pane moto muE15.2, please send security, please come quickly",Fire,High,Mixed,E15.2|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g124,"Mhoroi, pane moto kuG23, please send security, please advise",Fire,High,Mixed,G23|LOCATION; security|PERSON_ROLE,template,Fire-Mixed-0
+g125,"ndapota, moto uri kupisa muN13.1, we need the fire brigade",Fire,High,Mixed,N13.1|LOCATION,template,Fire-Mixed-1
+g126,"Good evening, moto uri kupisa kuD15, we need the fire brigade, please advise",Fire,High,Mixed,D15|LOCATION,template,Fire-Mixed-1
+g127,"Moto uri kupisa pa teaching and learning centre, we need the fire brigade",Fire,High,Mixed,teaching and learning centre|LOCATION,template,Fire-Mixed-1
+g128,"moto uri kupisa muC11.2, we need the fire brigade",Fire,High,Mixed,C11.2|LOCATION,template,Fire-Mixed-1
+g129,"moto uri kupisa muS2.1, we need the fire brigade, please send help",Fire,High,Mixed,S2.1|LOCATION,template,Fire-Mixed-1
+g130,"moto uri kupisa kuO complex, we need the fire brigade",Fire,High,Mixed,O complex|LOCATION,template,Fire-Mixed-1
+g131,"Moto uri kupisa kuP complex, we need the fire brigade, thanks",Fire,High,Mixed,P complex|LOCATION,template,Fire-Mixed-1
+g132,"Ndapota, moto uri kupisa kuJ complex, we need the fire brigade, please advise",Fire,High,Mixed,J complex|LOCATION,template,Fire-Mixed-1
+g143,"Someone collapsed at F7.1, we need an ambulance",Medical Emergency,High,English,F7.1|LOCATION,template,Medical Emergency-English-1
+g144,"someone collapsed at F9, we need an ambulance",Medical Emergency,High,English,F9|LOCATION,template,Medical Emergency-English-1
+g145,"hi, someone collapsed at K4, we need an ambulance",Medical Emergency,High,English,K4|LOCATION,template,Medical Emergency-English-1
+g146,"Pls help, someone collapsed at S12.1, we need an ambulance",Medical Emergency,High,English,S12.1|LOCATION,template,Medical Emergency-English-1
+g147,"Someone collapsed at I19, we need an ambulance, please send help",Medical Emergency,High,English,I19|LOCATION,template,Medical Emergency-English-1
+g148,"someone collapsed at accommodation office, we need an ambulance, please come quickly",Medical Emergency,High,English,accommodation office|LOCATION,template,Medical Emergency-English-1
+g149,"Someone collapsed at P complex, we need an ambulance",Medical Emergency,High,English,P complex|LOCATION,template,Medical Emergency-English-1
+g150,"Someone collapsed at tlc, we need an ambulance",Medical Emergency,High,English,tlc|LOCATION,template,Medical Emergency-English-1
+g151,"Hello guys, someone collapsed at H complex, we need an ambulance",Medical Emergency,High,English,H complex|LOCATION,template,Medical Emergency-English-1
+g152,"someone collapsed at E14.1, we need an ambulance",Medical Emergency,High,English,E14.1|LOCATION,template,Medical Emergency-English-1
+g153,"Good evening, a student twisted her ankle at B23 but she can still walk an hour ago",Medical Emergency,Low,English,B23|LOCATION; student|PERSON_ROLE; an hour ago|DATE_TIME,template,Medical Emergency-English-2
+g154,"a student twisted her ankle at S21 but she can still walk an hour ago, please check",Medical Emergency,Low,English,S21|LOCATION; student|PERSON_ROLE; an hour ago|DATE_TIME,template,Medical Emergency-English-2
+g155,"Good evening, a student twisted her ankle at G complex but she can still walk",Medical Emergency,Low,English,G complex|LOCATION; student|PERSON_ROLE,template,Medical Emergency-English-2
+g156,"A student twisted her ankle at performing arts but she can still walk last night, can someone look into it",Medical Emergency,Low,English,performing arts|LOCATION; student|PERSON_ROLE; last night|DATE_TIME,template,Medical Emergency-English-2
+g157,a student twisted her ankle at library but she can still walk today,Medical Emergency,Low,English,library|LOCATION; student|PERSON_ROLE; today|DATE_TIME,template,Medical Emergency-English-2
+g158,"Good evening, a student twisted her ankle at A complex but she can still walk this morning",Medical Emergency,Low,English,A complex|LOCATION; student|PERSON_ROLE; this morning|DATE_TIME,template,Medical Emergency-English-2
+g159,A student twisted her ankle at B5 but she can still walk,Medical Emergency,Low,English,B5|LOCATION; student|PERSON_ROLE,template,Medical Emergency-English-2
+g160,"a student twisted her ankle at R19 but she can still walk last night, please check",Medical Emergency,Low,English,R19|LOCATION; student|PERSON_ROLE; last night|DATE_TIME,template,Medical Emergency-English-2
+g161,"A student twisted her ankle at P21 but she can still walk, please advise",Medical Emergency,Low,English,P21|LOCATION; student|PERSON_ROLE,template,Medical Emergency-English-2
+g162,A student twisted her ankle at Q complex but she can still walk,Medical Emergency,Low,English,Q complex|LOCATION; student|PERSON_ROLE,template,Medical Emergency-English-2
+g163,"one of the students is having a seizure at teaching and learning centre, please come quickly",Medical Emergency,High,English,teaching and learning centre|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g164,one of the students is having a seizure at N20,Medical Emergency,High,English,N20|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g165,one of the students is having a seizure at D complex,Medical Emergency,High,English,D complex|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g166,"good evening, one of the students is having a seizure at main gate",Medical Emergency,High,English,main gate|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g167,"One of the students is having a seizure at O24.1, thanks",Medical Emergency,High,English,O24.1|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g168,"Hello guys, one of the students is having a seizure at accommodation office, asap",Medical Emergency,High,English,accommodation office|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g169,"one of the students is having a seizure at E18, please come quickly",Medical Emergency,High,English,E18|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g170,one of the students is having a seizure at M22.2,Medical Emergency,High,English,M22.2|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g171,"Attention, one of the students is having a seizure at M4",Medical Emergency,High,English,M4|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g172,one of the students is having a seizure at M complex,Medical Emergency,High,English,M complex|LOCATION; students|PERSON_ROLE,template,Medical Emergency-English-3
+g173,a lady is bleeding heavily after falling at main gate,Medical Emergency,High,English,main gate|LOCATION,template,Medical Emergency-English-4
+g174,A lady is bleeding heavily after falling at RS complex,Medical Emergency,High,English,RS complex|LOCATION,template,Medical Emergency-English-4
+g175,A lady is bleeding heavily after falling at chemberi multipurpose hall,Medical Emergency,High,English,chemberi multipurpose hall|LOCATION,template,Medical Emergency-English-4
+g176,A lady is bleeding heavily after falling at F complex,Medical Emergency,High,English,F complex|LOCATION,template,Medical Emergency-English-4
+g177,"Hello guys, a lady is bleeding heavily after falling at lib, please come quickly",Medical Emergency,High,English,lib|LOCATION,template,Medical Emergency-English-4
+g178,"a lady is bleeding heavily after falling at stadium, thanks",Medical Emergency,High,English,stadium|LOCATION,template,Medical Emergency-English-4
+g179,"a lady is bleeding heavily after falling at B complex, asap",Medical Emergency,High,English,B complex|LOCATION,template,Medical Emergency-English-4
+g180,A lady is bleeding heavily after falling at P22,Medical Emergency,High,English,P22|LOCATION,template,Medical Emergency-English-4
+g181,"a lady is bleeding heavily after falling at business center, please check",Medical Emergency,High,English,business center|LOCATION,template,Medical Emergency-English-4
+g182,"A lady is bleeding heavily after falling at R22.2, please advise",Medical Emergency,High,English,R22.2|LOCATION,template,Medical Emergency-English-4
+g183,"I have a bad headache and feel dizzy at multipurpose hall, I need to see a nurse",Medical Emergency,Low,English,multipurpose hall|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g184,"pls help, I have a bad headache and feel dizzy at A complex, I need to see a nurse",Medical Emergency,Low,English,A complex|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g185,"I have a bad headache and feel dizzy at C13, I need to see a nurse, please check",Medical Emergency,Low,English,C13|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g186,"I have a bad headache and feel dizzy at O19, I need to see a nurse",Medical Emergency,Low,English,O19|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g187,"I have a bad headache and feel dizzy at F20, I need to see a nurse",Medical Emergency,Low,English,F20|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g188,"good evening, I have a bad headache and feel dizzy at H complex, I need to see a nurse",Medical Emergency,Low,English,H complex|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g189,"I have a bad headache and feel dizzy at wi-fi hotspot, I need to see a nurse, please check",Medical Emergency,Low,English,wi-fi hotspot|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g190,"Hey security, I have a bad headache and feel dizzy at M24, I need to see a nurse",Medical Emergency,Low,English,M24|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g191,"I have a bad headache and feel dizzy at dh, I need to see a nurse",Medical Emergency,Low,English,dh|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g192,"I have a bad headache and feel dizzy at P25.2, I need to see a nurse",Medical Emergency,Low,English,P25.2|LOCATION; nurse|PERSON_ROLE,template,Medical Emergency-English-5
+g193,"mumwe mudzidzi akadonha kuK5, ari kurwara zvakanyanya",Medical Emergency,High,Shona,K5|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g194,"makadii, mumwe mudzidzi akadonha kuM complex, ari kurwara zvakanyanya, tibatsireiwo",Medical Emergency,High,Shona,M complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g195,"mumwe mudzidzi akadonha kuC complex, ari kurwara zvakanyanya",Medical Emergency,High,Shona,C complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g196,"Ndapota, mumwe mudzidzi akadonha kuP complex, ari kurwara zvakanyanya",Medical Emergency,High,Shona,P complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g197,"mumwe mudzidzi akadonha pa teaching and learning center, ari kurwara zvakanyanya",Medical Emergency,High,Shona,teaching and learning center|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g198,"mumwe mudzidzi akadonha kuR complex, ari kurwara zvakanyanya, tibatsireiwo",Medical Emergency,High,Shona,R complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g199,"mumwe mudzidzi akadonha pa stadium, ari kurwara zvakanyanya, tibatsireiwo",Medical Emergency,High,Shona,stadium|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g200,"Mumwe mudzidzi akadonha kuK complex, ari kurwara zvakanyanya, please check",Medical Emergency,High,Mixed,K complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-0
+g201,"Makadii, mudzidzi ari kurwara kuE11, anoda arapwe nekukurumidza, please send help",Medical Emergency,High,Mixed,E11|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g202,"mudzidzi ari kurwara muE20.1, anoda arapwe nekukurumidza, tibatsireiwo",Medical Emergency,High,Shona,E20.1|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g203,"Mhoroi, mudzidzi ari kurwara kuO complex, anoda arapwe nekukurumidza, tibatsireiwo",Medical Emergency,High,Shona,O complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g204,"mudzidzi ari kurwara muG8.1, anoda arapwe nekukurumidza, thanks",Medical Emergency,High,Mixed,G8.1|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g205,"mudzidzi ari kurwara kuK complex, anoda arapwe nekukurumidza",Medical Emergency,High,Shona,K complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g206,"mudzidzi ari kurwara pa dining, anoda arapwe nekukurumidza, tibatsireiwo",Medical Emergency,High,Shona,dining|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g207,"mudzidzi ari kurwara muJ25.2, anoda arapwe nekukurumidza, can someone look into it",Medical Emergency,High,Mixed,J25.2|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g208,"mudzidzi ari kurwara muG12.2, anoda arapwe nekukurumidza, tibatsireiwo",Medical Emergency,High,Shona,G12.2|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-1
+g209,"makadii, mumwe munhu akadonha pa performing arts hall, haasi kupindura, tibatsireiwo",Medical Emergency,High,Shona,performing arts hall|LOCATION,template,Medical Emergency-Shona-2
+g210,"mumwe munhu akadonha kuR complex, haasi kupindura, huyai nekukurumidza",Medical Emergency,High,Shona,R complex|LOCATION,template,Medical Emergency-Shona-2
+g211,"mumwe munhu akadonha pa main gate, haasi kupindura, can someone look into it",Medical Emergency,High,Mixed,main gate|LOCATION,template,Medical Emergency-Shona-2
+g212,"Mumwe munhu akadonha kuO complex, haasi kupindura, please come quickly",Medical Emergency,High,Mixed,O complex|LOCATION,template,Medical Emergency-Shona-2
+g213,"mumwe munhu akadonha kuM complex, haasi kupindura, thanks",Medical Emergency,High,Mixed,M complex|LOCATION,template,Medical Emergency-Shona-2
+g214,"mumwe munhu akadonha kuE5, haasi kupindura, asap",Medical Emergency,High,Mixed,E5|LOCATION,template,Medical Emergency-Shona-2
+g215,"mumwe munhu akadonha muP20.1, haasi kupindura, huyai nekukurumidza",Medical Emergency,High,Shona,P20.1|LOCATION,template,Medical Emergency-Shona-2
+g216,"makadii, mumwe munhu akadonha muD25.2, haasi kupindura, please check",Medical Emergency,High,Mixed,D25.2|LOCATION,template,Medical Emergency-Shona-2
+g217,"mudzidzi ari kurwadziwa dumbu muC4.2, please come quickly",Medical Emergency,Medium,Mixed,C4.2|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-3
+g218,"Ndapota, mudzidzi ari kurwadziwa dumbu kuO1, please advise",Medical Emergency,Medium,Mixed,O1|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-3
+g219,"Makadii, mudzidzi ari kurwadziwa dumbu kuC17",Medical Emergency,Medium,Shona,C17|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-3
+g220,mudzidzi ari kurwadziwa dumbu muM9.1 nezuro,Medical Emergency,Medium,Shona,M9.1|LOCATION; mudzidzi|PERSON_ROLE; nezuro|DATE_TIME,template,Medical Emergency-Shona-3
+g221,"mudzidzi ari kurwadziwa dumbu kuE2 husiku hwapfuura, tibatsireiwo",Medical Emergency,Medium,Shona,E2|LOCATION; mudzidzi|PERSON_ROLE; husiku hwapfuura|DATE_TIME,template,Medical Emergency-Shona-3
+g222,"mhoroi, mudzidzi ari kurwadziwa dumbu pa business centre mangwanani ano, can someone look into it",Medical Emergency,Medium,Mixed,business centre|LOCATION; mudzidzi|PERSON_ROLE; mangwanani ano|DATE_TIME,template,Medical Emergency-Shona-3
+g223,"mudzidzi ari kurwadziwa dumbu kuJ17 mangwanani ano, asap",Medical Emergency,Medium,Mixed,J17|LOCATION; mudzidzi|PERSON_ROLE; mangwanani ano|DATE_TIME,template,Medical Emergency-Shona-3
+g224,mudzidzi ari kurwadziwa dumbu kuK complex husiku hwapfuura,Medical Emergency,Medium,Shona,K complex|LOCATION; mudzidzi|PERSON_ROLE; husiku hwapfuura|DATE_TIME,template,Medical Emergency-Shona-3
+g225,"mudzidzi akakuvara gumbo kuF16, haakwanisi kufamba",Medical Emergency,Medium,Shona,F16|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-4
+g226,"mudzidzi akakuvara gumbo muC14.1, haakwanisi kufamba, tibatsireiwo",Medical Emergency,Medium,Shona,C14.1|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-4
+g227,"mudzidzi akakuvara gumbo muF23.2, haakwanisi kufamba nezuro",Medical Emergency,Medium,Shona,F23.2|LOCATION; mudzidzi|PERSON_ROLE; nezuro|DATE_TIME,template,Medical Emergency-Shona-4
+g228,"mudzidzi akakuvara gumbo kuC complex, haakwanisi kufamba",Medical Emergency,Medium,Shona,C complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-4
+g229,"mhoroi, mudzidzi akakuvara gumbo kuE complex, haakwanisi kufamba",Medical Emergency,Medium,Shona,E complex|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-4
+g230,"mudzidzi akakuvara gumbo kuM13, haakwanisi kufamba, can someone look into it",Medical Emergency,Medium,Mixed,M13|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-4
+g231,"Mhoroi, mudzidzi akakuvara gumbo kuP25, haakwanisi kufamba nhasi, tibatsireiwo",Medical Emergency,Medium,Shona,P25|LOCATION; mudzidzi|PERSON_ROLE; nhasi|DATE_TIME,template,Medical Emergency-Shona-4
+g232,"mudzidzi akakuvara gumbo pa accommodation, haakwanisi kufamba, tibatsireiwo",Medical Emergency,Medium,Shona,accommodation|LOCATION; mudzidzi|PERSON_ROLE,template,Medical Emergency-Shona-4
+g241,"musikana ari kurwara pa main gate, she is not responding",Medical Emergency,High,Mixed,main gate|LOCATION,template,Medical Emergency-Mixed-1
+g242,"Musikana ari kurwara pa multipurpose hall, she is not responding, thanks",Medical Emergency,High,Mixed,multipurpose hall|LOCATION,template,Medical Emergency-Mixed-1
+g243,"musikana ari kurwara kuC9, she is not responding, please come quickly",Medical Emergency,High,Mixed,C9|LOCATION,template,Medical Emergency-Mixed-1
+g244,"musikana ari kurwara kuR complex, she is not responding",Medical Emergency,High,Mixed,R complex|LOCATION,template,Medical Emergency-Mixed-1
+g245,"musikana ari kurwara pa wi-fi hotspot, she is not responding",Medical Emergency,High,Mixed,wi-fi hotspot|LOCATION,template,Medical Emergency-Mixed-1
+g246,"Musikana ari kurwara kuC complex, she is not responding, please send help",Medical Emergency,High,Mixed,C complex|LOCATION,template,Medical Emergency-Mixed-1
+g247,"Ndapota, musikana ari kurwara pa boom gate, she is not responding",Medical Emergency,High,Mixed,boom gate|LOCATION,template,Medical Emergency-Mixed-1
+g248,"Musikana ari kurwara kuQ8, she is not responding",Medical Emergency,High,Mixed,Q8|LOCATION,template,Medical Emergency-Mixed-1
+g257,someone broke into J18.1 and took my laptop,Theft/Break-in,Medium,English,J18.1|LOCATION; laptop|ASSET,template,Theft/Break-in-English-0
+g258,"Someone broke into M2.2 and took my laptop last night, please come quickly",Theft/Break-in,Medium,English,M2.2|LOCATION; laptop|ASSET; last night|DATE_TIME,template,Theft/Break-in-English-0
+g259,"someone broke into S9.1 and took my laptop yesterday, asap",Theft/Break-in,Medium,English,S9.1|LOCATION; laptop|ASSET; yesterday|DATE_TIME,template,Theft/Break-in-English-0
+g260,"Hey security, someone broke into E7 and took my laptop",Theft/Break-in,Medium,English,E7|LOCATION; laptop|ASSET,template,Theft/Break-in-English-0
+g261,Someone broke into Q17 and took my laptop,Theft/Break-in,Medium,English,Q17|LOCATION; laptop|ASSET,template,Theft/Break-in-English-0
+g262,Someone broke into F13 and took my laptop,Theft/Break-in,Medium,English,F13|LOCATION; laptop|ASSET,template,Theft/Break-in-English-0
+g263,someone broke into J16.1 and took my laptop yesterday,Theft/Break-in,Medium,English,J16.1|LOCATION; laptop|ASSET; yesterday|DATE_TIME,template,Theft/Break-in-English-0
+g264,someone broke into RS complex and took my laptop,Theft/Break-in,Medium,English,RS complex|LOCATION; laptop|ASSET,template,Theft/Break-in-English-0
+g265,"someone broke into teaching and learning center and took my laptop, please send help",Theft/Break-in,Medium,English,teaching and learning center|LOCATION; laptop|ASSET,template,Theft/Break-in-English-0
+g266,"Someone broke into E22.1 and took my laptop yesterday, please advise",Theft/Break-in,Medium,English,E22.1|LOCATION; laptop|ASSET; yesterday|DATE_TIME,template,Theft/Break-in-English-0
+g267,My phone was stolen from boom gate this morning,Theft/Break-in,Medium,English,boom gate|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g268,my phone was stolen from E complex this morning,Theft/Break-in,Medium,English,E complex|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g269,my phone was stolen from R13.2 this morning,Theft/Break-in,Medium,English,R13.2|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g270,My phone was stolen from I20 this morning,Theft/Break-in,Medium,English,I20|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g271,my phone was stolen from H10 this morning,Theft/Break-in,Medium,English,H10|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g272,my phone was stolen from K16.2 this morning,Theft/Break-in,Medium,English,K16.2|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g273,my phone was stolen from D19 this morning,Theft/Break-in,Medium,English,D19|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g274,"hello guys, my phone was stolen from E10 this morning, please send help",Theft/Break-in,Medium,English,E10|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g275,My phone was stolen from G7.2 this morning,Theft/Break-in,Medium,English,G7.2|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g276,"Hi, my phone was stolen from chemberi this morning, please come quickly",Theft/Break-in,Medium,English,chemberi|LOCATION; phone|ASSET; this morning|DATE_TIME,template,Theft/Break-in-English-1
+g277,"pls help, a stranger is trying to break into K23.2 right now, asap",Theft/Break-in,High,English,K23.2|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g278,A stranger is trying to break into boom gate right now,Theft/Break-in,High,English,boom gate|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g279,"hey security, a stranger is trying to break into mph right now, please send help",Theft/Break-in,High,English,mph|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g280,"hi, a stranger is trying to break into tlc right now",Theft/Break-in,High,English,tlc|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g281,"attention, a stranger is trying to break into N complex right now",Theft/Break-in,High,English,N complex|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g282,"Good evening, a stranger is trying to break into B1 right now, please come quickly",Theft/Break-in,High,English,B1|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g283,"hi, a stranger is trying to break into E17.2 right now, asap",Theft/Break-in,High,English,E17.2|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g284,a stranger is trying to break into F1 right now,Theft/Break-in,High,English,F1|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g285,A stranger is trying to break into dh right now,Theft/Break-in,High,English,dh|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g286,"Hi, a stranger is trying to break into R11.1 right now",Theft/Break-in,High,English,R11.1|LOCATION; right now|DATE_TIME,template,Theft/Break-in-English-2
+g287,My bag was taken from library while I was away today,Theft/Break-in,Medium,English,library|LOCATION; bag|ASSET; today|DATE_TIME,template,Theft/Break-in-English-3
+g288,"Hey security, my bag was taken from I complex while I was away",Theft/Break-in,Medium,English,I complex|LOCATION; bag|ASSET,template,Theft/Break-in-English-3
+g289,my bag was taken from ground stadium while I was away,Theft/Break-in,Medium,English,ground stadium|LOCATION; bag|ASSET,template,Theft/Break-in-English-3
+g290,"My bag was taken from J complex while I was away today, can someone look into it",Theft/Break-in,Medium,English,J complex|LOCATION; bag|ASSET; today|DATE_TIME,template,Theft/Break-in-English-3
+g291,my bag was taken from O23 while I was away,Theft/Break-in,Medium,English,O23|LOCATION; bag|ASSET,template,Theft/Break-in-English-3
+g292,my bag was taken from chemberi while I was away,Theft/Break-in,Medium,English,chemberi|LOCATION; bag|ASSET,template,Theft/Break-in-English-3
+g293,"Pls help, my bag was taken from C19 while I was away last night",Theft/Break-in,Medium,English,C19|LOCATION; bag|ASSET; last night|DATE_TIME,template,Theft/Break-in-English-3
+g294,my bag was taken from R15 while I was away today,Theft/Break-in,Medium,English,R15|LOCATION; bag|ASSET; today|DATE_TIME,template,Theft/Break-in-English-3
+g295,"hello guys, my bag was taken from B15.1 while I was away",Theft/Break-in,Medium,English,B15.1|LOCATION; bag|ASSET,template,Theft/Break-in-English-3
+g296,My bag was taken from A13 while I was away yesterday,Theft/Break-in,Medium,English,A13|LOCATION; bag|ASSET; yesterday|DATE_TIME,template,Theft/Break-in-English-3
+g307,Somebody stole my charger from H10,Theft/Break-in,Medium,English,H10|LOCATION; charger|ASSET,template,Theft/Break-in-English-5
+g308,somebody stole my charger from B18,Theft/Break-in,Medium,English,B18|LOCATION; charger|ASSET,template,Theft/Break-in-English-5
+g309,somebody stole my charger from S16.1,Theft/Break-in,Medium,English,S16.1|LOCATION; charger|ASSET,template,Theft/Break-in-English-5
+g310,"somebody stole my charger from O14 an hour ago, please come quickly",Theft/Break-in,Medium,English,O14|LOCATION; charger|ASSET; an hour ago|DATE_TIME,template,Theft/Break-in-English-5
+g311,somebody stole my charger from E15,Theft/Break-in,Medium,English,E15|LOCATION; charger|ASSET,template,Theft/Break-in-English-5
+g312,"somebody stole my charger from university stadium today, please check",Theft/Break-in,Medium,English,university stadium|LOCATION; charger|ASSET; today|DATE_TIME,template,Theft/Break-in-English-5
+g313,"somebody stole my charger from S complex, thanks",Theft/Break-in,Medium,English,S complex|LOCATION; charger|ASSET,template,Theft/Break-in-English-5
+g314,Somebody stole my charger from C complex last night,Theft/Break-in,Medium,English,C complex|LOCATION; charger|ASSET; last night|DATE_TIME,template,Theft/Break-in-English-5
+g315,"hello guys, somebody stole my charger from J1 today",Theft/Break-in,Medium,English,J1|LOCATION; charger|ASSET; today|DATE_TIME,template,Theft/Break-in-English-5
+g316,Somebody stole my charger from ground stadium,Theft/Break-in,Medium,English,ground stadium|LOCATION; charger|ASSET,template,Theft/Break-in-English-5
+g317,ndabirwa laptop yangu kuJ9 husiku hwapfuura,Theft/Break-in,Medium,Shona,J9|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g318,"Ndabirwa laptop yangu muK7.2 husiku hwapfuura, huyai nekukurumidza",Theft/Break-in,Medium,Shona,K7.2|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g319,"ndabirwa laptop yangu muJ5.1 husiku hwapfuura, huyai nekukurumidza",Theft/Break-in,Medium,Shona,J5.1|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g320,Ndabirwa laptop yangu kuI25 husiku hwapfuura,Theft/Break-in,Medium,Shona,I25|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g321,"Ndabirwa laptop yangu pa hotspot husiku hwapfuura, please send help",Theft/Break-in,Medium,Mixed,hotspot|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g322,"Ndapota, ndabirwa laptop yangu kuR complex husiku hwapfuura, asap",Theft/Break-in,Medium,Mixed,R complex|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g323,"Ndapota, ndabirwa laptop yangu kuO complex husiku hwapfuura, please send help",Theft/Break-in,Medium,Mixed,O complex|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g324,ndabirwa laptop yangu pa computer lab husiku hwapfuura,Theft/Break-in,Medium,Shona,computer lab|LOCATION; laptop|ASSET; husiku hwapfuura|DATE_TIME,template,Theft/Break-in-Shona-0
+g325,"Ndapota, pane munhu ari kuedza kupaza musuo muQ1.1 zvino",Theft/Break-in,High,Shona,Q1.1|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g326,pane munhu ari kuedza kupaza musuo kuA17 zvino,Theft/Break-in,High,Shona,A17|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g327,"Pane munhu ari kuedza kupaza musuo kuD complex zvino, tibatsireiwo",Theft/Break-in,High,Shona,D complex|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g328,"pane munhu ari kuedza kupaza musuo muC12.2 zvino, huyai nekukurumidza",Theft/Break-in,High,Shona,C12.2|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g329,"Pane munhu ari kuedza kupaza musuo kuB complex zvino, please advise",Theft/Break-in,High,Mixed,B complex|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g330,"pane munhu ari kuedza kupaza musuo kuF complex zvino, asap",Theft/Break-in,High,Mixed,F complex|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g331,"pane munhu ari kuedza kupaza musuo kuR complex zvino, tibatsireiwo",Theft/Break-in,High,Shona,R complex|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g332,"mhoroi, pane munhu ari kuedza kupaza musuo kuS19 zvino, tibatsireiwo",Theft/Break-in,High,Shona,S19|LOCATION; musuo|ASSET; zvino|DATE_TIME,template,Theft/Break-in-Shona-1
+g333,ndadzoka ndawana musuwo wakavhurika muC10.1 uye laptop haipo,Theft/Break-in,Medium,Shona,C10.1|LOCATION; musuwo|ASSET; laptop|ASSET,template,Theft/Break-in-Shona-2
+g334,"Mhoroi, ndadzoka ndawana musuwo wakavhurika muE23.1 uye laptop haipo, tibatsireiwo",Theft/Break-in,Medium,Shona,E23.1|LOCATION; musuwo|ASSET; laptop|ASSET,template,Theft/Break-in-Shona-2
+g335,"ndadzoka ndawana musuwo wakavhurika muK1.2 uye laptop haipo, tibatsireiwo",Theft/Break-in,Medium,Shona,K1.2|LOCATION; musuwo|ASSET; laptop|ASSET,template,Theft/Break-in-Shona-2
+g336,"ndadzoka ndawana musuwo wakavhurika muC25.2 uye laptop haipo, huyai nekukurumidza",Theft/Break-in,Medium,Shona,C25.2|LOCATION; musuwo|ASSET; laptop|ASSET,template,Theft/Break-in-Shona-2
+g337,"ndadzoka ndawana musuwo wakavhurika pa university stadium uye laptop haipo nezuro, thanks",Theft/Break-in,Medium,Mixed,university stadium|LOCATION; musuwo|ASSET; laptop|ASSET; nezuro|DATE_TIME,template,Theft/Break-in-Shona-2
+g338,Ndadzoka ndawana musuwo wakavhurika kuE complex uye laptop haipo mangwanani ano,Theft/Break-in,Medium,Shona,E complex|LOCATION; musuwo|ASSET; laptop|ASSET; mangwanani ano|DATE_TIME,template,Theft/Break-in-Shona-2
+g339,"Makadii, ndadzoka ndawana musuwo wakavhurika kuS3 uye laptop haipo",Theft/Break-in,Medium,Shona,S3|LOCATION; musuwo|ASSET; laptop|ASSET,template,Theft/Break-in-Shona-2
+g340,"Makadii, ndadzoka ndawana musuwo wakavhurika kuS complex uye laptop haipo",Theft/Break-in,Medium,Shona,S complex|LOCATION; musuwo|ASSET; laptop|ASSET,template,Theft/Break-in-Shona-2
+g349,pane munhu asiri wepano ari kupinda muS17.2,Theft/Break-in,High,Shona,S17.2|LOCATION,template,Theft/Break-in-Shona-4
+g350,pane munhu asiri wepano ari kupinda kuD complex,Theft/Break-in,High,Shona,D complex|LOCATION,template,Theft/Break-in-Shona-4
+g351,pane munhu asiri wepano ari kupinda kuPQ complex,Theft/Break-in,High,Shona,PQ complex|LOCATION,template,Theft/Break-in-Shona-4
+g352,"pane munhu asiri wepano ari kupinda muD1.1, please come quickly",Theft/Break-in,High,Mixed,D1.1|LOCATION,template,Theft/Break-in-Shona-4
+g353,pane munhu asiri wepano ari kupinda pa lab,Theft/Break-in,High,Shona,lab|LOCATION,template,Theft/Break-in-Shona-4
+g354,pane munhu asiri wepano ari kupinda pa hotspot,Theft/Break-in,High,Shona,hotspot|LOCATION,template,Theft/Break-in-Shona-4
+g355,"Pane munhu asiri wepano ari kupinda pa accommodation office, tibatsireiwo",Theft/Break-in,High,Shona,accommodation office|LOCATION,template,Theft/Break-in-Shona-4
+g356,"Ndabirwa phone yangu kuA complex, please check the cameras",Theft/Break-in,Medium,Mixed,A complex|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-0
+g357,"Ndabirwa phone yangu pa dh, please check the cameras, please advise",Theft/Break-in,Medium,Mixed,dh|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-0
+g358,"Ndabirwa phone yangu muF6.2, please check the cameras an hour ago",Theft/Break-in,Medium,Mixed,F6.2|LOCATION; phone|ASSET; an hour ago|DATE_TIME,template,Theft/Break-in-Mixed-0
+g359,"ndabirwa phone yangu pa performing arts, please check the cameras today",Theft/Break-in,Medium,Mixed,performing arts|LOCATION; phone|ASSET; today|DATE_TIME,template,Theft/Break-in-Mixed-0
+g360,"ndabirwa phone yangu kuK7, please check the cameras, asap",Theft/Break-in,Medium,Mixed,K7|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-0
+g361,"Ndabirwa phone yangu kuN20, please check the cameras today, asap",Theft/Break-in,Medium,Mixed,N20|LOCATION; phone|ASSET; today|DATE_TIME,template,Theft/Break-in-Mixed-0
+g362,"good evening, ndabirwa phone yangu kuC22, please check the cameras today, please check",Theft/Break-in,Medium,Mixed,C22|LOCATION; phone|ASSET; today|DATE_TIME,template,Theft/Break-in-Mixed-0
+g363,"ndabirwa phone yangu muE19.2, please check the cameras",Theft/Break-in,Medium,Mixed,E19.2|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-0
+g364,"ndabirwa pa dining, someone took my phone, thanks",Theft/Break-in,Medium,Mixed,dining|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-1
+g365,"Ndabirwa kuA16, someone took my phone nhasi",Theft/Break-in,Medium,Mixed,A16|LOCATION; phone|ASSET; nhasi|DATE_TIME,template,Theft/Break-in-Mixed-1
+g366,"Ndabirwa muO23.2, someone took my phone, please check",Theft/Break-in,Medium,Mixed,O23.2|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-1
+g367,"ndabirwa kuI complex, someone took my phone last night, please advise",Theft/Break-in,Medium,Mixed,I complex|LOCATION; phone|ASSET; last night|DATE_TIME,template,Theft/Break-in-Mixed-1
+g368,"Ndabirwa muS17.1, someone took my phone, please come quickly",Theft/Break-in,Medium,Mixed,S17.1|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-1
+g369,"Hello guys, ndabirwa kuP complex, someone took my phone",Theft/Break-in,Medium,Mixed,P complex|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-1
+g370,"ndabirwa kuP complex, someone took my phone today",Theft/Break-in,Medium,Mixed,P complex|LOCATION; phone|ASSET; today|DATE_TIME,template,Theft/Break-in-Mixed-1
+g371,"ndabirwa pa performing arts, someone took my phone",Theft/Break-in,Medium,Mixed,performing arts|LOCATION; phone|ASSET,template,Theft/Break-in-Mixed-1
+g372,"boys are fighting at F20.1, one is bleeding",Harassment/Assault,High,English,F20.1|LOCATION,template,Harassment/Assault-English-0
+g373,"Attention, boys are fighting at S9, one is bleeding",Harassment/Assault,High,English,S9|LOCATION,template,Harassment/Assault-English-0
+g374,"hello guys, boys are fighting at R22, one is bleeding",Harassment/Assault,High,English,R22|LOCATION,template,Harassment/Assault-English-0
+g375,"Attention, boys are fighting at E23, one is bleeding",Harassment/Assault,High,English,E23|LOCATION,template,Harassment/Assault-English-0
+g376,"Boys are fighting at ground stadium, one is bleeding",Harassment/Assault,High,English,ground stadium|LOCATION,template,Harassment/Assault-English-0
+g377,"Boys are fighting at N15.1, one is bleeding",Harassment/Assault,High,English,N15.1|LOCATION,template,Harassment/Assault-English-0
+g378,"Boys are fighting at M15, one is bleeding",Harassment/Assault,High,English,M15|LOCATION,template,Harassment/Assault-English-0
+g379,"boys are fighting at P complex, one is bleeding",Harassment/Assault,High,English,P complex|LOCATION,template,Harassment/Assault-English-0
+g380,"Boys are fighting at G14.1, one is bleeding",Harassment/Assault,High,English,G14.1|LOCATION,template,Harassment/Assault-English-0
+g381,"boys are fighting at accommodation, one is bleeding",Harassment/Assault,High,English,accommodation|LOCATION,template,Harassment/Assault-English-0
+g382,"Hi, a student is being bullied at D complex by a group of boys",Harassment/Assault,Medium,English,D complex|LOCATION; student|PERSON_ROLE,template,Harassment/Assault-English-1
+g383,a student is being bullied at O complex by a group of boys today,Harassment/Assault,Medium,English,O complex|LOCATION; student|PERSON_ROLE; today|DATE_TIME,template,Harassment/Assault-English-1
+g384,"hello guys, a student is being bullied at C21 by a group of boys yesterday, please send help",Harassment/Assault,Medium,English,C21|LOCATION; student|PERSON_ROLE; yesterday|DATE_TIME,template,Harassment/Assault-English-1
+g385,"Hello guys, a student is being bullied at main gate by a group of boys",Harassment/Assault,Medium,English,main gate|LOCATION; student|PERSON_ROLE,template,Harassment/Assault-English-1
+g386,A student is being bullied at lab by a group of boys this morning,Harassment/Assault,Medium,English,lab|LOCATION; student|PERSON_ROLE; this morning|DATE_TIME,template,Harassment/Assault-English-1
+g387,"Good evening, a student is being bullied at accommodation office by a group of boys an hour ago, asap",Harassment/Assault,Medium,English,accommodation office|LOCATION; student|PERSON_ROLE; an hour ago|DATE_TIME,template,Harassment/Assault-English-1
+g388,"Attention, a student is being bullied at E13 by a group of boys",Harassment/Assault,Medium,English,E13|LOCATION; student|PERSON_ROLE,template,Harassment/Assault-English-1
+g389,a student is being bullied at RS complex by a group of boys,Harassment/Assault,Medium,English,RS complex|LOCATION; student|PERSON_ROLE,template,Harassment/Assault-English-1
+g390,"Hey security, a student is being bullied at boom gate by a group of boys",Harassment/Assault,Medium,English,boom gate|LOCATION; student|PERSON_ROLE,template,Harassment/Assault-English-1
+g391,"A student is being bullied at PQ complex by a group of boys, please advise",Harassment/Assault,Medium,English,PQ complex|LOCATION; student|PERSON_ROLE,template,Harassment/Assault-English-1
+g392,two girls had a heated argument at C8 but it has calmed down,Harassment/Assault,Low,English,C8|LOCATION,template,Harassment/Assault-English-2
+g393,Two girls had a heated argument at J complex but it has calmed down last night,Harassment/Assault,Low,English,J complex|LOCATION; last night|DATE_TIME,template,Harassment/Assault-English-2
+g394,"Two girls had a heated argument at H complex but it has calmed down, please advise",Harassment/Assault,Low,English,H complex|LOCATION,template,Harassment/Assault-English-2
+g395,"two girls had a heated argument at M complex but it has calmed down, please advise",Harassment/Assault,Low,English,M complex|LOCATION,template,Harassment/Assault-English-2
+g396,"Two girls had a heated argument at C1.1 but it has calmed down today, please check",Harassment/Assault,Low,English,C1.1|LOCATION; today|DATE_TIME,template,Harassment/Assault-English-2
+g397,"pls help, two girls had a heated argument at R25 but it has calmed down",Harassment/Assault,Low,English,R25|LOCATION,template,Harassment/Assault-English-2
+g398,"hi, two girls had a heated argument at chemberi multipurpose hall but it has calmed down yesterday",Harassment/Assault,Low,English,chemberi multipurpose hall|LOCATION; yesterday|DATE_TIME,template,Harassment/Assault-English-2
+g399,"hey security, two girls had a heated argument at C10.2 but it has calmed down",Harassment/Assault,Low,English,C10.2|LOCATION,template,Harassment/Assault-English-2
+g400,"Attention, two girls had a heated argument at P complex but it has calmed down, can someone look into it",Harassment/Assault,Low,English,P complex|LOCATION,template,Harassment/Assault-English-2
+g401,"hi, two girls had a heated argument at F complex but it has calmed down, thanks",Harassment/Assault,Low,English,F complex|LOCATION,template,Harassment/Assault-English-2
+g402,"A group of boys keeps shouting insults at the girls near D25, please advise",Harassment/Assault,Medium,English,D25|LOCATION,template,Harassment/Assault-English-3
+g403,"A group of boys keeps shouting insults at the girls near Q complex, please advise",Harassment/Assault,Medium,English,Q complex|LOCATION,template,Harassment/Assault-English-3
+g404,A group of boys keeps shouting insults at the girls near chemberi hall,Harassment/Assault,Medium,English,chemberi hall|LOCATION,template,Harassment/Assault-English-3
+g405,"A group of boys keeps shouting insults at the girls near B complex, please check",Harassment/Assault,Medium,English,B complex|LOCATION,template,Harassment/Assault-English-3
+g406,a group of boys keeps shouting insults at the girls near dh,Harassment/Assault,Medium,English,dh|LOCATION,template,Harassment/Assault-English-3
+g407,A group of boys keeps shouting insults at the girls near H11.1,Harassment/Assault,Medium,English,H11.1|LOCATION,template,Harassment/Assault-English-3
+g408,"a group of boys keeps shouting insults at the girls near D17, can someone look into it",Harassment/Assault,Medium,English,D17|LOCATION,template,Harassment/Assault-English-3
+g409,"A group of boys keeps shouting insults at the girls near C15.2, please check",Harassment/Assault,Medium,English,C15.2|LOCATION,template,Harassment/Assault-English-3
+g410,"good evening, a group of boys keeps shouting insults at the girls near mph, please come quickly",Harassment/Assault,Medium,English,mph|LOCATION,template,Harassment/Assault-English-3
+g411,"a group of boys keeps shouting insults at the girls near G24.1 an hour ago, please come quickly",Harassment/Assault,Medium,English,G24.1|LOCATION; an hour ago|DATE_TIME,template,Harassment/Assault-English-3
+g422,"two guys are pushing each other at hotspot, no one is hurt yet yesterday",Harassment/Assault,Medium,English,hotspot|LOCATION; yesterday|DATE_TIME,template,Harassment/Assault-English-5
+g423,"Two guys are pushing each other at N complex, no one is hurt yet",Harassment/Assault,Medium,English,N complex|LOCATION,template,Harassment/Assault-English-5
+g424,"Two guys are pushing each other at E complex, no one is hurt yet yesterday",Harassment/Assault,Medium,English,E complex|LOCATION; yesterday|DATE_TIME,template,Harassment/Assault-English-5
+g425,"Hey security, two guys are pushing each other at M22.1, no one is hurt yet, asap",Harassment/Assault,Medium,English,M22.1|LOCATION,template,Harassment/Assault-English-5
+g426,"two guys are pushing each other at E3.2, no one is hurt yet an hour ago, please come quickly",Harassment/Assault,Medium,English,E3.2|LOCATION; an hour ago|DATE_TIME,template,Harassment/Assault-English-5
+g427,"Two guys are pushing each other at A13.2, no one is hurt yet today",Harassment/Assault,Medium,English,A13.2|LOCATION; today|DATE_TIME,template,Harassment/Assault-English-5
+g428,"Two guys are pushing each other at tlc, no one is hurt yet",Harassment/Assault,Medium,English,tlc|LOCATION,template,Harassment/Assault-English-5
+g429,"two guys are pushing each other at B3.2, no one is hurt yet an hour ago, asap",Harassment/Assault,Medium,English,B3.2|LOCATION; an hour ago|DATE_TIME,template,Harassment/Assault-English-5
+g430,"Two guys are pushing each other at N complex, no one is hurt yet, please come quickly",Harassment/Assault,Medium,English,N complex|LOCATION,template,Harassment/Assault-English-5
+g431,"Good evening, two guys are pushing each other at N9, no one is hurt yet this morning",Harassment/Assault,Medium,English,N9|LOCATION; this morning|DATE_TIME,template,Harassment/Assault-English-5
+g432,"vakomana vari kurwa muR12.1, mumwe ari kuyerera ropa, huyai nekukurumidza",Harassment/Assault,High,Shona,R12.1|LOCATION,template,Harassment/Assault-Shona-0
+g433,"vakomana vari kurwa kuH complex, mumwe ari kuyerera ropa",Harassment/Assault,High,Shona,H complex|LOCATION,template,Harassment/Assault-Shona-0
+g434,"vakomana vari kurwa pa dh, mumwe ari kuyerera ropa, thanks",Harassment/Assault,High,Mixed,dh|LOCATION,template,Harassment/Assault-Shona-0
+g435,"Vakomana vari kurwa kuM complex, mumwe ari kuyerera ropa",Harassment/Assault,High,Shona,M complex|LOCATION,template,Harassment/Assault-Shona-0
+g436,"Vakomana vari kurwa muS10.1, mumwe ari kuyerera ropa, huyai nekukurumidza",Harassment/Assault,High,Shona,S10.1|LOCATION,template,Harassment/Assault-Shona-0
+g437,"vakomana vari kurwa muA11.1, mumwe ari kuyerera ropa, huyai nekukurumidza",Harassment/Assault,High,Shona,A11.1|LOCATION,template,Harassment/Assault-Shona-0
+g438,"vakomana vari kurwa kuB1, mumwe ari kuyerera ropa, please send help",Harassment/Assault,High,Mixed,B1|LOCATION,template,Harassment/Assault-Shona-0
+g439,"Vakomana vari kurwa kuC12, mumwe ari kuyerera ropa",Harassment/Assault,High,Shona,C12|LOCATION,template,Harassment/Assault-Shona-0
+g448,"mhoroi, vakomana vari kurova mumwe kuK complex, please advise",Harassment/Assault,High,Mixed,K complex|LOCATION,template,Harassment/Assault-Shona-2
+g449,Vakomana vari kurova mumwe kuK complex,Harassment/Assault,High,Shona,K complex|LOCATION,template,Harassment/Assault-Shona-2
+g450,"vakomana vari kurova mumwe pa main gate, please check",Harassment/Assault,High,Mixed,main gate|LOCATION,template,Harassment/Assault-Shona-2
+g451,"ndapota, vakomana vari kurova mumwe muS24.2, huyai nekukurumidza",Harassment/Assault,High,Shona,S24.2|LOCATION,template,Harassment/Assault-Shona-2
+g452,"vakomana vari kurova mumwe muE2.2, please check",Harassment/Assault,High,Mixed,E2.2|LOCATION,template,Harassment/Assault-Shona-2
+g453,"Vakomana vari kurova mumwe muG4.1, please send help",Harassment/Assault,High,Mixed,G4.1|LOCATION,template,Harassment/Assault-Shona-2
+g454,Vakomana vari kurova mumwe kuJ complex,Harassment/Assault,High,Shona,J complex|LOCATION,template,Harassment/Assault-Shona-2
+g455,Vakomana vari kurova mumwe muF12.2,Harassment/Assault,High,Shona,F12.2|LOCATION,template,Harassment/Assault-Shona-2
+g456,"mudzidzi ari kutukwa nevamwe pa chemberi multipurpose hall zuva rese, please send help",Harassment/Assault,Medium,Mixed,chemberi multipurpose hall|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g457,mudzidzi ari kutukwa nevamwe kuS14 zuva rese,Harassment/Assault,Medium,Shona,S14|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g458,"Ndapota, mudzidzi ari kutukwa nevamwe muS22.2 zuva rese, thanks",Harassment/Assault,Medium,Mixed,S22.2|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g459,"mhoroi, mudzidzi ari kutukwa nevamwe pa business center zuva rese",Harassment/Assault,Medium,Shona,business center|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g460,mudzidzi ari kutukwa nevamwe pa tlc zuva rese,Harassment/Assault,Medium,Shona,tlc|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g461,"mudzidzi ari kutukwa nevamwe kuK24 zuva rese, please advise",Harassment/Assault,Medium,Mixed,K24|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g462,"mudzidzi ari kutukwa nevamwe kuR15 zuva rese, please send help",Harassment/Assault,Medium,Mixed,R15|LOCATION; mudzidzi|PERSON_ROLE,template,Harassment/Assault-Shona-3
+g463,"makadii, mudzidzi ari kutukwa nevamwe muD14.1 zuva rese nezuro",Harassment/Assault,Medium,Shona,D14.1|LOCATION; mudzidzi|PERSON_ROLE; nezuro|DATE_TIME,template,Harassment/Assault-Shona-3
+g464,"Makadii, vasikana vaviri vakaita kunetsana kuO9 asi zvakadzikama mangwanani ano",Harassment/Assault,Low,Shona,O9|LOCATION; mangwanani ano|DATE_TIME,template,Harassment/Assault-Shona-4
+g465,"vasikana vaviri vakaita kunetsana muB13.2 asi zvakadzikama, please advise",Harassment/Assault,Low,Mixed,B13.2|LOCATION,template,Harassment/Assault-Shona-4
+g466,vasikana vaviri vakaita kunetsana kuK complex asi zvakadzikama,Harassment/Assault,Low,Shona,K complex|LOCATION,template,Harassment/Assault-Shona-4
+g467,vasikana vaviri vakaita kunetsana kuH complex asi zvakadzikama mangwanani ano,Harassment/Assault,Low,Shona,H complex|LOCATION; mangwanani ano|DATE_TIME,template,Harassment/Assault-Shona-4
+g468,vasikana vaviri vakaita kunetsana kuG complex asi zvakadzikama,Harassment/Assault,Low,Shona,G complex|LOCATION,template,Harassment/Assault-Shona-4
+g469,"ndapota, vasikana vaviri vakaita kunetsana kuB17 asi zvakadzikama, please advise",Harassment/Assault,Low,Mixed,B17|LOCATION,template,Harassment/Assault-Shona-4
+g470,vasikana vaviri vakaita kunetsana kuF complex asi zvakadzikama nhasi,Harassment/Assault,Low,Shona,F complex|LOCATION; nhasi|DATE_TIME,template,Harassment/Assault-Shona-4
+g471,"Mhoroi, vasikana vaviri vakaita kunetsana pa chemberi multipurpose hall asi zvakadzikama mangwanani ano",Harassment/Assault,Low,Shona,chemberi multipurpose hall|LOCATION; mangwanani ano|DATE_TIME,template,Harassment/Assault-Shona-4
+g472,"Pane murume ari kutyisidzira vasikana muP6.2, huyai nekukurumidza",Harassment/Assault,High,Shona,P6.2|LOCATION,template,Harassment/Assault-Shona-5
+g473,"ndapota, pane murume ari kutyisidzira vasikana kuJ complex, please check",Harassment/Assault,High,Mixed,J complex|LOCATION,template,Harassment/Assault-Shona-5
+g474,Pane murume ari kutyisidzira vasikana pa pah,Harassment/Assault,High,Shona,pah|LOCATION,template,Harassment/Assault-Shona-5
+g475,"Pane murume ari kutyisidzira vasikana kuA complex, huyai nekukurumidza",Harassment/Assault,High,Shona,A complex|LOCATION,template,Harassment/Assault-Shona-5
+g476,Pane murume ari kutyisidzira vasikana kuJ23,Harassment/Assault,High,Shona,J23|LOCATION,template,Harassment/Assault-Shona-5
+g477,"pane murume ari kutyisidzira vasikana kuP9, thanks",Harassment/Assault,High,Mixed,P9|LOCATION,template,Harassment/Assault-Shona-5
+g478,pane murume ari kutyisidzira vasikana muD1.2,Harassment/Assault,High,Shona,D1.2|LOCATION,template,Harassment/Assault-Shona-5
+g479,pane murume ari kutyisidzira vasikana muC11.2,Harassment/Assault,High,Shona,C11.2|LOCATION,template,Harassment/Assault-Shona-5
+g480,"hey security, vana vari kurwa kuG5, security please come",Harassment/Assault,High,Mixed,G5|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g481,"vana vari kurwa muK22.1, security please come",Harassment/Assault,High,Mixed,K22.1|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g482,"vana vari kurwa kuO13, security please come, please check",Harassment/Assault,High,Mixed,O13|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g483,"ndapota, vana vari kurwa pa wi-fi hotspot, security please come",Harassment/Assault,High,Mixed,wi-fi hotspot|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g484,"vana vari kurwa muM17.2, security please come",Harassment/Assault,High,Mixed,M17.2|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g485,"vana vari kurwa pa mph, security please come, can someone look into it",Harassment/Assault,High,Mixed,mph|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g486,"hello guys, vana vari kurwa pa wi-fi hotspot, security please come",Harassment/Assault,High,Mixed,wi-fi hotspot|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g487,"vana vari kurwa kuO11, security please come, please come quickly",Harassment/Assault,High,Mixed,O11|LOCATION; security|PERSON_ROLE,template,Harassment/Assault-Mixed-0
+g488,"hi, vakomana vari kurwa muB21.1, one of them is bleeding",Harassment/Assault,High,Mixed,B21.1|LOCATION,template,Harassment/Assault-Mixed-1
+g489,"Hello guys, vakomana vari kurwa muR10.2, one of them is bleeding, asap",Harassment/Assault,High,Mixed,R10.2|LOCATION,template,Harassment/Assault-Mixed-1
+g490,"vakomana vari kurwa muE11.1, one of them is bleeding",Harassment/Assault,High,Mixed,E11.1|LOCATION,template,Harassment/Assault-Mixed-1
+g491,"Pls help, vakomana vari kurwa pa wifi hotspot, one of them is bleeding",Harassment/Assault,High,Mixed,wifi hotspot|LOCATION,template,Harassment/Assault-Mixed-1
+g492,"Vakomana vari kurwa pa dining, one of them is bleeding",Harassment/Assault,High,Mixed,dining|LOCATION,template,Harassment/Assault-Mixed-1
+g493,"Vakomana vari kurwa muO13.2, one of them is bleeding",Harassment/Assault,High,Mixed,O13.2|LOCATION,template,Harassment/Assault-Mixed-1
+g494,"vakomana vari kurwa pa stadium, one of them is bleeding",Harassment/Assault,High,Mixed,stadium|LOCATION,template,Harassment/Assault-Mixed-1
+g495,"Vakomana vari kurwa pa lib, one of them is bleeding",Harassment/Assault,High,Mixed,lib|LOCATION,template,Harassment/Assault-Mixed-1
+g496,"Hey security, a pipe has burst at J5 and water is flooding the floor last night",Infrastructure Fault,Medium,English,J5|LOCATION; pipe|ASSET; water|ASSET; last night|DATE_TIME,template,Infrastructure Fault-English-0
+g497,a pipe has burst at P24 and water is flooding the floor,Infrastructure Fault,Medium,English,P24|LOCATION; pipe|ASSET; water|ASSET,template,Infrastructure Fault-English-0
+g498,A pipe has burst at wi-fi hotspot and water is flooding the floor,Infrastructure Fault,Medium,English,wi-fi hotspot|LOCATION; pipe|ASSET; water|ASSET,template,Infrastructure Fault-English-0
+g499,"Pls help, a pipe has burst at A8.1 and water is flooding the floor, please send help",Infrastructure Fault,Medium,English,A8.1|LOCATION; pipe|ASSET; water|ASSET,template,Infrastructure Fault-English-0
+g500,"a pipe has burst at B13 and water is flooding the floor, please come quickly",Infrastructure Fault,Medium,English,B13|LOCATION; pipe|ASSET; water|ASSET,template,Infrastructure Fault-English-0
+g501,"Hello guys, a pipe has burst at D complex and water is flooding the floor, please send help",Infrastructure Fault,Medium,English,D complex|LOCATION; pipe|ASSET; water|ASSET,template,Infrastructure Fault-English-0
+g502,"Pls help, a pipe has burst at Q23 and water is flooding the floor yesterday, please send help",Infrastructure Fault,Medium,English,Q23|LOCATION; pipe|ASSET; water|ASSET; yesterday|DATE_TIME,template,Infrastructure Fault-English-0
+g503,"A pipe has burst at boom gate and water is flooding the floor, please send help",Infrastructure Fault,Medium,English,boom gate|LOCATION; pipe|ASSET; water|ASSET,template,Infrastructure Fault-English-0
+g504,a pipe has burst at Q complex and water is flooding the floor today,Infrastructure Fault,Medium,English,Q complex|LOCATION; pipe|ASSET; water|ASSET; today|DATE_TIME,template,Infrastructure Fault-English-0
+g505,"Hello guys, a pipe has burst at O10 and water is flooding the floor last night",Infrastructure Fault,Medium,English,O10|LOCATION; pipe|ASSET; water|ASSET; last night|DATE_TIME,template,Infrastructure Fault-English-0
+g506,the door at A complex is broken and will not lock,Infrastructure Fault,Medium,English,A complex|LOCATION; door|ASSET,template,Infrastructure Fault-English-1
+g507,"good evening, the door at gbs is broken and will not lock, please send help",Infrastructure Fault,Medium,English,gbs|LOCATION; door|ASSET,template,Infrastructure Fault-English-1
+g508,The door at J9.2 is broken and will not lock today,Infrastructure Fault,Medium,English,J9.2|LOCATION; door|ASSET; today|DATE_TIME,template,Infrastructure Fault-English-1
+g509,"The door at O24 is broken and will not lock yesterday, can someone look into it",Infrastructure Fault,Medium,English,O24|LOCATION; door|ASSET; yesterday|DATE_TIME,template,Infrastructure Fault-English-1
+g510,"Hello guys, the door at P20 is broken and will not lock yesterday, thanks",Infrastructure Fault,Medium,English,P20|LOCATION; door|ASSET; yesterday|DATE_TIME,template,Infrastructure Fault-English-1
+g511,The door at I13.2 is broken and will not lock,Infrastructure Fault,Medium,English,I13.2|LOCATION; door|ASSET,template,Infrastructure Fault-English-1
+g512,The door at F complex is broken and will not lock last night,Infrastructure Fault,Medium,English,F complex|LOCATION; door|ASSET; last night|DATE_TIME,template,Infrastructure Fault-English-1
+g513,the door at M20.1 is broken and will not lock,Infrastructure Fault,Medium,English,M20.1|LOCATION; door|ASSET,template,Infrastructure Fault-English-1
+g514,"the door at Q4.2 is broken and will not lock, please send help",Infrastructure Fault,Medium,English,Q4.2|LOCATION; door|ASSET,template,Infrastructure Fault-English-1
+g515,The door at wi-fi hotspot is broken and will not lock,Infrastructure Fault,Medium,English,wi-fi hotspot|LOCATION; door|ASSET,template,Infrastructure Fault-English-1
+g516,"Exposed wires are hanging at accommodation office and sparking, please send help",Infrastructure Fault,High,English,accommodation office|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g517,"hello guys, exposed wires are hanging at A complex and sparking",Infrastructure Fault,High,English,A complex|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g518,Exposed wires are hanging at teaching and learning centre and sparking,Infrastructure Fault,High,English,teaching and learning centre|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g519,"exposed wires are hanging at B17 and sparking, please send help",Infrastructure Fault,High,English,B17|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g520,Exposed wires are hanging at P complex and sparking,Infrastructure Fault,High,English,P complex|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g521,Exposed wires are hanging at P11.1 and sparking,Infrastructure Fault,High,English,P11.1|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g522,exposed wires are hanging at O2.1 and sparking,Infrastructure Fault,High,English,O2.1|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g523,"Exposed wires are hanging at R18 and sparking, please send help",Infrastructure Fault,High,English,R18|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g524,exposed wires are hanging at H complex and sparking,Infrastructure Fault,High,English,H complex|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g525,"Exposed wires are hanging at M23.2 and sparking, asap",Infrastructure Fault,High,English,M23.2|LOCATION; wires|ASSET,template,Infrastructure Fault-English-2
+g526,"Hi, a toilet is blocked and overflowing at J18",Infrastructure Fault,Medium,English,J18|LOCATION; toilet|ASSET,template,Infrastructure Fault-English-3
+g527,"a toilet is blocked and overflowing at D9.1 an hour ago, asap",Infrastructure Fault,Medium,English,D9.1|LOCATION; toilet|ASSET; an hour ago|DATE_TIME,template,Infrastructure Fault-English-3
+g528,"a toilet is blocked and overflowing at O complex last night, please advise",Infrastructure Fault,Medium,English,O complex|LOCATION; toilet|ASSET; last night|DATE_TIME,template,Infrastructure Fault-English-3
+g529,a toilet is blocked and overflowing at accommodation yesterday,Infrastructure Fault,Medium,English,accommodation|LOCATION; toilet|ASSET; yesterday|DATE_TIME,template,Infrastructure Fault-English-3
+g530,"a toilet is blocked and overflowing at dh, please advise",Infrastructure Fault,Medium,English,dh|LOCATION; toilet|ASSET,template,Infrastructure Fault-English-3
+g531,A toilet is blocked and overflowing at R13,Infrastructure Fault,Medium,English,R13|LOCATION; toilet|ASSET,template,Infrastructure Fault-English-3
+g532,"a toilet is blocked and overflowing at K10.2, please come quickly",Infrastructure Fault,Medium,English,K10.2|LOCATION; toilet|ASSET,template,Infrastructure Fault-English-3
+g533,A toilet is blocked and overflowing at S11,Infrastructure Fault,Medium,English,S11|LOCATION; toilet|ASSET,template,Infrastructure Fault-English-3
+g534,A toilet is blocked and overflowing at M22 today,Infrastructure Fault,Medium,English,M22|LOCATION; toilet|ASSET; today|DATE_TIME,template,Infrastructure Fault-English-3
+g535,a toilet is blocked and overflowing at M complex,Infrastructure Fault,Medium,English,M complex|LOCATION; toilet|ASSET,template,Infrastructure Fault-English-3
+g536,"Hi, the ceiling in O1 is cracking and pieces are falling",Infrastructure Fault,High,English,O1|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g537,"good evening, the ceiling in G complex is cracking and pieces are falling, asap",Infrastructure Fault,High,English,G complex|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g538,the ceiling in teaching and learning center is cracking and pieces are falling,Infrastructure Fault,High,English,teaching and learning center|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g539,"attention, the ceiling in M complex is cracking and pieces are falling",Infrastructure Fault,High,English,M complex|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g540,"the ceiling in university stadium is cracking and pieces are falling, asap",Infrastructure Fault,High,English,university stadium|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g541,"The ceiling in N complex is cracking and pieces are falling, asap",Infrastructure Fault,High,English,N complex|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g542,"hello guys, the ceiling in A complex is cracking and pieces are falling",Infrastructure Fault,High,English,A complex|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g543,the ceiling in S24 is cracking and pieces are falling,Infrastructure Fault,High,English,S24|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g544,"hi, the ceiling in P6 is cracking and pieces are falling",Infrastructure Fault,High,English,P6|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g545,"The ceiling in N complex is cracking and pieces are falling, thanks",Infrastructure Fault,High,English,N complex|LOCATION; ceiling|ASSET,template,Infrastructure Fault-English-4
+g565,"pombi yaputika kuM5, mvura iri kuyerera, thanks",Infrastructure Fault,Medium,Mixed,M5|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-0
+g566,"pombi yaputika kuQ15, mvura iri kuyerera husiku hwapfuura, tibatsireiwo",Infrastructure Fault,Medium,Shona,Q15|LOCATION; pombi|ASSET; mvura|ASSET; husiku hwapfuura|DATE_TIME,template,Infrastructure Fault-Shona-0
+g567,"pombi yaputika pa library, mvura iri kuyerera nhasi",Infrastructure Fault,Medium,Shona,library|LOCATION; pombi|ASSET; mvura|ASSET; nhasi|DATE_TIME,template,Infrastructure Fault-Shona-0
+g568,"ndapota, pombi yaputika kuQ15, mvura iri kuyerera",Infrastructure Fault,Medium,Shona,Q15|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-0
+g569,"pombi yaputika kuE18, mvura iri kuyerera nezuro",Infrastructure Fault,Medium,Shona,E18|LOCATION; pombi|ASSET; mvura|ASSET; nezuro|DATE_TIME,template,Infrastructure Fault-Shona-0
+g570,"pombi yaputika muG2.2, mvura iri kuyerera",Infrastructure Fault,Medium,Shona,G2.2|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-0
+g571,"pombi yaputika pa mph, mvura iri kuyerera nezuro",Infrastructure Fault,Medium,Shona,mph|LOCATION; pombi|ASSET; mvura|ASSET; nezuro|DATE_TIME,template,Infrastructure Fault-Shona-0
+g572,"pombi yaputika pa business centre, mvura iri kuyerera, please come quickly",Infrastructure Fault,Medium,Mixed,business centre|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-0
+g573,"musuo wakatyoka muM2.1, hauvharike, thanks",Infrastructure Fault,Medium,Mixed,M2.1|LOCATION; musuo|ASSET,template,Infrastructure Fault-Shona-1
+g574,"ndapota, musuo wakatyoka pa stadium, hauvharike mangwanani ano, tibatsireiwo",Infrastructure Fault,Medium,Shona,stadium|LOCATION; musuo|ASSET; mangwanani ano|DATE_TIME,template,Infrastructure Fault-Shona-1
+g575,"musuo wakatyoka kuI19, hauvharike, please send help",Infrastructure Fault,Medium,Mixed,I19|LOCATION; musuo|ASSET,template,Infrastructure Fault-Shona-1
+g576,"musuo wakatyoka kuR complex, hauvharike nhasi, tibatsireiwo",Infrastructure Fault,Medium,Shona,R complex|LOCATION; musuo|ASSET; nhasi|DATE_TIME,template,Infrastructure Fault-Shona-1
+g577,"Mhoroi, musuo wakatyoka kuR complex, hauvharike, tibatsireiwo",Infrastructure Fault,Medium,Shona,R complex|LOCATION; musuo|ASSET,template,Infrastructure Fault-Shona-1
+g578,"musuo wakatyoka kuH complex, hauvharike, tibatsireiwo",Infrastructure Fault,Medium,Shona,H complex|LOCATION; musuo|ASSET,template,Infrastructure Fault-Shona-1
+g579,"Ndapota, musuo wakatyoka muA8.1, hauvharike nhasi, please come quickly",Infrastructure Fault,Medium,Mixed,A8.1|LOCATION; musuo|ASSET; nhasi|DATE_TIME,template,Infrastructure Fault-Shona-1
+g580,"musuo wakatyoka pa chemberi hall, hauvharike",Infrastructure Fault,Medium,Shona,chemberi hall|LOCATION; musuo|ASSET,template,Infrastructure Fault-Shona-1
+g581,"makadii, musuwo hausi kuvhara zvakanaka kuC7",Infrastructure Fault,Low,Shona,C7|LOCATION; musuwo|ASSET,template,Infrastructure Fault-Shona-2
+g582,"Makadii, musuwo hausi kuvhara zvakanaka pa chemberi hall husiku hwapfuura",Infrastructure Fault,Low,Shona,chemberi hall|LOCATION; musuwo|ASSET; husiku hwapfuura|DATE_TIME,template,Infrastructure Fault-Shona-2
+g583,"ndapota, musuwo hausi kuvhara zvakanaka kuA complex mangwanani ano",Infrastructure Fault,Low,Shona,A complex|LOCATION; musuwo|ASSET; mangwanani ano|DATE_TIME,template,Infrastructure Fault-Shona-2
+g584,"musuwo hausi kuvhara zvakanaka kuC complex, please check",Infrastructure Fault,Low,Mixed,C complex|LOCATION; musuwo|ASSET,template,Infrastructure Fault-Shona-2
+g585,musuwo hausi kuvhara zvakanaka muR14.2,Infrastructure Fault,Low,Shona,R14.2|LOCATION; musuwo|ASSET,template,Infrastructure Fault-Shona-2
+g586,"musuwo hausi kuvhara zvakanaka muM19.1, can someone look into it",Infrastructure Fault,Low,Mixed,M19.1|LOCATION; musuwo|ASSET,template,Infrastructure Fault-Shona-2
+g587,"Mhoroi, musuwo hausi kuvhara zvakanaka muI7.1",Infrastructure Fault,Low,Shona,I7.1|LOCATION; musuwo|ASSET,template,Infrastructure Fault-Shona-2
+g588,"musuwo hausi kuvhara zvakanaka pa wifi hotspot, please advise",Infrastructure Fault,Low,Mixed,wifi hotspot|LOCATION; musuwo|ASSET,template,Infrastructure Fault-Shona-2
+g589,"ndapota, pombi yakatyoka muM20.2, mvura iri kuyerera pasi, tibatsireiwo",Infrastructure Fault,Medium,Shona,M20.2|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-3
+g590,"pombi yakatyoka kuJ19, mvura iri kuyerera pasi mangwanani ano",Infrastructure Fault,Medium,Shona,J19|LOCATION; pombi|ASSET; mvura|ASSET; mangwanani ano|DATE_TIME,template,Infrastructure Fault-Shona-3
+g591,"pombi yakatyoka muF4.1, mvura iri kuyerera pasi",Infrastructure Fault,Medium,Shona,F4.1|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-3
+g592,"pombi yakatyoka kuF complex, mvura iri kuyerera pasi nezuro",Infrastructure Fault,Medium,Shona,F complex|LOCATION; pombi|ASSET; mvura|ASSET; nezuro|DATE_TIME,template,Infrastructure Fault-Shona-3
+g593,"pombi yakatyoka kuC complex, mvura iri kuyerera pasi husiku hwapfuura, please check",Infrastructure Fault,Medium,Mixed,C complex|LOCATION; pombi|ASSET; mvura|ASSET; husiku hwapfuura|DATE_TIME,template,Infrastructure Fault-Shona-3
+g594,"pombi yakatyoka muR10.1, mvura iri kuyerera pasi",Infrastructure Fault,Medium,Shona,R10.1|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-3
+g595,"pombi yakatyoka kuG2, mvura iri kuyerera pasi",Infrastructure Fault,Medium,Shona,G2|LOCATION; pombi|ASSET; mvura|ASSET,template,Infrastructure Fault-Shona-3
+g596,"pombi yakatyoka kuH21, mvura iri kuyerera pasi nhasi, thanks",Infrastructure Fault,Medium,Mixed,H21|LOCATION; pombi|ASSET; mvura|ASSET; nhasi|DATE_TIME,template,Infrastructure Fault-Shona-3
+g597,"mapaipi emvura akatsemuka muN19.1, huyai nekukurumidza",Infrastructure Fault,Medium,Shona,N19.1|LOCATION; mapaipi emvura|ASSET,template,Infrastructure Fault-Shona-4
+g598,"Mhoroi, mapaipi emvura akatsemuka kuM9 nhasi",Infrastructure Fault,Medium,Shona,M9|LOCATION; mapaipi emvura|ASSET; nhasi|DATE_TIME,template,Infrastructure Fault-Shona-4
+g599,"mapaipi emvura akatsemuka kuS complex husiku hwapfuura, tibatsireiwo",Infrastructure Fault,Medium,Shona,S complex|LOCATION; mapaipi emvura|ASSET; husiku hwapfuura|DATE_TIME,template,Infrastructure Fault-Shona-4
+g600,mapaipi emvura akatsemuka kuP13,Infrastructure Fault,Medium,Shona,P13|LOCATION; mapaipi emvura|ASSET,template,Infrastructure Fault-Shona-4
+g601,mapaipi emvura akatsemuka muA16.1 mangwanani ano,Infrastructure Fault,Medium,Shona,A16.1|LOCATION; mapaipi emvura|ASSET; mangwanani ano|DATE_TIME,template,Infrastructure Fault-Shona-4
+g602,"mapaipi emvura akatsemuka kuO12, asap",Infrastructure Fault,Medium,Mixed,O12|LOCATION; mapaipi emvura|ASSET,template,Infrastructure Fault-Shona-4
+g603,mapaipi emvura akatsemuka muK3.1,Infrastructure Fault,Medium,Shona,K3.1|LOCATION; mapaipi emvura|ASSET,template,Infrastructure Fault-Shona-4
+g604,"mapaipi emvura akatsemuka pa accommodation, can someone look into it",Infrastructure Fault,Medium,Mixed,accommodation|LOCATION; mapaipi emvura|ASSET,template,Infrastructure Fault-Shona-4
+g605,"mhoroi, waya dziri kubuda moto pa chemberi, tinotya, huyai nekukurumidza",Infrastructure Fault,High,Shona,chemberi|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g606,"waya dziri kubuda moto muA25.1, tinotya, tibatsireiwo",Infrastructure Fault,High,Shona,A25.1|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g607,"waya dziri kubuda moto kuQ6, tinotya",Infrastructure Fault,High,Shona,Q6|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g608,"waya dziri kubuda moto pa teaching and learning center, tinotya",Infrastructure Fault,High,Shona,teaching and learning center|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g609,"Ndapota, waya dziri kubuda moto kuN22, tinotya",Infrastructure Fault,High,Shona,N22|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g610,"waya dziri kubuda moto kuA complex, tinotya, huyai nekukurumidza",Infrastructure Fault,High,Shona,A complex|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g611,"waya dziri kubuda moto kuF18, tinotya, thanks",Infrastructure Fault,High,Mixed,F18|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g612,"waya dziri kubuda moto kuF16, tinotya",Infrastructure Fault,High,Shona,F16|LOCATION; waya|ASSET,template,Infrastructure Fault-Shona-5
+g613,"waya yemagetsi yakawira muI15.1, it is still live, please hurry",Infrastructure Fault,High,Mixed,I15.1|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g614,"waya yemagetsi yakawira kuI complex, it is still live, please hurry",Infrastructure Fault,High,Mixed,I complex|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g615,"waya yemagetsi yakawira pa dining hall, it is still live, please hurry",Infrastructure Fault,High,Mixed,dining hall|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g616,"ndapota, waya yemagetsi yakawira kuF complex, it is still live, please hurry",Infrastructure Fault,High,Mixed,F complex|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g617,"waya yemagetsi yakawira kuQ10, it is still live, please hurry, asap",Infrastructure Fault,High,Mixed,Q10|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g618,"waya yemagetsi yakawira pa teaching and learning center, it is still live, please hurry, thanks",Infrastructure Fault,High,Mixed,teaching and learning center|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g619,"waya yemagetsi yakawira muK9.2, it is still live, please hurry, please come quickly",Infrastructure Fault,High,Mixed,K9.2|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g620,"waya yemagetsi yakawira kuO complex, it is still live, please hurry, asap",Infrastructure Fault,High,Mixed,O complex|LOCATION; waya yemagetsi|ASSET,template,Infrastructure Fault-Mixed-0
+g621,"pombi yaputika pa mph, the whole floor is wet mangwanani ano",Infrastructure Fault,Medium,Mixed,mph|LOCATION; pombi|ASSET; mangwanani ano|DATE_TIME,template,Infrastructure Fault-Mixed-1
+g622,"pombi yaputika muJ15.1, the whole floor is wet",Infrastructure Fault,Medium,Mixed,J15.1|LOCATION; pombi|ASSET,template,Infrastructure Fault-Mixed-1
+g623,"pombi yaputika muC3.1, the whole floor is wet nezuro, thanks",Infrastructure Fault,Medium,Mixed,C3.1|LOCATION; pombi|ASSET; nezuro|DATE_TIME,template,Infrastructure Fault-Mixed-1
+g624,"pombi yaputika muI15.2, the whole floor is wet",Infrastructure Fault,Medium,Mixed,I15.2|LOCATION; pombi|ASSET,template,Infrastructure Fault-Mixed-1
+g625,"pombi yaputika kuE complex, the whole floor is wet",Infrastructure Fault,Medium,Mixed,E complex|LOCATION; pombi|ASSET,template,Infrastructure Fault-Mixed-1
+g626,"pombi yaputika kuG complex, the whole floor is wet today, please advise",Infrastructure Fault,Medium,Mixed,G complex|LOCATION; pombi|ASSET; today|DATE_TIME,template,Infrastructure Fault-Mixed-1
+g627,"pombi yaputika muR25.1, the whole floor is wet this morning, please advise",Infrastructure Fault,Medium,Mixed,R25.1|LOCATION; pombi|ASSET; this morning|DATE_TIME,template,Infrastructure Fault-Mixed-1
+g628,"attention, pombi yaputika kuP21, the whole floor is wet mangwanani ano",Infrastructure Fault,Medium,Mixed,P21|LOCATION; pombi|ASSET; mangwanani ano|DATE_TIME,template,Infrastructure Fault-Mixed-1
+g629,A car hit a student near Q15 and he cannot move,Road Accident,High,English,Q15|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g630,a car hit a student near E23.1 and he cannot move,Road Accident,High,English,E23.1|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g631,A car hit a student near R21.2 and he cannot move,Road Accident,High,English,R21.2|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g632,"A car hit a student near P complex and he cannot move, please advise",Road Accident,High,English,P complex|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g633,A car hit a student near R complex and he cannot move,Road Accident,High,English,R complex|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g634,A car hit a student near S1.2 and he cannot move,Road Accident,High,English,S1.2|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g635,A car hit a student near J20.1 and he cannot move,Road Accident,High,English,J20.1|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g636,a car hit a student near N8.1 and he cannot move,Road Accident,High,English,N8.1|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g637,"pls help, a car hit a student near chemberi hall and he cannot move, please send help",Road Accident,High,English,chemberi hall|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g638,A car hit a student near J21 and he cannot move,Road Accident,High,English,J21|LOCATION; car|ASSET; student|PERSON_ROLE,template,Road Accident-English-0
+g639,"Two vehicles collided at F complex, nobody is hurt but the road is blocked yesterday",Road Accident,Medium,English,F complex|LOCATION; vehicles|ASSET; yesterday|DATE_TIME,template,Road Accident-English-1
+g640,"Two vehicles collided at G11.1, nobody is hurt but the road is blocked last night, please check",Road Accident,Medium,English,G11.1|LOCATION; vehicles|ASSET; last night|DATE_TIME,template,Road Accident-English-1
+g641,"two vehicles collided at A8.1, nobody is hurt but the road is blocked an hour ago, please advise",Road Accident,Medium,English,A8.1|LOCATION; vehicles|ASSET; an hour ago|DATE_TIME,template,Road Accident-English-1
+g642,"Two vehicles collided at P23, nobody is hurt but the road is blocked, asap",Road Accident,Medium,English,P23|LOCATION; vehicles|ASSET,template,Road Accident-English-1
+g643,"Two vehicles collided at N3, nobody is hurt but the road is blocked, asap",Road Accident,Medium,English,N3|LOCATION; vehicles|ASSET,template,Road Accident-English-1
+g644,"two vehicles collided at D complex, nobody is hurt but the road is blocked",Road Accident,Medium,English,D complex|LOCATION; vehicles|ASSET,template,Road Accident-English-1
+g645,"Two vehicles collided at tlc, nobody is hurt but the road is blocked yesterday",Road Accident,Medium,English,tlc|LOCATION; vehicles|ASSET; yesterday|DATE_TIME,template,Road Accident-English-1
+g646,"Two vehicles collided at K6, nobody is hurt but the road is blocked, please come quickly",Road Accident,Medium,English,K6|LOCATION; vehicles|ASSET,template,Road Accident-English-1
+g647,"Hey security, two vehicles collided at G12, nobody is hurt but the road is blocked",Road Accident,Medium,English,G12|LOCATION; vehicles|ASSET,template,Road Accident-English-1
+g648,"Two vehicles collided at K1.1, nobody is hurt but the road is blocked",Road Accident,Medium,English,K1.1|LOCATION; vehicles|ASSET,template,Road Accident-English-1
+g649,a motorbike knocked down a student at PQ complex,Road Accident,High,English,PQ complex|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g650,"A motorbike knocked down a student at C8, please check",Road Accident,High,English,C8|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g651,"a motorbike knocked down a student at B complex, can someone look into it",Road Accident,High,English,B complex|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g652,"a motorbike knocked down a student at accommodation, please come quickly",Road Accident,High,English,accommodation|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g653,"A motorbike knocked down a student at G1.2, can someone look into it",Road Accident,High,English,G1.2|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g654,"A motorbike knocked down a student at S10.2, can someone look into it",Road Accident,High,English,S10.2|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g655,"a motorbike knocked down a student at I20.1, can someone look into it",Road Accident,High,English,I20.1|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g656,a motorbike knocked down a student at P1,Road Accident,High,English,P1|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g657,A motorbike knocked down a student at RS complex,Road Accident,High,English,RS complex|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g658,"Attention, a motorbike knocked down a student at S complex",Road Accident,High,English,S complex|LOCATION; motorbike|ASSET; student|PERSON_ROLE,template,Road Accident-English-2
+g659,"Hi, a bus scratched a parked car at mph, nobody injured this morning, please check",Road Accident,Low,English,mph|LOCATION; bus|ASSET; car|ASSET; this morning|DATE_TIME,template,Road Accident-English-3
+g660,"a bus scratched a parked car at G complex, nobody injured today, please advise",Road Accident,Low,English,G complex|LOCATION; bus|ASSET; car|ASSET; today|DATE_TIME,template,Road Accident-English-3
+g661,"a bus scratched a parked car at B12, nobody injured yesterday, can someone look into it",Road Accident,Low,English,B12|LOCATION; bus|ASSET; car|ASSET; yesterday|DATE_TIME,template,Road Accident-English-3
+g662,"a bus scratched a parked car at P complex, nobody injured, please advise",Road Accident,Low,English,P complex|LOCATION; bus|ASSET; car|ASSET,template,Road Accident-English-3
+g663,"A bus scratched a parked car at RS complex, nobody injured yesterday",Road Accident,Low,English,RS complex|LOCATION; bus|ASSET; car|ASSET; yesterday|DATE_TIME,template,Road Accident-English-3
+g664,"pls help, a bus scratched a parked car at gbs learning place, nobody injured today",Road Accident,Low,English,gbs learning place|LOCATION; bus|ASSET; car|ASSET; today|DATE_TIME,template,Road Accident-English-3
+g665,"a bus scratched a parked car at boom gate, nobody injured",Road Accident,Low,English,boom gate|LOCATION; bus|ASSET; car|ASSET,template,Road Accident-English-3
+g666,"a bus scratched a parked car at D6.1, nobody injured",Road Accident,Low,English,D6.1|LOCATION; bus|ASSET; car|ASSET,template,Road Accident-English-3
+g667,"a bus scratched a parked car at M11.2, nobody injured",Road Accident,Low,English,M11.2|LOCATION; bus|ASSET; car|ASSET,template,Road Accident-English-3
+g668,"A bus scratched a parked car at H19, nobody injured, thanks",Road Accident,Low,English,H19|LOCATION; bus|ASSET; car|ASSET,template,Road Accident-English-3
+g669,the driver lost control and the car went off the road at A24.1,Road Accident,High,English,A24.1|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g670,"Good evening, the driver lost control and the car went off the road at A10",Road Accident,High,English,A10|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g671,The driver lost control and the car went off the road at S17,Road Accident,High,English,S17|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g672,"the driver lost control and the car went off the road at P complex, can someone look into it",Road Accident,High,English,P complex|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g673,"hello guys, the driver lost control and the car went off the road at pah, thanks",Road Accident,High,English,pah|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g674,The driver lost control and the car went off the road at teaching and learning centre,Road Accident,High,English,teaching and learning centre|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g675,"Pls help, the driver lost control and the car went off the road at RS complex",Road Accident,High,English,RS complex|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g676,"the driver lost control and the car went off the road at K complex, asap",Road Accident,High,English,K complex|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g677,the driver lost control and the car went off the road at H complex,Road Accident,High,English,H complex|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g678,"pls help, the driver lost control and the car went off the road at B10.1, please come quickly",Road Accident,High,English,B10.1|LOCATION; driver|PERSON_ROLE; car|ASSET,template,Road Accident-English-4
+g679,motokari yakarova mudzidzi pa teaching and learning center,Road Accident,High,Shona,teaching and learning center|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g680,"Makadii, motokari yakarova mudzidzi kuH complex",Road Accident,High,Shona,H complex|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g681,"motokari yakarova mudzidzi kuS complex, tibatsireiwo",Road Accident,High,Shona,S complex|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g682,motokari yakarova mudzidzi pa accommodation office,Road Accident,High,Shona,accommodation office|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g683,"motokari yakarova mudzidzi pa chemberi, asap",Road Accident,High,Mixed,chemberi|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g684,motokari yakarova mudzidzi kuD complex,Road Accident,High,Shona,D complex|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g685,"motokari yakarova mudzidzi kuJ complex, thanks",Road Accident,High,Mixed,J complex|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g686,"ndapota, motokari yakarova mudzidzi muE15.1, tibatsireiwo",Road Accident,High,Shona,E15.1|LOCATION; motokari|ASSET; mudzidzi|PERSON_ROLE,template,Road Accident-Shona-0
+g687,"ndapota, motokari mbiri dzakarovana kuB complex, hapana akakuvara nhasi",Road Accident,Medium,Shona,B complex|LOCATION; motokari|ASSET; nhasi|DATE_TIME,template,Road Accident-Shona-1
+g688,"motokari mbiri dzakarovana kuP16, hapana akakuvara nhasi, tibatsireiwo",Road Accident,Medium,Shona,P16|LOCATION; motokari|ASSET; nhasi|DATE_TIME,template,Road Accident-Shona-1
+g689,"motokari mbiri dzakarovana pa lib, hapana akakuvara nezuro, please check",Road Accident,Medium,Mixed,lib|LOCATION; motokari|ASSET; nezuro|DATE_TIME,template,Road Accident-Shona-1
+g690,"motokari mbiri dzakarovana kuB15, hapana akakuvara, please advise",Road Accident,Medium,Mixed,B15|LOCATION; motokari|ASSET,template,Road Accident-Shona-1
+g691,"motokari mbiri dzakarovana kuD1, hapana akakuvara mangwanani ano, please advise",Road Accident,Medium,Mixed,D1|LOCATION; motokari|ASSET; mangwanani ano|DATE_TIME,template,Road Accident-Shona-1
+g692,"motokari mbiri dzakarovana kuQ20, hapana akakuvara, please come quickly",Road Accident,Medium,Mixed,Q20|LOCATION; motokari|ASSET,template,Road Accident-Shona-1
+g693,"Ndapota, motokari mbiri dzakarovana kuB complex, hapana akakuvara husiku hwapfuura, huyai nekukurumidza",Road Accident,Medium,Shona,B complex|LOCATION; motokari|ASSET; husiku hwapfuura|DATE_TIME,template,Road Accident-Shona-1
+g694,"motokari mbiri dzakarovana kuH17, hapana akakuvara nezuro",Road Accident,Medium,Shona,H17|LOCATION; motokari|ASSET; nezuro|DATE_TIME,template,Road Accident-Shona-1
+g703,"mota mbiri dzakarovana muE17.2, hapana akakuvara zvakanyanya",Road Accident,Medium,Shona,E17.2|LOCATION; mota|ASSET,template,Road Accident-Shona-3
+g704,"ndapota, mota mbiri dzakarovana pa pah, hapana akakuvara zvakanyanya nezuro",Road Accident,Medium,Shona,pah|LOCATION; mota|ASSET; nezuro|DATE_TIME,template,Road Accident-Shona-3
+g705,"mota mbiri dzakarovana pa teaching and learning centre, hapana akakuvara zvakanyanya mangwanani ano",Road Accident,Medium,Shona,teaching and learning centre|LOCATION; mota|ASSET; mangwanani ano|DATE_TIME,template,Road Accident-Shona-3
+g706,"mota mbiri dzakarovana pa main gate, hapana akakuvara zvakanyanya, please send help",Road Accident,Medium,Mixed,main gate|LOCATION; mota|ASSET,template,Road Accident-Shona-3
+g707,"mhoroi, mota mbiri dzakarovana muS17.1, hapana akakuvara zvakanyanya",Road Accident,Medium,Shona,S17.1|LOCATION; mota|ASSET,template,Road Accident-Shona-3
+g708,"mota mbiri dzakarovana muB18.2, hapana akakuvara zvakanyanya, tibatsireiwo",Road Accident,Medium,Shona,B18.2|LOCATION; mota|ASSET,template,Road Accident-Shona-3
+g709,"mota mbiri dzakarovana kuP6, hapana akakuvara zvakanyanya, huyai nekukurumidza",Road Accident,Medium,Shona,P6|LOCATION; mota|ASSET,template,Road Accident-Shona-3
+g710,"ndapota, mota mbiri dzakarovana kuR complex, hapana akakuvara zvakanyanya nhasi, huyai nekukurumidza",Road Accident,Medium,Shona,R complex|LOCATION; mota|ASSET; nhasi|DATE_TIME,template,Road Accident-Shona-3
+g719,"makadii, mudzidzi akarohwa nemotokari kuPQ complex, huyai nekukurumidza",Road Accident,High,Shona,PQ complex|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g720,mudzidzi akarohwa nemotokari pa mph,Road Accident,High,Shona,mph|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g721,"Makadii, mudzidzi akarohwa nemotokari pa computer lab, huyai nekukurumidza",Road Accident,High,Shona,computer lab|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g722,"ndapota, mudzidzi akarohwa nemotokari muC25.2, tibatsireiwo",Road Accident,High,Shona,C25.2|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g723,mudzidzi akarohwa nemotokari kuR14,Road Accident,High,Shona,R14|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g724,mudzidzi akarohwa nemotokari kuQ complex,Road Accident,High,Shona,Q complex|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g725,mudzidzi akarohwa nemotokari muK9.2,Road Accident,High,Shona,K9.2|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g726,"Mhoroi, mudzidzi akarohwa nemotokari muQ6.1",Road Accident,High,Shona,Q6.1|LOCATION; mudzidzi|PERSON_ROLE; motokari|ASSET,template,Road Accident-Shona-5
+g735,"motokari yakarova munhu kuC5, please send help, please check",Road Accident,High,Mixed,C5|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g736,"motokari yakarova munhu pa university stadium, please send help, please check",Road Accident,High,Mixed,university stadium|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g737,"motokari yakarova munhu kuB9, please send help",Road Accident,High,Mixed,B9|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g738,"motokari yakarova munhu muJ7.2, please send help, thanks",Road Accident,High,Mixed,J7.2|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g739,"motokari yakarova munhu kuP complex, please send help",Road Accident,High,Mixed,P complex|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g740,"motokari yakarova munhu pa performing arts hall, please send help, please advise",Road Accident,High,Mixed,performing arts hall|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g741,"motokari yakarova munhu kuE25, please send help",Road Accident,High,Mixed,E25|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g742,"motokari yakarova munhu pa performing arts, please send help",Road Accident,High,Mixed,performing arts|LOCATION; motokari|ASSET,template,Road Accident-Mixed-1
+g743,"there is no water at A complex since morning, please check",Service Outage,Medium,English,A complex|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g744,"pls help, there is no water at K complex since morning",Service Outage,Medium,English,K complex|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g745,There is no water at A19 since morning,Service Outage,Medium,English,A19|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g746,"There is no water at performing arts hall since morning, please come quickly",Service Outage,Medium,English,performing arts hall|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g747,"pls help, there is no water at I complex since morning, thanks",Service Outage,Medium,English,I complex|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g748,There is no water at G complex since morning,Service Outage,Medium,English,G complex|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g749,"there is no water at H6 since morning, please come quickly",Service Outage,Medium,English,H6|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g750,"Hello guys, there is no water at E complex since morning, please send help",Service Outage,Medium,English,E complex|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g751,there is no water at N6.2 since morning,Service Outage,Medium,English,N6.2|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g752,"Attention, there is no water at P complex since morning",Service Outage,Medium,English,P complex|LOCATION; water|ASSET; since morning|DATE_TIME,template,Service Outage-English-0
+g753,power has been off at J22.2 since last night,Service Outage,Medium,English,J22.2|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g754,"power has been off at M13 since last night, please send help",Service Outage,Medium,English,M13|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g755,"Hello guys, power has been off at P16 since last night, please advise",Service Outage,Medium,English,P16|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g756,power has been off at mph since last night,Service Outage,Medium,English,mph|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g757,power has been off at N complex since last night,Service Outage,Medium,English,N complex|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g758,power has been off at J complex since last night,Service Outage,Medium,English,J complex|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g759,power has been off at dining since last night,Service Outage,Medium,English,dining|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g760,"attention, power has been off at O19.2 since last night",Service Outage,Medium,English,O19.2|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g761,"power has been off at D19.2 since last night, please check",Service Outage,Medium,English,D19.2|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g762,power has been off at C20.1 since last night,Service Outage,Medium,English,C20.1|LOCATION; power|ASSET; since last night|DATE_TIME,template,Service Outage-English-1
+g763,"hi, wifi is very slow at Q21 today",Service Outage,Low,English,Q21|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g764,wifi is very slow at E complex today,Service Outage,Low,English,E complex|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g765,"wifi is very slow at G7.2 today, thanks",Service Outage,Low,English,G7.2|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g766,"wifi is very slow at C19 today, please advise",Service Outage,Low,English,C19|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g767,wifi is very slow at M complex today,Service Outage,Low,English,M complex|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g768,"attention, wifi is very slow at D10 today",Service Outage,Low,English,D10|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g769,"wifi is very slow at N13 today, can someone look into it",Service Outage,Low,English,N13|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g770,wifi is very slow at university stadium today,Service Outage,Low,English,university stadium|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g771,"hello guys, wifi is very slow at E5 today, please check",Service Outage,Low,English,E5|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g772,"wifi is very slow at gbs today, please advise",Service Outage,Low,English,gbs|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-English-2
+g783,the lights have been off at Q complex since this morning,Service Outage,Medium,English,Q complex|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g784,"hey security, the lights have been off at A10 since this morning",Service Outage,Medium,English,A10|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g785,The lights have been off at I5 since this morning,Service Outage,Medium,English,I5|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g786,"the lights have been off at RS complex since this morning, please come quickly",Service Outage,Medium,English,RS complex|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g787,"hi, the lights have been off at F9 since this morning",Service Outage,Medium,English,F9|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g788,the lights have been off at K complex since this morning,Service Outage,Medium,English,K complex|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g789,The lights have been off at accommodation since this morning,Service Outage,Medium,English,accommodation|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g790,"The lights have been off at F7.2 since this morning, thanks",Service Outage,Medium,English,F7.2|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g791,"the lights have been off at computer lab since this morning, thanks",Service Outage,Medium,English,computer lab|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g792,The lights have been off at university stadium since this morning,Service Outage,Medium,English,university stadium|LOCATION; lights|ASSET; since this morning|DATE_TIME,template,Service Outage-English-4
+g803,"internet keeps disconnecting at I6, please check",Service Outage,Low,English,I6|LOCATION; internet|ASSET,template,Service Outage-English-6
+g804,"hi, internet keeps disconnecting at I complex, please advise",Service Outage,Low,English,I complex|LOCATION; internet|ASSET,template,Service Outage-English-6
+g805,"Attention, internet keeps disconnecting at accommodation last night",Service Outage,Low,English,accommodation|LOCATION; internet|ASSET; last night|DATE_TIME,template,Service Outage-English-6
+g806,internet keeps disconnecting at I4.1 last night,Service Outage,Low,English,I4.1|LOCATION; internet|ASSET; last night|DATE_TIME,template,Service Outage-English-6
+g807,internet keeps disconnecting at E21.1,Service Outage,Low,English,E21.1|LOCATION; internet|ASSET,template,Service Outage-English-6
+g808,internet keeps disconnecting at A17.2,Service Outage,Low,English,A17.2|LOCATION; internet|ASSET,template,Service Outage-English-6
+g809,internet keeps disconnecting at S complex an hour ago,Service Outage,Low,English,S complex|LOCATION; internet|ASSET; an hour ago|DATE_TIME,template,Service Outage-English-6
+g810,internet keeps disconnecting at K22 yesterday,Service Outage,Low,English,K22|LOCATION; internet|ASSET; yesterday|DATE_TIME,template,Service Outage-English-6
+g811,"hey security, internet keeps disconnecting at C15, can someone look into it",Service Outage,Low,English,C15|LOCATION; internet|ASSET,template,Service Outage-English-6
+g812,internet keeps disconnecting at multipurpose hall,Service Outage,Low,English,multipurpose hall|LOCATION; internet|ASSET,template,Service Outage-English-6
+g813,"Ndapota, mvura haisi kuuya kuP complex kubva mangwanani, huyai nekukurumidza",Service Outage,Medium,Shona,P complex|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g814,mvura haisi kuuya muC18.2 kubva mangwanani,Service Outage,Medium,Shona,C18.2|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g815,"mvura haisi kuuya kuB complex kubva mangwanani, huyai nekukurumidza",Service Outage,Medium,Shona,B complex|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g816,"mvura haisi kuuya muS5.1 kubva mangwanani, huyai nekukurumidza",Service Outage,Medium,Shona,S5.1|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g817,"mvura haisi kuuya kuH complex kubva mangwanani, huyai nekukurumidza",Service Outage,Medium,Shona,H complex|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g818,"Mhoroi, mvura haisi kuuya kuP complex kubva mangwanani",Service Outage,Medium,Shona,P complex|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g819,mvura haisi kuuya pa teaching and learning centre kubva mangwanani,Service Outage,Medium,Shona,teaching and learning centre|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g820,"mhoroi, mvura haisi kuuya muK4.1 kubva mangwanani",Service Outage,Medium,Shona,K4.1|LOCATION; mvura|ASSET; kubva mangwanani|DATE_TIME,template,Service Outage-Shona-0
+g821,"magetsi akadzima kuC4 kubva manheru, asap",Service Outage,Medium,Mixed,C4|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g822,"mhoroi, magetsi akadzima pa lab kubva manheru, please come quickly",Service Outage,Medium,Mixed,lab|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g823,"mhoroi, magetsi akadzima muF1.2 kubva manheru, please check",Service Outage,Medium,Mixed,F1.2|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g824,magetsi akadzima kuO23 kubva manheru,Service Outage,Medium,Shona,O23|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g825,magetsi akadzima kuR15 kubva manheru,Service Outage,Medium,Shona,R15|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g826,"magetsi akadzima pa accommodation kubva manheru, tibatsireiwo",Service Outage,Medium,Shona,accommodation|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g827,"magetsi akadzima pa performing arts hall kubva manheru, please come quickly",Service Outage,Medium,Mixed,performing arts hall|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g828,magetsi akadzima pa computer lab kubva manheru,Service Outage,Medium,Shona,computer lab|LOCATION; magetsi|ASSET; kubva manheru|DATE_TIME,template,Service Outage-Shona-1
+g829,"Makadii, wifi haisi kushanda pa accommodation office kubva nezuro, huyai nekukurumidza",Service Outage,Medium,Shona,accommodation office|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g830,"Ndapota, wifi haisi kushanda muI11.2 kubva nezuro, please send help",Service Outage,Medium,Mixed,I11.2|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g831,"wifi haisi kushanda kuQ complex kubva nezuro, huyai nekukurumidza",Service Outage,Medium,Shona,Q complex|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g832,"Mhoroi, wifi haisi kushanda kuO7 kubva nezuro",Service Outage,Medium,Shona,O7|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g833,wifi haisi kushanda kuH complex kubva nezuro,Service Outage,Medium,Shona,H complex|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g834,"wifi haisi kushanda muQ2.2 kubva nezuro, please come quickly",Service Outage,Medium,Mixed,Q2.2|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g835,wifi haisi kushanda pa computer lab kubva nezuro,Service Outage,Medium,Shona,computer lab|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g836,"Makadii, wifi haisi kushanda pa tlc kubva nezuro, huyai nekukurumidza",Service Outage,Medium,Shona,tlc|LOCATION; wifi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-2
+g837,"hatina magetsi pa wi-fi hotspot kubva nezuro, thanks",Service Outage,Medium,Mixed,wi-fi hotspot|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g838,"hatina magetsi pa pah kubva nezuro, asap",Service Outage,Medium,Mixed,pah|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g839,"Hatina magetsi pa accommodation office kubva nezuro, tibatsireiwo",Service Outage,Medium,Shona,accommodation office|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g840,"hatina magetsi kuO19 kubva nezuro, please come quickly",Service Outage,Medium,Mixed,O19|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g841,"hatina magetsi kuO complex kubva nezuro, tibatsireiwo",Service Outage,Medium,Shona,O complex|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g842,"Makadii, hatina magetsi muR13.2 kubva nezuro",Service Outage,Medium,Shona,R13.2|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g843,"Mhoroi, hatina magetsi kuO complex kubva nezuro, tibatsireiwo",Service Outage,Medium,Shona,O complex|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g844,hatina magetsi kuF23 kubva nezuro,Service Outage,Medium,Shona,F23|LOCATION; magetsi|ASSET; kubva nezuro|DATE_TIME,template,Service Outage-Shona-3
+g845,"Hatina mvura muE23.2 kwemazuva maviri, asap",Service Outage,Medium,Mixed,E23.2|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g846,Hatina mvura kuC complex kwemazuva maviri,Service Outage,Medium,Shona,C complex|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g847,"makadii, hatina mvura kuS19 kwemazuva maviri",Service Outage,Medium,Shona,S19|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g848,Hatina mvura kuR complex kwemazuva maviri,Service Outage,Medium,Shona,R complex|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g849,"ndapota, hatina mvura kuP20 kwemazuva maviri, thanks",Service Outage,Medium,Mixed,P20|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g850,"hatina mvura pa business centre kwemazuva maviri, huyai nekukurumidza",Service Outage,Medium,Shona,business centre|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g851,Hatina mvura pa pah kwemazuva maviri,Service Outage,Medium,Shona,pah|LOCATION; mvura|ASSET; kwemazuva maviri|DATE_TIME,template,Service Outage-Shona-4
+g852,"Makadii, internet haisi kushanda muS22.2 nhasi, huyai nekukurumidza",Service Outage,Medium,Shona,S22.2|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g853,"Mhoroi, internet haisi kushanda muF10.1 nhasi, thanks",Service Outage,Medium,Mixed,F10.1|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g854,"internet haisi kushanda pa lib nhasi, please send help",Service Outage,Medium,Mixed,lib|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g855,"mhoroi, internet haisi kushanda kuO15 nhasi, huyai nekukurumidza",Service Outage,Medium,Shona,O15|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g856,internet haisi kushanda kuO19 nhasi,Service Outage,Medium,Shona,O19|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g857,"makadii, internet haisi kushanda muP10.1 nhasi, tibatsireiwo",Service Outage,Medium,Shona,P10.1|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g858,"mhoroi, internet haisi kushanda kuE complex nhasi",Service Outage,Medium,Shona,E complex|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g859,internet haisi kushanda kuF6 nhasi,Service Outage,Medium,Shona,F6|LOCATION; internet|ASSET; nhasi|DATE_TIME,template,Service Outage-Shona-5
+g860,wifi iri kunonoka kwazvo pa business center husiku hwapfuura,Service Outage,Low,Shona,business center|LOCATION; wifi|ASSET; husiku hwapfuura|DATE_TIME,template,Service Outage-Shona-6
+g861,"wifi iri kunonoka kwazvo kuK complex, please advise",Service Outage,Low,Mixed,K complex|LOCATION; wifi|ASSET,template,Service Outage-Shona-6
+g862,wifi iri kunonoka kwazvo kuD1,Service Outage,Low,Shona,D1|LOCATION; wifi|ASSET,template,Service Outage-Shona-6
+g863,wifi iri kunonoka kwazvo kuS complex,Service Outage,Low,Shona,S complex|LOCATION; wifi|ASSET,template,Service Outage-Shona-6
+g864,"Ndapota, wifi iri kunonoka kwazvo pa lab nezuro",Service Outage,Low,Shona,lab|LOCATION; wifi|ASSET; nezuro|DATE_TIME,template,Service Outage-Shona-6
+g865,"mhoroi, wifi iri kunonoka kwazvo kuN complex, thanks",Service Outage,Low,Mixed,N complex|LOCATION; wifi|ASSET,template,Service Outage-Shona-6
+g866,"makadii, wifi iri kunonoka kwazvo pa pah",Service Outage,Low,Shona,pah|LOCATION; wifi|ASSET,template,Service Outage-Shona-6
+g867,wifi iri kunonoka kwazvo kuR complex mangwanani ano,Service Outage,Low,Shona,R complex|LOCATION; wifi|ASSET; mangwanani ano|DATE_TIME,template,Service Outage-Shona-6
+g868,"No magetsi kuN5 since last night, please check",Service Outage,Medium,Mixed,N5|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g869,"no magetsi kuJ complex since last night, please check, thanks",Service Outage,Medium,Mixed,J complex|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g870,"no magetsi kuG complex since last night, please check",Service Outage,Medium,Mixed,G complex|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g871,"no magetsi muJ6.2 since last night, please check",Service Outage,Medium,Mixed,J6.2|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g872,"no magetsi kuE complex since last night, please check, please advise",Service Outage,Medium,Mixed,E complex|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g873,"mhoroi, no magetsi kuC19 since last night, please check",Service Outage,Medium,Mixed,C19|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g874,"no magetsi kuO6 since last night, please check",Service Outage,Medium,Mixed,O6|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g875,"No magetsi pa performing arts hall since last night, please check, please advise",Service Outage,Medium,Mixed,performing arts hall|LOCATION; magetsi|ASSET; since last night|DATE_TIME,template,Service Outage-Mixed-0
+g876,"Hey security, magetsi akadzima kuJ16, when will it be fixed?",Service Outage,Medium,Mixed,J16|LOCATION; magetsi|ASSET,template,Service Outage-Mixed-1
+g877,"magetsi akadzima kuQ4, when will it be fixed?",Service Outage,Medium,Mixed,Q4|LOCATION; magetsi|ASSET,template,Service Outage-Mixed-1
+g878,"magetsi akadzima pa lib, when will it be fixed? last night",Service Outage,Medium,Mixed,lib|LOCATION; magetsi|ASSET; last night|DATE_TIME,template,Service Outage-Mixed-1
+g879,"magetsi akadzima kuQ19, when will it be fixed?, please send help",Service Outage,Medium,Mixed,Q19|LOCATION; magetsi|ASSET,template,Service Outage-Mixed-1
+g880,"magetsi akadzima kuM complex, when will it be fixed?",Service Outage,Medium,Mixed,M complex|LOCATION; magetsi|ASSET,template,Service Outage-Mixed-1
+g881,"magetsi akadzima kuE complex, when will it be fixed? this morning, please check",Service Outage,Medium,Mixed,E complex|LOCATION; magetsi|ASSET; this morning|DATE_TIME,template,Service Outage-Mixed-1
+g882,"magetsi akadzima kuB10, when will it be fixed? today",Service Outage,Medium,Mixed,B10|LOCATION; magetsi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-1
+g883,"magetsi akadzima kuRS complex, when will it be fixed?",Service Outage,Medium,Mixed,RS complex|LOCATION; magetsi|ASSET,template,Service Outage-Mixed-1
+g884,"wifi haisi kubata kuI22, we have assignments due today",Service Outage,Medium,Mixed,I22|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g885,"wifi haisi kubata kuE1, we have assignments due today, thanks",Service Outage,Medium,Mixed,E1|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g886,"hello guys, wifi haisi kubata kuF4, we have assignments due today, please come quickly",Service Outage,Medium,Mixed,F4|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g887,"good evening, wifi haisi kubata kuO complex, we have assignments due today",Service Outage,Medium,Mixed,O complex|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g888,"wifi haisi kubata muM10.2, we have assignments due today, please advise",Service Outage,Medium,Mixed,M10.2|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g889,"wifi haisi kubata kuF23, we have assignments due today, please send help",Service Outage,Medium,Mixed,F23|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g890,"Hi, wifi haisi kubata pa pah, we have assignments due today, can someone look into it",Service Outage,Medium,Mixed,pah|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g891,"wifi haisi kubata kuC complex, we have assignments due today, please advise",Service Outage,Medium,Mixed,C complex|LOCATION; wifi|ASSET; today|DATE_TIME,template,Service Outage-Mixed-2
+g892,"Loud music at B complex since 10pm, please tell them to stop",Other/Non-urgent,Low,English,B complex|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g893,"loud music at I complex since 10pm, please tell them to stop, thanks",Other/Non-urgent,Low,English,I complex|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g894,"Good evening, loud music at RS complex since 10pm, please tell them to stop, can someone look into it",Other/Non-urgent,Low,English,RS complex|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g895,"Loud music at chemberi multipurpose hall since 10pm, please tell them to stop",Other/Non-urgent,Low,English,chemberi multipurpose hall|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g896,"loud music at teaching and learning centre since 10pm, please tell them to stop, please check",Other/Non-urgent,Low,English,teaching and learning centre|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g897,"Loud music at F25 since 10pm, please tell them to stop",Other/Non-urgent,Low,English,F25|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g898,"loud music at accommodation office since 10pm, please tell them to stop, can someone look into it",Other/Non-urgent,Low,English,accommodation office|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g899,"loud music at hotspot since 10pm, please tell them to stop",Other/Non-urgent,Low,English,hotspot|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g900,"Loud music at D25.2 since 10pm, please tell them to stop, please check",Other/Non-urgent,Low,English,D25.2|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g901,"Hello guys, loud music at J18 since 10pm, please tell them to stop",Other/Non-urgent,Low,English,J18|LOCATION; since 10pm|DATE_TIME,template,Other/Non-urgent-English-0
+g902,I lost my ID card at P20 yesterday,Other/Non-urgent,Low,English,P20|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g903,"hey security, I lost my ID card at boom gate yesterday, please advise",Other/Non-urgent,Low,English,boom gate|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g904,I lost my ID card at M6.1 yesterday,Other/Non-urgent,Low,English,M6.1|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g905,"I lost my ID card at R22.1 yesterday, please advise",Other/Non-urgent,Low,English,R22.1|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g906,"I lost my ID card at F complex yesterday, can someone look into it",Other/Non-urgent,Low,English,F complex|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g907,I lost my ID card at D8.2 yesterday,Other/Non-urgent,Low,English,D8.2|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g908,I lost my ID card at N12 yesterday,Other/Non-urgent,Low,English,N12|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g909,"Good evening, I lost my ID card at R9.1 yesterday",Other/Non-urgent,Low,English,R9.1|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g910,"I lost my ID card at business centre yesterday, please check",Other/Non-urgent,Low,English,business centre|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g911,"pls help, I lost my ID card at F complex yesterday, thanks",Other/Non-urgent,Low,English,F complex|LOCATION; ID card|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-1
+g922,Someone parked blocking the entrance at I1.2,Other/Non-urgent,Low,English,I1.2|LOCATION,template,Other/Non-urgent-English-3
+g923,"Good evening, someone parked blocking the entrance at Q complex today, thanks",Other/Non-urgent,Low,English,Q complex|LOCATION; today|DATE_TIME,template,Other/Non-urgent-English-3
+g924,Someone parked blocking the entrance at G16.1,Other/Non-urgent,Low,English,G16.1|LOCATION,template,Other/Non-urgent-English-3
+g925,Someone parked blocking the entrance at H20.1,Other/Non-urgent,Low,English,H20.1|LOCATION,template,Other/Non-urgent-English-3
+g926,someone parked blocking the entrance at O7.2,Other/Non-urgent,Low,English,O7.2|LOCATION,template,Other/Non-urgent-English-3
+g927,"someone parked blocking the entrance at S11.1, please advise",Other/Non-urgent,Low,English,S11.1|LOCATION,template,Other/Non-urgent-English-3
+g928,"attention, someone parked blocking the entrance at R complex",Other/Non-urgent,Low,English,R complex|LOCATION,template,Other/Non-urgent-English-3
+g929,someone parked blocking the entrance at S20,Other/Non-urgent,Low,English,S20|LOCATION,template,Other/Non-urgent-English-3
+g930,"someone parked blocking the entrance at R complex an hour ago, can someone look into it",Other/Non-urgent,Low,English,R complex|LOCATION; an hour ago|DATE_TIME,template,Other/Non-urgent-English-3
+g931,Someone parked blocking the entrance at O11.1,Other/Non-urgent,Low,English,O11.1|LOCATION,template,Other/Non-urgent-English-3
+g932,"Hi, I found a set of keys near chemberi hall, who do I hand them to, can someone look into it",Other/Non-urgent,Low,English,chemberi hall|LOCATION; keys|ASSET,template,Other/Non-urgent-English-4
+g933,"I found a set of keys near P16, who do I hand them to",Other/Non-urgent,Low,English,P16|LOCATION; keys|ASSET,template,Other/Non-urgent-English-4
+g934,"I found a set of keys near chemberi multipurpose hall, who do I hand them to this morning",Other/Non-urgent,Low,English,chemberi multipurpose hall|LOCATION; keys|ASSET; this morning|DATE_TIME,template,Other/Non-urgent-English-4
+g935,"I found a set of keys near Q complex, who do I hand them to, please check",Other/Non-urgent,Low,English,Q complex|LOCATION; keys|ASSET,template,Other/Non-urgent-English-4
+g936,"I found a set of keys near O complex, who do I hand them to",Other/Non-urgent,Low,English,O complex|LOCATION; keys|ASSET,template,Other/Non-urgent-English-4
+g937,"I found a set of keys near chemberi, who do I hand them to last night",Other/Non-urgent,Low,English,chemberi|LOCATION; keys|ASSET; last night|DATE_TIME,template,Other/Non-urgent-English-4
+g938,"I found a set of keys near Q3, who do I hand them to yesterday",Other/Non-urgent,Low,English,Q3|LOCATION; keys|ASSET; yesterday|DATE_TIME,template,Other/Non-urgent-English-4
+g939,"I found a set of keys near H14.1, who do I hand them to today, thanks",Other/Non-urgent,Low,English,H14.1|LOCATION; keys|ASSET; today|DATE_TIME,template,Other/Non-urgent-English-4
+g940,"Pls help, I found a set of keys near Q complex, who do I hand them to",Other/Non-urgent,Low,English,Q complex|LOCATION; keys|ASSET,template,Other/Non-urgent-English-4
+g941,"I found a set of keys near chemberi multipurpose hall, who do I hand them to",Other/Non-urgent,Low,English,chemberi multipurpose hall|LOCATION; keys|ASSET,template,Other/Non-urgent-English-4
+g942,stray dogs are barking all night at A21,Other/Non-urgent,Low,English,A21|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g943,"stray dogs are barking all night at H complex, please advise",Other/Non-urgent,Low,English,H complex|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g944,Stray dogs are barking all night at D18,Other/Non-urgent,Low,English,D18|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g945,Stray dogs are barking all night at I10.1,Other/Non-urgent,Low,English,I10.1|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g946,stray dogs are barking all night at lab,Other/Non-urgent,Low,English,lab|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g947,Stray dogs are barking all night at B9.1,Other/Non-urgent,Low,English,B9.1|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g948,stray dogs are barking all night at K23.2,Other/Non-urgent,Low,English,K23.2|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g949,"Stray dogs are barking all night at R3, thanks",Other/Non-urgent,Low,English,R3|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g950,Stray dogs are barking all night at F complex,Other/Non-urgent,Low,English,F complex|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g951,"hi, stray dogs are barking all night at G21.2, please check",Other/Non-urgent,Low,English,G21.2|LOCATION; all night|DATE_TIME,template,Other/Non-urgent-English-5
+g952,ndarasa ID yangu pa boom gate nezuro,Other/Non-urgent,Low,Shona,boom gate|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g953,Ndarasa ID yangu kuF22 nezuro,Other/Non-urgent,Low,Shona,F22|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g954,Ndarasa ID yangu kuF13 nezuro,Other/Non-urgent,Low,Shona,F13|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g955,ndarasa ID yangu kuS complex nezuro,Other/Non-urgent,Low,Shona,S complex|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g956,Ndarasa ID yangu pa chemberi hall nezuro,Other/Non-urgent,Low,Shona,chemberi hall|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g957,Ndarasa ID yangu kuE3 nezuro,Other/Non-urgent,Low,Shona,E3|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g958,"Makadii, ndarasa ID yangu muP22.2 nezuro, can someone look into it",Other/Non-urgent,Low,Mixed,P22.2|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g959,Ndarasa ID yangu muN5.2 nezuro,Other/Non-urgent,Low,Shona,N5.2|LOCATION; ID|ASSET; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-0
+g960,"makadii, mimhanzi inorira zvakanyanya pa boom gate nhasi, thanks",Other/Non-urgent,Low,Mixed,boom gate|LOCATION; nhasi|DATE_TIME,template,Other/Non-urgent-Shona-1
+g961,Mimhanzi inorira zvakanyanya kuP3 nhasi,Other/Non-urgent,Low,Shona,P3|LOCATION; nhasi|DATE_TIME,template,Other/Non-urgent-Shona-1
+g962,"Mimhanzi inorira zvakanyanya muO24.2 nezuro, can someone look into it",Other/Non-urgent,Low,Mixed,O24.2|LOCATION; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-1
+g963,mimhanzi inorira zvakanyanya kuA complex mangwanani ano,Other/Non-urgent,Low,Shona,A complex|LOCATION; mangwanani ano|DATE_TIME,template,Other/Non-urgent-Shona-1
+g964,Mimhanzi inorira zvakanyanya kuPQ complex nhasi,Other/Non-urgent,Low,Shona,PQ complex|LOCATION; nhasi|DATE_TIME,template,Other/Non-urgent-Shona-1
+g965,mimhanzi inorira zvakanyanya kuR14 nezuro,Other/Non-urgent,Low,Shona,R14|LOCATION; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-1
+g966,Mimhanzi inorira zvakanyanya kuM14 husiku hwapfuura,Other/Non-urgent,Low,Shona,M14|LOCATION; husiku hwapfuura|DATE_TIME,template,Other/Non-urgent-Shona-1
+g967,mimhanzi inorira zvakanyanya pa wifi hotspot,Other/Non-urgent,Low,Shona,wifi hotspot|LOCATION,template,Other/Non-urgent-Shona-1
+g976,"Makadii, pane ruzha rwakawandisa muC13.2, hatigoni kurara mangwanani ano, can someone look into it",Other/Non-urgent,Low,Mixed,C13.2|LOCATION; mangwanani ano|DATE_TIME,template,Other/Non-urgent-Shona-3
+g977,"pane ruzha rwakawandisa pa business center, hatigoni kurara mangwanani ano",Other/Non-urgent,Low,Shona,business center|LOCATION; mangwanani ano|DATE_TIME,template,Other/Non-urgent-Shona-3
+g978,"pane ruzha rwakawandisa kuD12, hatigoni kurara",Other/Non-urgent,Low,Shona,D12|LOCATION,template,Other/Non-urgent-Shona-3
+g979,"Pane ruzha rwakawandisa muC25.2, hatigoni kurara",Other/Non-urgent,Low,Shona,C25.2|LOCATION,template,Other/Non-urgent-Shona-3
+g980,"Pane ruzha rwakawandisa kuP22, hatigoni kurara nhasi",Other/Non-urgent,Low,Shona,P22|LOCATION; nhasi|DATE_TIME,template,Other/Non-urgent-Shona-3
+g981,"Makadii, pane ruzha rwakawandisa muO3.2, hatigoni kurara nhasi",Other/Non-urgent,Low,Shona,O3.2|LOCATION; nhasi|DATE_TIME,template,Other/Non-urgent-Shona-3
+g982,"Pane ruzha rwakawandisa kuS complex, hatigoni kurara nezuro",Other/Non-urgent,Low,Shona,S complex|LOCATION; nezuro|DATE_TIME,template,Other/Non-urgent-Shona-3
+g983,"Pane ruzha rwakawandisa kuM9, hatigoni kurara",Other/Non-urgent,Low,Shona,M9|LOCATION,template,Other/Non-urgent-Shona-3
+g984,"mimhanzi iri kurira zvakanyanya pa ground stadium, please ask them to stop nhasi",Other/Non-urgent,Low,Mixed,ground stadium|LOCATION; nhasi|DATE_TIME,template,Other/Non-urgent-Mixed-0
+g985,"mimhanzi iri kurira zvakanyanya muP20.2, please ask them to stop this morning, please check",Other/Non-urgent,Low,Mixed,P20.2|LOCATION; this morning|DATE_TIME,template,Other/Non-urgent-Mixed-0
+g986,"Makadii, mimhanzi iri kurira zvakanyanya kuO complex, please ask them to stop, please check",Other/Non-urgent,Low,Mixed,O complex|LOCATION,template,Other/Non-urgent-Mixed-0
+g987,"mimhanzi iri kurira zvakanyanya muQ10.2, please ask them to stop",Other/Non-urgent,Low,Mixed,Q10.2|LOCATION,template,Other/Non-urgent-Mixed-0
+g988,"Mimhanzi iri kurira zvakanyanya kuE complex, please ask them to stop an hour ago, please check",Other/Non-urgent,Low,Mixed,E complex|LOCATION; an hour ago|DATE_TIME,template,Other/Non-urgent-Mixed-0
+g989,"mimhanzi iri kurira zvakanyanya kuG complex, please ask them to stop, can someone look into it",Other/Non-urgent,Low,Mixed,G complex|LOCATION,template,Other/Non-urgent-Mixed-0
+g990,"good evening, mimhanzi iri kurira zvakanyanya pa gbs, please ask them to stop husiku hwapfuura, please advise",Other/Non-urgent,Low,Mixed,gbs|LOCATION; husiku hwapfuura|DATE_TIME,template,Other/Non-urgent-Mixed-0
+g991,"Mhoroi, mimhanzi iri kurira zvakanyanya muQ16.1, please ask them to stop",Other/Non-urgent,Low,Mixed,Q16.1|LOCATION,template,Other/Non-urgent-Mixed-0

@@ -1,0 +1,7 @@
+features,model,F1_new,acc_new,acc_new_Shona,F1_draft
+word,LogReg,0.526,0.59,0.547,0.514
+word,LinearSVC,0.533,0.6,0.547,0.514
+char,LogReg,0.633,0.66,0.623,0.584
+char,LinearSVC,0.6,0.64,0.623,0.58
+word+char,LogReg,0.556,0.63,0.547,0.531
+word+char,LinearSVC,0.616,0.67,0.623,0.588

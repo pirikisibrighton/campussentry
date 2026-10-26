@@ -1,0 +1,42 @@
+{
+  "Fire": {"problems": {"English": [
+    {"text": "I want to report a fire at {loc}, people are running out", "severity": "High", "tags": []},
+    {"text": "someone left a heater on and it caught fire at {loc}", "severity": "High", "tags": [["heater", "ASSET"]]},
+    {"text": "burning smell and light smoke around {loc}, not sure where it is coming from", "severity": "Medium", "tags": []}
+  ]}},
+  "Medical Emergency": {"problems": {"English": [
+    {"text": "one of the students is having a seizure at {loc}", "severity": "High", "tags": [["students", "PERSON_ROLE"]]},
+    {"text": "a lady is bleeding heavily after falling at {loc}", "severity": "High", "tags": []},
+    {"text": "I have a bad headache and feel dizzy at {loc}, I need to see a nurse", "severity": "Low", "tags": [["nurse", "PERSON_ROLE"]]}
+  ]}},
+  "Theft/Break-in": {"problems": {"English": [
+    {"text": "my bag was taken from {loc} while I was away", "severity": "Medium", "tags": [["bag", "ASSET"]]},
+    {"text": "two guys were seen going into {loc} through the back, they look suspicious", "severity": "High", "tags": []},
+    {"text": "somebody stole my charger from {loc}", "severity": "Medium", "tags": [["charger", "ASSET"]]}
+  ]}},
+  "Harassment/Assault": {"problems": {"English": [
+    {"text": "a group of boys keeps shouting insults at the girls near {loc}", "severity": "Medium", "tags": []},
+    {"text": "a man is threatening a student with a bottle at {loc}", "severity": "High", "tags": [["student", "PERSON_ROLE"], ["bottle", "ASSET"]]},
+    {"text": "two guys are pushing each other at {loc}, no one is hurt yet", "severity": "Medium", "tags": []}
+  ]}},
+  "Infrastructure Fault": {"problems": {"English": [
+    {"text": "the ceiling in {loc} is cracking and pieces are falling", "severity": "High", "tags": [["ceiling", "ASSET"]]},
+    {"text": "the lock on the door at {loc} is stuck and I cannot get out", "severity": "Medium", "tags": [["lock", "ASSET"], ["door", "ASSET"]]},
+    {"text": "taps at {loc} keep running and nobody has fixed them", "severity": "Low", "tags": [["taps", "ASSET"]]}
+  ]}},
+  "Road Accident": {"problems": {"English": [
+    {"text": "a motorbike knocked down a student at {loc}", "severity": "High", "tags": [["motorbike", "ASSET"], ["student", "PERSON_ROLE"]]},
+    {"text": "a bus scratched a parked car at {loc}, nobody injured", "severity": "Low", "tags": [["bus", "ASSET"], ["car", "ASSET"]]},
+    {"text": "the driver lost control and the car went off the road at {loc}", "severity": "High", "tags": [["driver", "PERSON_ROLE"], ["car", "ASSET"]]}
+  ]}},
+  "Service Outage": {"problems": {"English": [
+    {"text": "the lights have been off at {loc} since this morning", "severity": "Medium", "tags": [["lights", "ASSET"], ["since this morning", "DATE_TIME"]]},
+    {"text": "we have no running water at {loc} today", "severity": "Medium", "tags": [["water", "ASSET"], ["today", "DATE_TIME"]]},
+    {"text": "internet keeps disconnecting at {loc}", "severity": "Low", "tags": [["internet", "ASSET"]]}
+  ]}},
+  "Other/Non-urgent": {"problems": {"English": [
+    {"text": "someone parked blocking the entrance at {loc}", "severity": "Low", "tags": []},
+    {"text": "I found a set of keys near {loc}, who do I hand them to", "severity": "Low", "tags": [["keys", "ASSET"]]},
+    {"text": "stray dogs are barking all night at {loc}", "severity": "Low", "tags": [["all night", "DATE_TIME"]]}
+  ]}}
+}

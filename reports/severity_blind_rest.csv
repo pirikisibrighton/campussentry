@@ -1,0 +1,61 @@
+﻿id,text,my_severity
+ff1,socket yemagetsi muR18.1 harisi kushanda,Medium
+ff2,hembe dzedu dziri kubiwa pawaya,Medium
+ff4,wifi kuE complex haisi kuita iri slow,Low
+ff5,vanhu varikupisa marara chiutsi chirikuenda pahembe dzedu pawaya,High
+ff7,tap Yafa ikurasa mvura paDH,Medium
+ff8,l cant find my Laptop ndaisiya muHotsopt,Low
+ff9,chikafu chekuDH chirikutirwarisa too much spices especially in the soup,Medium
+ff10,mushonga wemutoilet hakusisina,Low
+ff11,toilet kuh5 haisi kuflasher,Medium
+ff15,kumaP kwaonekwa nyoka hombe,High
+ff17,muR18 malock haashande akafa,Medium
+ff20,socket yekuh12 ikubuda chihutsi,High
+ff24,fight kuP complex,High
+ff25,there is fire in hotspot,High
+ff26,the is a thief at the p complex camera,High
+ff29,there is a sewer pipe leaking on the way to R complex,Medium
+ff30,a boy is seriously sick in m23,Medium
+rr1,"Hey guys, there is heavy smoke coming out of the library back room pls check asap",High
+rr4,"Zvaboorwa mumba maS18.2, phone yangu yetecno yakatorwa ndakarara",Medium
+rr5,"Hey securities, power is completely gone in whole K complex",Medium
+rr8,"Hie guard, ndarasa student ID yangu somewhere pa TLC",Low
+rr9,"Small car and a bicycle just crashed by the boom gate, no serious injuries though",Medium
+rr11,"Fire outbreak spotted near the computer lab, bring extinguishers quick",High
+rr12,A student slipped on the stairs by the TLC and hurt their leg badly,High
+rr14,Varume vaviri vari kurwira zvemapoto pamberi pe dining hall pano,High
+rr16,"Car accident yakaitika panze pe boom gate, zvese zvashata",High
+rr17,"WiFi is down across all complexes since morning, please fix it",Medium
+rr18,"Ndiani akasiya tap yakashama pa washroom ye C complex, mvura yanyura pese",High
+rr23,"Bathroom sink yakaputsika paS10, mvura iri kufashukira pasi",High
+rr25,"Student arikurwara nemoyo pano pa library, ndapota batsirai",Medium
+rr26,Munhu akapaza lock yemusuwo wangu akaenda ne cooker yangu,Medium
+rr27,Vanhu vaviri vari kutsamirana vachida kurwa pano pa boom gate,High
+rr29,"Vanhu varikutamba ma kwaito music kusvika 3am pa C complex, ruzha rwakawandisa",Low
+rr30,Small truck yakakonha wall panze pe boom gate,High
+rr31,"Smoke ikubuda mune imwe room paE9, panogona kuva na fire",High
+rr32,Munhu akadonha pa stairs dze lib nekuda kwenzara,High
+rr33,Room yangu yebiwa mbatya dzangu dzese ne phone paD14,Medium
+rr34,"Bullying iri kuitika pa TLC, vakuru vekuchikoro ngavauye",High
+rr37,Ndinoda kuziva kuti library inovhara nani nhasi?,Low
+rr38,"Wires dziri kufire pa corridor pa B complex, kune danger ye moto",High
+rr39,Lecturer akaremba ne kurwadza nemusoro kwakasimba pano pa chemberi hall,High
+rr42,"Front door yeS22 haina kiyi, security pls come and lock it",Medium
+rr43,Accident yaitika pakati pe kombi ne car yezikoro pa boom gate,High
+rr45,Pane munhu ari kuridza alarm ye car yake kwema 2 hours pa boom gate,Low
+rr46,Moto uri kubvira pama dry grass pedyo ne stadium,High
+rr47,Student akadhakwa zvakanyanya akarutsa pa entrance pe dining hall,High
+rr49,Vanhu vari kuita zvekuomarara nekutuka vamwe vavo pa C3,Medium
+rr50,"Electric socket pa room yangu iri kuita sparks, ndinotya moto",High
+rr51,Kombi yakazara ma students yakavharira nzira yepa boom gate nekumhanya,High
+rr52,No internet connection pa TLC yese kubva mangwanani,Medium
+rr53,"Fridge ye dining hall yakuraura, chikafu chiri kuora",Medium
+rr54,Pane moto uri kubva mu stove pa cooking bay ye H complex,High
+rr57,"Toilet ya broken mu ground floor ye TLC, inonhuwa zvikuru",Medium
+rr59,"WiFi router pa E complex hiri kubwinya red light, hakuna network",Low
+rr60,Student akakuvara ruoko nekudonha pamadziro e K complex,Medium
+rr62,"Jacket yangu yakarasika pa TLC, kana paine ariona",Low
+rr64,Moto mudiki uri pa dustbin iri pedyo nelibrary,High
+rr65,Munhu akabata mumwe ne huro pa queue ye dining hall,High
+rr68,Power yadzima mu chemberi hall mukati meTest,Medium
+rr69,Pane vanhu vari kurwa pamusuwo peE5 yedu pakati peusiku,High

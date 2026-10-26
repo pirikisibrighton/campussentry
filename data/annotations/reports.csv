@@ -1,0 +1,28 @@
+id,text,category,severity,language,entities,source
+1,"Smoke coming from room C2.1 in C complex, please come quickly.",Fire,High,English,"C2.1|LOCATION; C complex|LOCATION",handwritten
+2,"My laptop was stolen from A1.2 last night while we were at class.",Theft/Break-in,Medium,English,"laptop|ASSET; A1.2|LOCATION; last night|DATE_TIME",handwritten
+3,"No Wi-Fi in K complex since yesterday.",Service Outage,Medium,English,"Wi-Fi|ASSET; K complex|LOCATION; since yesterday|DATE_TIME",handwritten
+4,"Small fire in the bin outside the dining hall, a cleaner put it out, nobody hurt.",Fire,Low,English,"dining hall|LOCATION; cleaner|PERSON_ROLE",handwritten
+5,"Kune moto kuC complex, please send security now.",Fire,High,Mixed,"C complex|LOCATION; security|PERSON_ROLE; now|DATE_TIME",handwritten
+6,"Kune utsi hunobuda mukamuri C2.1, huyai nekukurumidza.",Fire,High,Shona,"C2.1|LOCATION",handwritten
+7,"Ndabirwa laptop yangu muA1.2 manheru adarika.",Theft/Break-in,Medium,Shona,"laptop|ASSET; A1.2|LOCATION; manheru adarika|DATE_TIME",handwritten
+8,"Wifi haisi kushanda kuK complex kubva nezuro.",Service Outage,Medium,Shona,"Wifi|ASSET; K complex|LOCATION; kubva nezuro|DATE_TIME",handwritten
+9,"Mumwe student akadonha pa dining hall, please send help.",Medical Emergency,High,Mixed,"student|PERSON_ROLE; dining hall|LOCATION",handwritten
+10,"Vakomana vari kurwa pastadium, security please come.",Harassment/Assault,High,Mixed,"stadium|LOCATION; security|PERSON_ROLE",handwritten
+11,"fire at b complex!! students running out pls come asap",Fire,High,English,"B complex|LOCATION; students|PERSON_ROLE",handwritten
+12,"The generator behind the business center is sparking and smells like burning.",Fire,High,English,"generator|ASSET; business center|LOCATION",handwritten
+13,"A student has fainted at the library and is not responding, we need an ambulance.",Medical Emergency,High,English,"student|PERSON_ROLE; library|LOCATION",handwritten
+14,"A student twisted her ankle at the stadium during training, she can still walk.",Medical Emergency,Low,English,"student|PERSON_ROLE; stadium|LOCATION",handwritten
+15,"Someone broke into room D1.2 and took my phone and charger this morning.",Theft/Break-in,Medium,English,"D1.2|LOCATION; phone|ASSET; charger|ASSET; this morning|DATE_TIME",handwritten
+16,"Pane murume ari kuedza kuvhura mahwindo eE2.1 right now, he is not a student here.",Theft/Break-in,High,Mixed,"E2.1|LOCATION; right now|DATE_TIME; student|PERSON_ROLE",handwritten
+17,"Boys from N complex are fighting near the dining hall, one is bleeding.",Harassment/Assault,High,English,"N complex|LOCATION; dining hall|LOCATION",handwritten
+18,"A lecturer keeps sending inappropriate messages to a female student in my class, I want to report it.",Harassment/Assault,Medium,English,"lecturer|PERSON_ROLE; student|PERSON_ROLE",handwritten
+19,"Toilet in H complex is blocked and overflowing since Monday.",Infrastructure Fault,Medium,English,"Toilet|ASSET; H complex|LOCATION; since Monday|DATE_TIME",handwritten
+20,"Waya yemagetsi yakawira panze peM complex, it is still live, please hurry.",Infrastructure Fault,High,Mixed,"Waya yemagetsi|ASSET; M complex|LOCATION",handwritten
+21,"A car hit a student near the boom gate, he is lying on the ground and cannot move.",Road Accident,High,English,"car|ASSET; student|PERSON_ROLE; boom gate|LOCATION",handwritten
+22,"Motokari yakarovera kombi pedyo neboom gate, nobody is hurt but the road is blocked.",Road Accident,Medium,Mixed,"Motokari|ASSET; kombi|ASSET; boom gate|LOCATION",handwritten
+23,"No water in P complex since morning.",Service Outage,Medium,English,"water|ASSET; P complex|LOCATION; since morning|DATE_TIME",handwritten
+24,"wifi is very slow at the TLC today",Service Outage,Low,English,"wifi|ASSET; TLC|LOCATION; today|DATE_TIME",handwritten
+25,"Magetsi akadzima kuQ complex kubva manheru.",Service Outage,Medium,Shona,"Magetsi|ASSET; Q complex|LOCATION; kubva manheru|DATE_TIME",handwritten
+26,"Loud music in R complex since 10pm, please tell them to stop.",Other/Non-urgent,Low,English,"R complex|LOCATION; since 10pm|DATE_TIME",handwritten
+27,"Ndakarasa ID yangu pa library nezuro.",Other/Non-urgent,Low,Shona,"ID|ASSET; library|LOCATION; nezuro|DATE_TIME",handwritten

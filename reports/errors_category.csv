@@ -1,0 +1,31 @@
+id,text,language,category,pred
+ff1,socket yemagetsi muR18.1 harisi kushanda,Mixed,Infrastructure Fault,Service Outage
+ff2,hembe dzedu dziri kubiwa pawaya,Shona,Theft/Break-in,Infrastructure Fault
+ff6,tank rekumaRS harisi kubuda mvura,Shona,Service Outage,Infrastructure Fault
+ff8,l cant find my Laptop ndaisiya muHotsopt,Mixed,Other/Non-urgent,Theft/Break-in
+ff9,chikafu chekuDH chirikutirwarisa too much spices especially in the soup,Mixed,Other/Non-urgent,Infrastructure Fault
+ff10,mushonga wemutoilet hakusisina,Shona,Other/Non-urgent,Infrastructure Fault
+ff11,toilet kuh5 haisi kuflasher,Mixed,Infrastructure Fault,Service Outage
+ff15,kumaP kwaonekwa nyoka hombe,Shona,Other/Non-urgent,Fire
+ff18,matress yangu haiite kuA2,Shona,Infrastructure Fault,Theft/Break-in
+ff23,there is a huge fight at the business center,English,Harassment/Assault,Fire
+ff24,fight kuP complex,Mixed,Harassment/Assault,Fire
+ff26,the is a thief at the p complex camera,English,Theft/Break-in,Infrastructure Fault
+ff29,there is a sewer pipe leaking on the way to R complex,English,Infrastructure Fault,Fire
+ff30,a boy is seriously sick in m23,English,Medical Emergency,Fire
+ff31,there is a blind man outside the hotspot,English,Other/Non-urgent,Fire
+rr5,"Hey securities, power is completely gone in whole K complex",English,Service Outage,Fire
+rr9,"Small car and a bicycle just crashed by the boom gate, no serious injuries though",English,Road Accident,Fire
+rr12,A student slipped on the stairs by the TLC and hurt their leg badly,English,Medical Emergency,Road Accident
+rr19,"Hey security, my roommate is throwing up blood, please come fast",English,Medical Emergency,Fire
+rr20,Mutorwa akapinda mumba maK14 achiba mari yeva student,Shona,Theft/Break-in,Medical Emergency
+rr30,Small truck yakakonha wall panze pe boom gate,Mixed,Road Accident,Fire
+rr34,"Bullying iri kuitika pa TLC, vakuru vekuchikoro ngavauye",Shona,Harassment/Assault,Infrastructure Fault
+rr37,Ndinoda kuziva kuti library inovhara nani nhasi?,Shona,Other/Non-urgent,Service Outage
+rr38,"Wires dziri kufire pa corridor pa B complex, kune danger ye moto",Mixed,Infrastructure Fault,Fire
+rr40,Thief akabatwa achiedza kubira ma solar batteries pa business center,Shona,Theft/Break-in,Fire
+rr45,Pane munhu ari kuridza alarm ye car yake kwema 2 hours pa boom gate,Mixed,Other/Non-urgent,Theft/Break-in
+rr47,Student akadhakwa zvakanyanya akarutsa pa entrance pe dining hall,Shona,Medical Emergency,Other/Non-urgent
+rr50,"Electric socket pa room yangu iri kuita sparks, ndinotya moto",Mixed,Fire,Infrastructure Fault
+rr55,Munhu akaiswa pama ruoko na security nekuda kwekuba wallet pa lab,Shona,Theft/Break-in,Fire
+rr65,Munhu akabata mumwe ne huro pa queue ye dining hall,Shona,Harassment/Assault,Medical Emergency

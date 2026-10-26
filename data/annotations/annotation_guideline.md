@@ -26,10 +26,11 @@ Rules: label the worst credible reading; category does not decide severity; whol
 |---|---|---|
 | LOCATION | library, P complex, A1.2, boom gate | "outside", "everywhere" |
 | DATE_TIME | last night, at 3pm, since morning, now | times that are not stated |
-| ASSET | laptop, router, pipe, generator | the whole incident |
+| ASSET | laptop, router, pipe, generator, water, Wi-Fi | the whole incident |
 | PERSON_ROLE | student, lecturer, security guard | personal names |
 
 Rules: tag the smallest span; rooms and complexes are separate LOCATION spans; never tag personal names.
+Services such as water, electricity, power, lights, Wi-Fi and internet are tagged ASSET when they are the subject of the problem. Tag all spelling variants the same way (Wi-Fi, wifi, WiFi, internet).
 
 ## 5. Worked examples
 
@@ -57,3 +58,8 @@ Rules: tag the smallest span; rooms and complexes are separate LOCATION spans; n
 > "Small fire in the bin outside the dining hall, a cleaner put it out, nobody hurt."
 - Category: Fire | Severity: Low | Language: English
 - Entities: dining hall (LOCATION), cleaner (PERSON_ROLE)
+
+- Resolved or contained (culprit caught, fire out, no injuries): Low.
+- Broken item in a student's room that stops normal use (window, lock, light, bed): Medium. Purely cosmetic or minor: Low.
+- Hazards that can spread or injure (spreading flood, hot-water or electrical fault, any fire still burning, vehicle crash where injury is not ruled out): High, even if described as small.
+- Vague illness ("someone is sick") with no sign of danger: Medium. Collapse, heavy bleeding, vomiting blood or unresponsive: High.

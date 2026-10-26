@@ -10,7 +10,10 @@
     "Wi-Fi Hotspot": ["wifi hotspot", "wi-fi hotspot", "hotspot"],
     "University Stadium": ["stadium", "university stadium", "ground stadium"],
     "Boom Gate": ["boom gate", "main gate"],
-    "Computer Lab": ["lab", "computer lab"]
+    "Computer Lab": ["lab", "computer lab"],
+    "Accommodation Office": ["accommodation office", "accommodation"]
   },
-  "complex_letters": ["A","B","C","D","E","F","G","H","I","J","K","M","N","O","P","Q","R","S","PQ","RS"]
+    "complex_letters": ["A","B","C","D","E","F","G","H","I","J","K","M","N","O","P","Q","R","S"],
+  "combined_complexes": ["PQ", "RS"]
+  
 }

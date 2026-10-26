@@ -1,0 +1,109 @@
+{
+  "Fire": {"problems": {
+    "English": [
+      {"text": "smoke is coming from {loc}", "severity": "High", "tags": []},
+      {"text": "there is a fire at {loc}", "severity": "High", "tags": []},
+      {"text": "a small fire at {loc} was put out, nobody hurt", "severity": "Low", "tags": []}
+    ],
+    "Shona": [
+      {"text": "kune moto {ku_loc}", "severity": "High", "tags": []},
+      {"text": "kune utsi hunobuda {ku_loc}", "severity": "High", "tags": []},
+      {"text": "kuri kubvira {ku_loc}", "severity": "High", "tags": []}
+    ],
+    "Mixed": [
+      {"text": "pane moto {ku_loc}, please send security", "severity": "High", "tags": [["security", "PERSON_ROLE"]]}
+    ]}},
+  "Medical Emergency": {"problems": {
+    "English": [
+      {"text": "a student has fainted at {loc} and is not responding", "severity": "High", "tags": [["student", "PERSON_ROLE"]]},
+      {"text": "someone collapsed at {loc}, we need an ambulance", "severity": "High", "tags": []},
+      {"text": "a student twisted her ankle at {loc} but she can still walk", "severity": "Low", "tags": [["student", "PERSON_ROLE"]]}
+    ],
+    "Shona": [
+      {"text": "mumwe mudzidzi akadonha {ku_loc}, ari kurwara zvakanyanya", "severity": "High", "tags": [["mudzidzi", "PERSON_ROLE"]]},
+      {"text": "mudzidzi ari kurwara {ku_loc}, anoda arapwe nekukurumidza", "severity": "High", "tags": [["mudzidzi", "PERSON_ROLE"]]}
+    ],
+    "Mixed": [
+      {"text": "pane student akadonha {ku_loc}, please call the ambulance", "severity": "High", "tags": [["student", "PERSON_ROLE"]]}
+    ]}},
+  "Theft/Break-in": {"problems": {
+    "English": [
+      {"text": "someone broke into {loc} and took my laptop", "severity": "Medium", "tags": [["laptop", "ASSET"]]},
+      {"text": "my phone was stolen from {loc} this morning", "severity": "Medium", "tags": [["phone", "ASSET"], ["this morning", "DATE_TIME"]]},
+      {"text": "a stranger is trying to break into {loc} right now", "severity": "High", "tags": [["right now", "DATE_TIME"]]}
+    ],
+    "Shona": [
+      {"text": "ndabirwa laptop yangu {ku_loc} husiku hwapfuura", "severity": "Medium", "tags": [["laptop", "ASSET"], ["husiku hwapfuura", "DATE_TIME"]]},
+      {"text": "pane munhu ari kuedza kupaza musuo {ku_loc} zvino", "severity": "High", "tags": [["musuo", "ASSET"], ["zvino", "DATE_TIME"]]}
+    ],
+    "Mixed": [
+      {"text": "ndabirwa phone yangu {ku_loc}, please check the cameras", "severity": "Medium", "tags": [["phone", "ASSET"]]}
+    ]}},
+  "Harassment/Assault": {"problems": {
+    "English": [
+      {"text": "boys are fighting at {loc}, one is bleeding", "severity": "High", "tags": []},
+      {"text": "a student is being bullied at {loc} by a group of boys", "severity": "Medium", "tags": [["student", "PERSON_ROLE"]]},
+      {"text": "two girls had a heated argument at {loc} but it has calmed down", "severity": "Low", "tags": []}
+    ],
+    "Shona": [
+      {"text": "vakomana vari kurwa {ku_loc}, mumwe ari kuyerera ropa", "severity": "High", "tags": []},
+      {"text": "mudzidzi ari kutyisidzirwa {ku_loc}", "severity": "Medium", "tags": [["mudzidzi", "PERSON_ROLE"]]}
+    ],
+    "Mixed": [
+      {"text": "vana vari kurwa {ku_loc}, security please come", "severity": "High", "tags": [["security", "PERSON_ROLE"]]}
+    ]}},
+  "Infrastructure Fault": {"problems": {
+    "English": [
+      {"text": "a pipe has burst at {loc} and water is flooding the floor", "severity": "Medium", "tags": [["pipe", "ASSET"], ["water", "ASSET"]]},
+      {"text": "the door at {loc} is broken and will not lock", "severity": "Medium", "tags": [["door", "ASSET"]]},
+      {"text": "exposed wires are hanging at {loc} and sparking", "severity": "High", "tags": [["wires", "ASSET"]]},
+      {"text": "a toilet is blocked and overflowing at {loc}", "severity": "Medium", "tags": [["toilet", "ASSET"]]}
+    ],
+    "Shona": [
+      {"text": "pombi yaputika {ku_loc}, mvura iri kuyerera", "severity": "Medium", "tags": [["pombi", "ASSET"], ["mvura", "ASSET"]]},
+      {"text": "musuo wakatyoka {ku_loc}, hauvharike", "severity": "Medium", "tags": [["musuo", "ASSET"]]}
+    ],
+    "Mixed": [
+      {"text": "waya yemagetsi yakawira {ku_loc}, it is still live, please hurry", "severity": "High", "tags": [["waya yemagetsi", "ASSET"]]}
+    ]}},
+  "Road Accident": {"problems": {
+    "English": [
+      {"text": "a car hit a student near {loc} and he cannot move", "severity": "High", "tags": [["car", "ASSET"], ["student", "PERSON_ROLE"]]},
+      {"text": "two vehicles collided at {loc}, nobody is hurt but the road is blocked", "severity": "Medium", "tags": [["vehicles", "ASSET"]]}
+    ],
+    "Shona": [
+      {"text": "motokari yakarova mudzidzi {ku_loc}", "severity": "High", "tags": [["motokari", "ASSET"], ["mudzidzi", "PERSON_ROLE"]]},
+      {"text": "motokari mbiri dzakarovana {ku_loc}, hapana akakuvara", "severity": "Medium", "tags": [["motokari", "ASSET"]]}
+    ],
+    "Mixed": [
+      {"text": "kombi yakarova mudzidzi {ku_loc}, please send an ambulance", "severity": "High", "tags": [["kombi", "ASSET"], ["mudzidzi", "PERSON_ROLE"]]}
+    ]}},
+  "Service Outage": {"problems": {
+    "English": [
+      {"text": "there is no water at {loc} since morning", "severity": "Medium", "tags": [["water", "ASSET"], ["since morning", "DATE_TIME"]]},
+      {"text": "power has been off at {loc} since last night", "severity": "Medium", "tags": [["power", "ASSET"], ["since last night", "DATE_TIME"]]},
+      {"text": "wifi is very slow at {loc} today", "severity": "Low", "tags": [["wifi", "ASSET"], ["today", "DATE_TIME"]]},
+      {"text": "no wifi at {loc} since yesterday", "severity": "Medium", "tags": [["wifi", "ASSET"], ["since yesterday", "DATE_TIME"]]}
+    ],
+    "Shona": [
+      {"text": "mvura haisi kuuya {ku_loc} kubva mangwanani", "severity": "Medium", "tags": [["mvura", "ASSET"], ["kubva mangwanani", "DATE_TIME"]]},
+      {"text": "magetsi akadzima {ku_loc} kubva manheru", "severity": "Medium", "tags": [["magetsi", "ASSET"], ["kubva manheru", "DATE_TIME"]]},
+      {"text": "wifi haisi kushanda {ku_loc} kubva nezuro", "severity": "Medium", "tags": [["wifi", "ASSET"], ["kubva nezuro", "DATE_TIME"]]}
+    ],
+    "Mixed": [
+      {"text": "no magetsi {ku_loc} since last night, please check", "severity": "Medium", "tags": [["magetsi", "ASSET"], ["since last night", "DATE_TIME"]]}
+    ]}},
+  "Other/Non-urgent": {"problems": {
+    "English": [
+      {"text": "loud music at {loc} since 10pm, please tell them to stop", "severity": "Low", "tags": [["since 10pm", "DATE_TIME"]]},
+      {"text": "I lost my ID card at {loc} yesterday", "severity": "Low", "tags": [["ID card", "ASSET"], ["yesterday", "DATE_TIME"]]},
+      {"text": "found a wallet near {loc}, who should I give it to?", "severity": "Low", "tags": [["wallet", "ASSET"]]}
+    ],
+    "Shona": [
+      {"text": "ndarasa ID yangu {ku_loc} nezuro", "severity": "Low", "tags": [["ID", "ASSET"], ["nezuro", "DATE_TIME"]]},
+      {"text": "mimhanzi inorira zvakanyanya {ku_loc}", "severity": "Low", "tags": []}
+    ],
+    "Mixed": [
+      {"text": "mimhanzi iri kurira zvakanyanya {ku_loc}, please ask them to stop", "severity": "Low", "tags": []}
+    ]}}
+}

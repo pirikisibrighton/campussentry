@@ -1,0 +1,79 @@
+{
+  "Fire": {"problems": {
+    "Shona": [
+      {"text": "moto wakabatidza {ku_loc}, vanhu vari kubuda", "severity": "High", "tags": []},
+      {"text": "utsi huri kubuda {ku_loc}", "severity": "High", "tags": []},
+      {"text": "moto uri kupisa {ku_loc}, tibatsireiwo", "severity": "High", "tags": []},
+      {"text": "moto mudiki wadzimwa {ku_loc}, hapana akakuvara", "severity": "Low", "tags": []}
+    ],
+    "Mixed": [
+      {"text": "moto uri kupisa {ku_loc}, we need the fire brigade", "severity": "High", "tags": []}
+    ]}},
+  "Medical Emergency": {"problems": {
+    "Shona": [
+      {"text": "mumwe munhu akadonha {ku_loc}, haasi kupindura", "severity": "High", "tags": []},
+      {"text": "mudzidzi ari kurwadziwa dumbu {ku_loc}", "severity": "Medium", "tags": [["mudzidzi", "PERSON_ROLE"]]},
+      {"text": "mudzidzi akakuvara gumbo {ku_loc}, haakwanisi kufamba", "severity": "Medium", "tags": [["mudzidzi", "PERSON_ROLE"]]}
+    ],
+    "Mixed": [
+      {"text": "musikana ari kurwara {ku_loc}, she is not responding", "severity": "High", "tags": []},
+      {"text": "mudzidzi akadonha {ku_loc}, please call an ambulance", "severity": "High", "tags": [["mudzidzi", "PERSON_ROLE"]]}
+    ]}},
+  "Theft/Break-in": {"problems": {
+    "Shona": [
+      {"text": "ndadzoka ndawana musuwo wakavhurika {ku_loc} uye laptop haipo", "severity": "Medium", "tags": [["musuwo", "ASSET"], ["laptop", "ASSET"]]},
+      {"text": "mari yangu yabiwa {ku_loc}", "severity": "Medium", "tags": [["mari", "ASSET"]]},
+      {"text": "pane munhu asiri wepano ari kupinda {ku_loc}", "severity": "High", "tags": []}
+    ],
+    "Mixed": [
+      {"text": "ndabirwa {ku_loc}, someone took my phone", "severity": "Medium", "tags": [["phone", "ASSET"]]}
+    ]}},
+  "Harassment/Assault": {"problems": {
+    "Shona": [
+      {"text": "vakomana vari kurova mumwe {ku_loc}", "severity": "High", "tags": []},
+      {"text": "mudzidzi ari kutukwa nevamwe {ku_loc} zuva rese", "severity": "Medium", "tags": [["mudzidzi", "PERSON_ROLE"]]},
+      {"text": "vasikana vaviri vakaita kunetsana {ku_loc} asi zvakadzikama", "severity": "Low", "tags": []},
+      {"text": "pane murume ari kutyisidzira vasikana {ku_loc}", "severity": "High", "tags": []}
+    ],
+    "Mixed": [
+      {"text": "vakomana vari kurwa {ku_loc}, one of them is bleeding", "severity": "High", "tags": []}
+    ]}},
+  "Infrastructure Fault": {"problems": {
+    "Shona": [
+      {"text": "musuwo hausi kuvhara zvakanaka {ku_loc}", "severity": "Low", "tags": [["musuwo", "ASSET"]]},
+      {"text": "pombi yakatyoka {ku_loc}, mvura iri kuyerera pasi", "severity": "Medium", "tags": [["pombi", "ASSET"], ["mvura", "ASSET"]]},
+      {"text": "mapaipi emvura akatsemuka {ku_loc}", "severity": "Medium", "tags": [["mapaipi emvura", "ASSET"]]},
+      {"text": "waya dziri kubuda moto {ku_loc}, tinotya", "severity": "High", "tags": [["waya", "ASSET"]]}
+    ],
+    "Mixed": [
+      {"text": "pombi yaputika {ku_loc}, the whole floor is wet", "severity": "Medium", "tags": [["pombi", "ASSET"]]}
+    ]}},
+  "Road Accident": {"problems": {
+    "Shona": [
+      {"text": "motokari yakarova munhu {ku_loc}, ari pasi", "severity": "High", "tags": [["motokari", "ASSET"]]},
+      {"text": "mota mbiri dzakarovana {ku_loc}, hapana akakuvara zvakanyanya", "severity": "Medium", "tags": [["mota", "ASSET"]]},
+      {"text": "kombi yakadonha {ku_loc}", "severity": "High", "tags": [["kombi", "ASSET"]]},
+      {"text": "mudzidzi akarohwa nemotokari {ku_loc}", "severity": "High", "tags": [["mudzidzi", "PERSON_ROLE"], ["motokari", "ASSET"]]}
+    ],
+    "Mixed": [
+      {"text": "motokari yakarova munhu {ku_loc}, please send help", "severity": "High", "tags": [["motokari", "ASSET"]]}
+    ]}},
+  "Service Outage": {"problems": {
+    "Shona": [
+      {"text": "hatina magetsi {ku_loc} kubva nezuro", "severity": "Medium", "tags": [["magetsi", "ASSET"], ["kubva nezuro", "DATE_TIME"]]},
+      {"text": "hatina mvura {ku_loc} kwemazuva maviri", "severity": "Medium", "tags": [["mvura", "ASSET"], ["kwemazuva maviri", "DATE_TIME"]]},
+      {"text": "internet haisi kushanda {ku_loc} nhasi", "severity": "Medium", "tags": [["internet", "ASSET"], ["nhasi", "DATE_TIME"]]},
+      {"text": "wifi iri kunonoka kwazvo {ku_loc}", "severity": "Low", "tags": [["wifi", "ASSET"]]}
+    ],
+    "Mixed": [
+      {"text": "magetsi akadzima {ku_loc}, when will it be fixed?", "severity": "Medium", "tags": [["magetsi", "ASSET"]]},
+      {"text": "wifi haisi kubata {ku_loc}, we have assignments due today", "severity": "Medium", "tags": [["wifi", "ASSET"], ["today", "DATE_TIME"]]}
+    ]}},
+  "Other/Non-urgent": {"problems": {
+    "Shona": [
+      {"text": "ndarasa bhuku rangu {ku_loc}, kana paine akaribata", "severity": "Low", "tags": [["bhuku rangu", "ASSET"]]},
+      {"text": "pane ruzha rwakawandisa {ku_loc}, hatigoni kurara", "severity": "Low", "tags": []}
+    ],
+    "Mixed": []
+  }}
+}

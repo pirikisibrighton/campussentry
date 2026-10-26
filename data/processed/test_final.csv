@@ -1,0 +1,101 @@
+id,text,category,severity,language,entities,source,template_id,severity_draft
+ff1,socket yemagetsi muR18.1 harisi kushanda,Infrastructure Fault,Medium,Mixed,socket yemagetsi|ASSET; R18.1|LOCATION,friend,friend-f1,Low
+ff2,hembe dzedu dziri kubiwa pawaya,Theft/Break-in,Medium,Shona,hembe dzedu|ASSET,friend,friend-f2,Medium
+ff3,ndashaya jean rangu pawaya reblack kana pane arionawo help,Other/Non-urgent,Low,Mixed,jean rangu|ASSET,friend,friend-f3,Low
+ff4,wifi kuE complex haisi kuita iri slow,Service Outage,Low,Mixed,wifi|ASSET; E complex|LOCATION,friend,friend-f4,Low
+ff5,vanhu varikupisa marara chiutsi chirikuenda pahembe dzedu pawaya,Fire,High,Shona,hembe dzedu|ASSET,friend,friend-f5,Medium
+ff6,tank rekumaRS harisi kubuda mvura,Service Outage,Medium,Shona,tank|ASSET; RS|LOCATION; mvura|ASSET,friend,friend-f6,Medium
+ff7,tap Yafa ikurasa mvura paDH,Infrastructure Fault,Medium,Shona,tap|ASSET; mvura|ASSET; DH|LOCATION,friend,friend-f7,Medium
+ff8,l cant find my Laptop ndaisiya muHotsopt,Other/Non-urgent,Low,Mixed,Laptop|ASSET; Hotsopt|LOCATION,friend,friend-f8,Medium
+ff9,chikafu chekuDH chirikutirwarisa too much spices especially in the soup,Other/Non-urgent,Medium,Mixed,chikafu|ASSET; DH|LOCATION,friend,friend-f9,Low
+ff10,mushonga wemutoilet hakusisina,Other/Non-urgent,Low,Shona,mushonga wemutoilet|ASSET,friend,friend-f10,Low
+ff11,toilet kuh5 haisi kuflasher,Infrastructure Fault,Medium,Mixed,toilet|ASSET; h5|LOCATION,friend,friend-f11,Medium
+ff12,kuE7 kune musikana arikurwara,Medical Emergency,Medium,Shona,E7|LOCATION,friend,friend-f12,High
+ff13,kuLibrary wifi haisi kuita,Service Outage,Medium,Shona,Library|LOCATION; wifi|ASSET,friend,friend-f13,Medium
+ff14,kuf12 hakuna malights akatsva,Infrastructure Fault,Medium,Mixed,f12|LOCATION; malights|ASSET,friend,friend-f14,Low
+ff15,kumaP kwaonekwa nyoka hombe,Other/Non-urgent,High,Shona,P|LOCATION,friend,friend-f15,High
+ff16,window rangu kuN12 is broken,Infrastructure Fault,Medium,Mixed,window|ASSET; N12|LOCATION,friend,friend-f16,Low
+ff17,muR18 malock haashande akafa,Infrastructure Fault,Medium,Shona,R18|LOCATION; malock|ASSET,friend,friend-f17,Medium
+ff18,matress yangu haiite kuA2,Infrastructure Fault,Medium,Shona,matress|ASSET; A2|LOCATION,friend,friend-f18,Low
+ff19,kuB22 bed is broken,Infrastructure Fault,Medium,Mixed,B22|LOCATION; bed|ASSET,friend,friend-f19,Low
+ff20,socket yekuh12 ikubuda chihutsi,Fire,High,Shona,socket|ASSET; h12|LOCATION,friend,friend-f20,High
+ff21,magetsi adzima kuR complex,Service Outage,Medium,Shona,magetsi|ASSET; R complex|LOCATION,friend,friend-f21,Medium
+ff22,dinning hall s on fire,Fire,High,English,dinning hall|LOCATION,friend,friend-f22,High
+ff23,there is a huge fight at the business center,Harassment/Assault,High,English,business center|LOCATION,friend,friend-f23,High
+ff24,fight kuP complex,Harassment/Assault,High,Mixed,P complex|LOCATION,friend,friend-f24,High
+ff25,there is fire in hotspot,Fire,High,English,hotspot|LOCATION,friend,friend-f25,High
+ff26,the is a thief at the p complex camera,Theft/Break-in,High,English,p complex|LOCATION; camera|ASSET,friend,friend-f26,High
+ff27,A car hits a tree near the boom gate,Road Accident,High,English,car|ASSET; boom gate|LOCATION,friend,friend-f27,Medium
+ff28,water is leaking in the library,Infrastructure Fault,Medium,English,water|ASSET; library|LOCATION,friend,friend-f28,Medium
+ff29,there is a sewer pipe leaking on the way to R complex,Infrastructure Fault,Medium,English,sewer pipe|ASSET; R complex|LOCATION,friend,friend-f29,Medium
+ff30,a boy is seriously sick in m23,Medical Emergency,Medium,English,m23|LOCATION,friend,friend-f30,High
+ff31,there is a blind man outside the hotspot,Other/Non-urgent,Low,English,hotspot|LOCATION,friend,friend-f31,Low
+rr1,"Hey guys, there is heavy smoke coming out of the library back room pls check asap",Fire,High,English,library|LOCATION,other_school_adapted,round2-r1,High
+rr2,"Munhu abatwa zvembavha pano paA20, anoda security nekukasika",Theft/Break-in,Low,Shona,A20|LOCATION; security|PERSON_ROLE,other_school_adapted,round2-r2,Medium
+rr3,"Someone just collapsed near the dining hall, we need an ambulance now",Medical Emergency,High,English,dining hall|LOCATION; now|DATE_TIME,other_school_adapted,round2-r3,High
+rr4,"Zvaboorwa mumba maS18.2, phone yangu yetecno yakatorwa ndakarara",Theft/Break-in,Medium,Shona,S18.2|LOCATION; phone|ASSET,other_school_adapted,round2-r4,Medium
+rr5,"Hey securities, power is completely gone in whole K complex",Service Outage,Medium,English,securities|PERSON_ROLE; power|ASSET; K complex|LOCATION,other_school_adapted,round2-r5,Medium
+rr6,"Pane varwi vepaboom gate varikurova mumwe student pano, huyaiko pls",Harassment/Assault,High,Mixed,boom gate|LOCATION; student|PERSON_ROLE,other_school_adapted,round2-r6,High
+rr7,"Water pipe is bursting outside C4, mvura iri kutambiswa zvisingaite",Infrastructure Fault,Medium,Mixed,Water pipe|ASSET; C4|LOCATION; mvura|ASSET,other_school_adapted,round2-r7,Medium
+rr8,"Hie guard, ndarasa student ID yangu somewhere pa TLC",Other/Non-urgent,Low,Mixed,guard|PERSON_ROLE; student ID|ASSET; TLC|LOCATION,other_school_adapted,round2-r8,Low
+rr9,"Small car and a bicycle just crashed by the boom gate, no serious injuries though",Road Accident,Medium,English,car|ASSET; bicycle|ASSET; boom gate|LOCATION,other_school_adapted,round2-r9,Medium
+rr10,"Sound system paM complex is too loud, we can't sleep",Other/Non-urgent,Low,Mixed,Sound system|ASSET; M complex|LOCATION,other_school_adapted,round2-r10,Low
+rr11,"Fire outbreak spotted near the computer lab, bring extinguishers quick",Fire,High,English,computer lab|LOCATION; extinguishers|ASSET,other_school_adapted,round2-r11,High
+rr12,A student slipped on the stairs by the TLC and hurt their leg badly,Medical Emergency,High,English,student|PERSON_ROLE; TLC|LOCATION,other_school_adapted,round2-r12,Medium
+rr13,"Someone broke into my room paD7, laptop yangu yakatorwa",Theft/Break-in,Medium,Mixed,D7|LOCATION; laptop|ASSET,other_school_adapted,round2-r13,Medium
+rr14,Varume vaviri vari kurwira zvemapoto pamberi pe dining hall pano,Harassment/Assault,High,Shona,dining hall|LOCATION,other_school_adapted,round2-r14,High
+rr15,"Door lock paB12 yakanganisika, handikwanise kuvhara room rangu",Infrastructure Fault,Medium,Mixed,Door lock|ASSET; B12|LOCATION,other_school_adapted,round2-r15,Medium
+rr16,"Car accident yakaitika panze pe boom gate, zvese zvashata",Road Accident,High,Mixed,Car|ASSET; boom gate|LOCATION,other_school_adapted,round2-r16,High
+rr17,"WiFi is down across all complexes since morning, please fix it",Service Outage,Medium,English,WiFi|ASSET; since morning|DATE_TIME,other_school_adapted,round2-r17,Medium
+rr18,"Ndiani akasiya tap yakashama pa washroom ye C complex, mvura yanyura pese",Infrastructure Fault,High,Shona,tap|ASSET; C complex|LOCATION; mvura|ASSET,other_school_adapted,round2-r18,Medium
+rr19,"Hey security, my roommate is throwing up blood, please come fast",Medical Emergency,High,English,security|PERSON_ROLE; roommate|PERSON_ROLE,other_school_adapted,round2-r19,High
+rr20,Mutorwa akapinda mumba maK14 achiba mari yeva student,Theft/Break-in,High,Shona,K14|LOCATION; mari|ASSET; student|PERSON_ROLE,other_school_adapted,round2-r20,High
+rr21,"Pane mapofu ari kurwira pa dining hall, zvakatanga ne kuita nharo",Harassment/Assault,High,Shona,dining hall|LOCATION,other_school_adapted,round2-r21,High
+rr22,"WiFi is not working pa computer lab, tiri kunetseka ne assignments",Service Outage,Medium,Mixed,WiFi|ASSET; computer lab|LOCATION,other_school_adapted,round2-r22,Medium
+rr23,"Bathroom sink yakaputsika paS10, mvura iri kufashukira pasi",Infrastructure Fault,High,Mixed,Bathroom sink|ASSET; S10|LOCATION; mvura|ASSET,other_school_adapted,round2-r23,Medium
+rr24,Moto mudiki uri kuoneka pama generator ekubusiness center,Fire,High,Shona,generator|ASSET; business center|LOCATION,other_school_adapted,round2-r24,Medium
+rr25,"Student arikurwara nemoyo pano pa library, ndapota batsirai",Medical Emergency,Medium,Shona,Student|PERSON_ROLE; library|LOCATION,other_school_adapted,round2-r25,High
+rr26,Munhu akapaza lock yemusuwo wangu akaenda ne cooker yangu,Theft/Break-in,Medium,Shona,lock|ASSET; cooker|ASSET,other_school_adapted,round2-r26,Medium
+rr27,Vanhu vaviri vari kutsamirana vachida kurwa pano pa boom gate,Harassment/Assault,High,Shona,boom gate|LOCATION,other_school_adapted,round2-r27,Medium
+rr28,"No electricity kuPQ complex kubva 3pm, chii chiripo?",Service Outage,Medium,Mixed,electricity|ASSET; PQ complex|LOCATION; 3pm|DATE_TIME,other_school_adapted,round2-r28,Medium
+rr29,"Vanhu varikutamba ma kwaito music kusvika 3am pa C complex, ruzha rwakawandisa",Other/Non-urgent,Low,Shona,C complex|LOCATION; 3am|DATE_TIME,other_school_adapted,round2-r29,Low
+rr30,Small truck yakakonha wall panze pe boom gate,Road Accident,High,Mixed,truck|ASSET; wall|ASSET; boom gate|LOCATION,other_school_adapted,round2-r30,Medium
+rr31,"Smoke ikubuda mune imwe room paE9, panogona kuva na fire",Fire,High,Mixed,E9|LOCATION,other_school_adapted,round2-r31,High
+rr32,Munhu akadonha pa stairs dze lib nekuda kwenzara,Medical Emergency,High,Shona,lib|LOCATION,other_school_adapted,round2-r32,High
+rr33,Room yangu yebiwa mbatya dzangu dzese ne phone paD14,Theft/Break-in,Medium,Shona,mbatya dzangu|ASSET; phone|ASSET; D14|LOCATION,other_school_adapted,round2-r33,Medium
+rr34,"Bullying iri kuitika pa TLC, vakuru vekuchikoro ngavauye",Harassment/Assault,High,Shona,TLC|LOCATION,other_school_adapted,round2-r34,Medium
+rr35,Mvura yaperera zvachose paN complex kubva nezuro,Service Outage,Medium,Shona,Mvura|ASSET; N complex|LOCATION; nezuro|DATE_TIME,other_school_adapted,round2-r35,Medium
+rr36,Car yadonha muna ditch pedyo ne boom gate,Road Accident,High,Shona,Car|ASSET; boom gate|LOCATION,other_school_adapted,round2-r36,High
+rr37,Ndinoda kuziva kuti library inovhara nani nhasi?,Other/Non-urgent,Low,Shona,library|LOCATION; nhasi|DATE_TIME,other_school_adapted,round2-r37,Low
+rr38,"Wires dziri kufire pa corridor pa B complex, kune danger ye moto",Infrastructure Fault,High,Mixed,Wires|ASSET; B complex|LOCATION,other_school_adapted,round2-r38,High
+rr39,Lecturer akaremba ne kurwadza nemusoro kwakasimba pano pa chemberi hall,Medical Emergency,High,Shona,Lecturer|PERSON_ROLE; chemberi hall|LOCATION,other_school_adapted,round2-r39,High
+rr40,Thief akabatwa achiedza kubira ma solar batteries pa business center,Theft/Break-in,Low,Shona,solar batteries|ASSET; business center|LOCATION,other_school_adapted,round2-r40,Medium
+rr41,Vanhu vari kurwisana nematombo pa stadium,Harassment/Assault,High,Shona,stadium|LOCATION,other_school_adapted,round2-r41,High
+rr42,"Front door yeS22 haina kiyi, security pls come and lock it",Infrastructure Fault,Medium,Mixed,Front door|ASSET; S22|LOCATION; security|PERSON_ROLE,other_school_adapted,round2-r42,Low
+rr43,Accident yaitika pakati pe kombi ne car yezikoro pa boom gate,Road Accident,High,Shona,kombi|ASSET; car|ASSET; boom gate|LOCATION,other_school_adapted,round2-r43,Medium
+rr44,Mvura yanyura mu corridor mese pa G complex,Infrastructure Fault,High,Shona,Mvura|ASSET; G complex|LOCATION,other_school_adapted,round2-r44,Medium
+rr45,Pane munhu ari kuridza alarm ye car yake kwema 2 hours pa boom gate,Other/Non-urgent,Low,Mixed,alarm|ASSET; car|ASSET; 2 hours|DATE_TIME; boom gate|LOCATION,other_school_adapted,round2-r45,Low
+rr46,Moto uri kubvira pama dry grass pedyo ne stadium,Fire,High,Mixed,stadium|LOCATION,other_school_adapted,round2-r46,High
+rr47,Student akadhakwa zvakanyanya akarutsa pa entrance pe dining hall,Medical Emergency,High,Shona,Student|PERSON_ROLE; dining hall|LOCATION,other_school_adapted,round2-r47,Medium
+rr48,Mabhuku angu akabiwa mu reading room ye library apo ndabuda kwekanguva,Theft/Break-in,Medium,Shona,Mabhuku angu|ASSET; library|LOCATION,other_school_adapted,round2-r48,Medium
+rr49,Vanhu vari kuita zvekuomarara nekutuka vamwe vavo pa C3,Harassment/Assault,Medium,Shona,C3|LOCATION,other_school_adapted,round2-r49,Medium
+rr50,"Electric socket pa room yangu iri kuita sparks, ndinotya moto",Fire,High,Mixed,Electric socket|ASSET,other_school_adapted,round2-r50,High
+rr51,Kombi yakazara ma students yakavharira nzira yepa boom gate nekumhanya,Road Accident,High,Shona,Kombi|ASSET; students|PERSON_ROLE; boom gate|LOCATION,other_school_adapted,round2-r51,Medium
+rr52,No internet connection pa TLC yese kubva mangwanani,Service Outage,Medium,Mixed,internet|ASSET; TLC|LOCATION; mangwanani|DATE_TIME,other_school_adapted,round2-r52,Medium
+rr53,"Fridge ye dining hall yakuraura, chikafu chiri kuora",Infrastructure Fault,Medium,Shona,Fridge|ASSET; chikafu|ASSET; dining hall|LOCATION,other_school_adapted,round2-r53,Low
+rr54,Pane moto uri kubva mu stove pa cooking bay ye H complex,Fire,High,Shona,stove|ASSET; H complex|LOCATION,other_school_adapted,round2-r54,High
+rr55,Munhu akaiswa pama ruoko na security nekuda kwekuba wallet pa lab,Theft/Break-in,Low,Shona,security|PERSON_ROLE; wallet|ASSET; lab|LOCATION,other_school_adapted,round2-r55,Medium
+rr56,Ruzha rwema speakers mahusiku ano pa stadium runonetsa,Other/Non-urgent,Low,Shona,speakers|ASSET; stadium|LOCATION; mahusiku ano|DATE_TIME,other_school_adapted,round2-r56,Low
+rr57,"Toilet ya broken mu ground floor ye TLC, inonhuwa zvikuru",Infrastructure Fault,Medium,Mixed,Toilet|ASSET; TLC|LOCATION,other_school_adapted,round2-r57,Low
+rr58,Taxi yakarova signpost panze pe boom gate,Road Accident,Medium,Shona,Taxi|ASSET; signpost|ASSET; boom gate|LOCATION,other_school_adapted,round2-r58,Medium
+rr59,"WiFi router pa E complex hiri kubwinya red light, hakuna network",Service Outage,Low,Mixed,WiFi router|ASSET; E complex|LOCATION,other_school_adapted,round2-r59,Medium
+rr60,Student akakuvara ruoko nekudonha pamadziro e K complex,Medical Emergency,Medium,Shona,Student|PERSON_ROLE; K complex|LOCATION,other_school_adapted,round2-r60,Medium
+rr61,Pane munhu ari kutyisidzira vamwe vake ne banga pa S4,Harassment/Assault,High,Shona,banga|ASSET; S4|LOCATION,other_school_adapted,round2-r61,High
+rr62,"Jacket yangu yakarasika pa TLC, kana paine ariona",Other/Non-urgent,Low,Shona,Jacket yangu|ASSET; TLC|LOCATION,other_school_adapted,round2-r62,Low
+rr63,Car yarova munhu akayambuka road paboom gate pedyo ne security,Road Accident,High,Shona,Car|ASSET; boom gate|LOCATION; security|PERSON_ROLE,other_school_adapted,round2-r63,High
+rr64,Moto mudiki uri pa dustbin iri pedyo nelibrary,Fire,High,Shona,dustbin|ASSET; library|LOCATION,other_school_adapted,round2-r64,Medium
+rr65,Munhu akabata mumwe ne huro pa queue ye dining hall,Harassment/Assault,High,Shona,dining hall|LOCATION,other_school_adapted,round2-r65,High
+rr66,Pipe ye mvura inopisa yakaputika muDH,Infrastructure Fault,High,Shona,Pipe|ASSET; DH|LOCATION,other_school_adapted,round2-r66,Medium
+rr67,"Ndakanganwa wallet yangu ine mari pa library desk, ndapota tarisai",Other/Non-urgent,Low,Shona,wallet|ASSET; library|LOCATION,other_school_adapted,round2-r67,Low
+rr68,Power yadzima mu chemberi hall mukati meTest,Service Outage,Medium,Shona,Power|ASSET; chemberi hall|LOCATION,other_school_adapted,round2-r68,Medium
+rr69,Pane vanhu vari kurwa pamusuwo peE5 yedu pakati peusiku,Harassment/Assault,High,Shona,E5|LOCATION; pakati peusiku|DATE_TIME,other_school_adapted,round2-r69,High
