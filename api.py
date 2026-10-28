@@ -6,15 +6,29 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+# Configure project paths
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
-from src.storage import get_incidents, save_incident, update_status
+from src.storage import (
+    get_incidents,
+    init_db,
+    save_incident,
+    update_status,
+)
 from pipeline import analyze
 
 app = FastAPI(title="CampusSentry API")
 
+
+# Initialise the database when the API starts
+@app.on_event("startup")
+def initialise_database():
+    init_db()
+
+
+# Allow requests from the local React frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],
@@ -43,6 +57,7 @@ def health():
 @app.get("/api/incidents")
 def list_incidents():
     incidents = get_incidents()
+
     return [
         {
             **incident,
@@ -65,8 +80,13 @@ def submit_incident(submission: IncidentSubmission):
     try:
         analysis = analyze(report_text)
         incident_id = save_incident(report_text, analysis)
+
     except ValueError as error:
-        raise HTTPException(status_code=422, detail=str(error))
+        raise HTTPException(
+            status_code=422,
+            detail=str(error),
+        )
+
     except Exception:
         raise HTTPException(
             status_code=500,
@@ -90,9 +110,11 @@ def change_incident_status(
     incident_id: int,
     update: StatusUpdate,
 ):
+    # Check whether the incident exists
     existing = next(
         (
-            item for item in get_incidents()
+            item
+            for item in get_incidents()
             if item["id"] == incident_id
         ),
         None,
@@ -106,12 +128,25 @@ def change_incident_status(
 
     try:
         update_status(incident_id, update.status)
+
     except ValueError as error:
-        raise HTTPException(status_code=400, detail=str(error))
+        message = str(error)
+
+        if message == "Incident not found.":
+            raise HTTPException(
+                status_code=404,
+                detail=message,
+            )
+
+        raise HTTPException(
+            status_code=400,
+            detail=message,
+        )
 
     incident = next(
         (
-            item for item in get_incidents()
+            item
+            for item in get_incidents()
             if item["id"] == incident_id
         ),
         None,
